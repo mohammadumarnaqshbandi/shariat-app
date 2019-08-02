@@ -1,0 +1,217 @@
+/*Plyr CSS*/
+.plyr__volume {
+  align-items: center;
+  display: flex;
+}
+
+.plyr--audio .plyr__controls {
+  padding: 10px;
+}
+
+.plyr__volume input[type=range] {
+  margin-left: 5px;
+}
+
+@media (min-width:480px) {
+  .plyr__volume {
+      max-width: 90px;
+      margin-left: 10px;
+  }
+  .plyr__controls {
+      margin-left: 10px;
+  }
+}
+
+.plyr {
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    margin: 20px auto;
+  }
+
+@media (min-width:768px) {
+  .plyr__volume {
+      max-width: 110px;
+      margin-left: 10px;
+  }
+  .plyr__controls {
+      margin-left: 5px;
+  }
+}
+
+.recent-card .ant-body{
+  padding: 10px;
+}
+
+.mr-0 {
+  margin-right: 0!important;
+}
+
+.ant-card-hoverable {
+  cursor: default;
+}
+
+.ant-card-body {
+  padding: 14px;
+}
+
+.plyr__control {
+  border-radius: 1px;
+  margin-left: 0!important;
+}
+
+.plyr--audio .plyr__controls {
+  padding: 0 10px 0 0;
+}
+
+@media (min-width: 768px) {
+  .plyr__controls {
+      margin-left: 0px;
+  }
+}
+
+@media (min-width: 480px) {
+  .plyr__controls {
+      margin-left: 0px;
+  }
+}
+
+/* Player Colors */
+
+.plyr--full-ui input[type=range] {
+  color: #d5b794;
+}
+
+.plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
+
+  background: #d5b794;
+  color: #fff;
+
+}
+
+
+/* Btn CSS */
+.ant-btn:hover, .ant-btn:focus {
+  border-color: #d5b794;
+  color: #000000!important;
+  background: #ffffff;
+}
+
+.ant-btn {
+  transition: all .2s ease-out;
+  background: #0e278e;
+  color: #ffffff!important;
+  border-color: transparent;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  font-size: 15px!important;
+  font-weight: 600;
+  padding: 0 23px;
+}
+
+ .text-center {
+  text-align: center;
+}
+
+/* Pagination CSS */
+
+.ant-pagination {
+  text-align: center;
+}
+
+.ant-pagination-item a {
+  color: #ffffff!important;
+}
+
+.ant-pagination-item-active a {
+  color: #0e278e!important;
+}
+
+.ant-pagination-item-active {
+  background: #fff!important;
+  border-color: #0e278e!important;
+}
+
+.ant-pagination-item:focus a {
+  color: #fff!important;
+}
+
+.ant-pagination-item:hover a {
+  color: #0e278e!important;
+}
+
+.ant-pagination-item-active:hover a {
+  color: #0e278e!important;
+}
+
+.ant-pagination-item-active:focus a {
+  color: #0e278e!important;
+}
+
+.ant-pagination-item:focus, .ant-pagination-item:hover {
+  border-color: #0e278e!important;
+}
+
+
+.ant-pagination-item {
+  border-radius: 0;
+  border: 1.5px solid #0e278e;
+  border-radius: 2.5px;
+  background-color: #0e278e;
+  color: #ffffff;
+  margin: 5px 7px;
+}
+
+.ant-pagination-item:hover {
+  background-color: #fff;
+  color: #0e278e;
+}
+
+
+/* Ant Card */
+.ant-card {
+  font-size: 16px!important;
+  border-radius: 8px;
+}
+
+.ant-card-bordered {
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+/* Text-center */
+
+.text-center {
+  text-align: center;
+}
+
+
+/* Search Bar Styles */
+
+.searchBar.ant-input {
+  border: 1px solid #bfbfbf;
+  color: #0e278e;
+  font-size: 18px;
+}
+
+.searchBar.ant-input:focus {
+  border-color: #0e278e;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgb(14, 39, 142, 0.1);
+  border-right-width: 1px !important;
+}
+
+.searchBar.ant-input:hover {
+  border-color: #0e278e;
+  border-right-width: 1px !important;
+}
+
+.searchBar.ant-input::placeholder {
+  font-size: 18px;
+  color: #000000;
+}
+
+
+/* Text-center */
+.text-center {
+  text-align: center;
+  width: 100%;
+}

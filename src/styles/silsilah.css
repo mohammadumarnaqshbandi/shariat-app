@@ -1,0 +1,44 @@
+.sl-header .ant-carousel .slick-slide {
+    background-image: url('../images/ly-bg5.jpg');
+    background-position: 66% 50%;
+    height: 65vh;
+}
+
+.sl-header-text {
+    color: #000;
+    font-size: 60px;
+    margin-top: 130px;
+}
+
+@media (max-width: 500px) {
+    .sl-header-text {
+    font-size: 60px;
+    margin-top: 100px;
+    }
+
+    .sl-header .ant-carousel .slick-slide {
+        height: 65vh;
+    }
+}
+
+.sl-background {
+    background-color: #aa83f9;
+    /* background-color: rgb(185, 109, 229); */
+    height: auto;
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.silsila-text {
+    font-size: 19px;
+    font-weight: 400;
+    color: #000;
+}
+
+.silsilah-link {
+    color: blue!important;
+}

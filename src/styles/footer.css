@@ -1,0 +1,15 @@
+.footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #dddddd;
+    text-align: left;
+    align-items: center;
+    height: 70px;
+  }
+
+  .footer p {
+      padding-top: 10px;
+      padding-left: 40px;
+  } 

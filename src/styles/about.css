@@ -1,0 +1,37 @@
+.ab-header .ant-carousel .slick-slide {
+	background-image: url('../images/ab-bg2.jpg');
+    background-position: 5% 20%;
+    height: 65vh;
+}
+
+.ab-header-text {
+    color: #ffffff;
+    font-size: 60px;
+    margin-top: 195px;
+}
+
+.base-about {
+    height: 1vh;
+    background-color: #e3ab00;
+}
+
+@media (max-width: 500px) {
+    .ab-header-text {
+        color: #ffffff;
+        font-size: 40px;
+        margin-top: 190px;
+    }
+}
+
+.ab-background {
+    /* background-color: #444e0a; */
+    /* background-color: #d49d60; */
+    background-color: rgba(209, 152, 2, .29);
+}
+
+.ab-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    text-align: justify;
+}

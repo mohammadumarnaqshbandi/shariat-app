@@ -1,0 +1,131 @@
+.ms-header .ant-carousel .slick-slide {
+    background-image: url('../images/ms-bg.jpg');
+    background-position: 50% 59%;
+    height: 65vh;
+}
+
+.ms-header-text {
+    color: #FFFFFF;
+    font-size: 60px;
+    margin-top: 147px;
+    text-align: center;
+}
+
+.base-ms {
+    height: 1vh;
+    background-color: rgb(123, 146, 155);
+}
+
+/* .base-ms-2 {
+    height: 1vh;
+    background-color: #ed9f6f;
+} */
+
+@media (max-width: 500px) {
+    .ms-header-text {
+    font-size: 30px;
+    margin-top: 122px;
+    }
+
+    .ms-header .ant-carousel .slick-slide {
+        height: 65vh;
+    }
+}
+
+.ms-bg {
+    background-color: #344E49;
+    height: auto;
+    padding-bottom: 30px;
+    margin-left: 0!important;
+}
+
+
+.search-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.ms-bg .searchBar.ant-input {
+    background-color: #559d90;
+}
+
+.ms-bg .searchBar.ant-input:focus {
+    border-color: #559d90;
+}
+
+.ant-pagination-prev button, .ant-pagination-next button {
+    color: #ffffff!important;
+}
+
+
+.ms-bg .ant-card {
+    background-color: #559d90; 
+    border: 0;
+}
+
+.ms-bg .ant-pagination-item {
+    background-color: #fff;
+    border-color: #559d90;
+    border: 1px solid #559d90;
+}
+
+.ms-bg .ant-pagination-item a {
+    color: #000000!important;
+    background-color: #559d90; 
+}
+
+.ms-bg .ant-pagination-item-active {
+    border-color: #559d90!important;
+}
+
+.ms-bg .ant-pagination-prev:hover .ant-pagination-item-link {
+    border-color: #559d90;
+}
+
+.ms-bg .ant-pagination-item-active a {
+    background-color: #ffffff!important;
+}
+
+.ms-bg .ant-pagination-item:focus, .ant-pagination-item:hover {
+    border-color: #559d90!important;
+    background-color: #fff;
+}
+
+.ms-bg .ant-card {
+    color: #000;
+}
+
+.ms-bg .ant-card p {
+    font-size: 20px;
+    color: #000;
+}
+
+.ms-bg .ant-btn {
+    background-color: #344e49;
+    color: #FFFFFF!important;
+}
+
+.ms-bg .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
+    background: #559d90;
+    color: #000000;
+}
+
+.ms-bg .plyr--full-ui input[type=range] {
+    color: #559d90;
+}
+
+.ms-bg .ant-pagination-next .ant-pagination-item-link {
+    background-color: #559d90;
+    border: 1px solid #559d90;
+    color: #000000!important;
+}
+
+.ms-bg .ant-pagination-disabled a, .ant-pagination-disabled:hover a, .ant-pagination-disabled:focus a, .ant-pagination-disabled .ant-pagination-item-link, .ant-pagination-disabled:hover .ant-pagination-item-link, .ant-pagination-disabled:focus .ant-pagination-item-link {
+    border: 1px solid #559d90;
+    color: #000000!important;
+}
+
+.ms-bg .ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+    color: #000000!important;
+    background-color: #559d90;
+}

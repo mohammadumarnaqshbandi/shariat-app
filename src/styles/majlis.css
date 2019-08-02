@@ -1,0 +1,42 @@
+.mj-header .ant-carousel .slick-slide {
+	background-image: url('../images/ct-bg.jpg');
+    background-position: 53% 38%;
+    height: 65vh;
+}
+
+
+.base-majlis {
+    height: 1vh;
+    background-color: #0e7a7c;
+}
+
+
+/* #f2c8ce Pink color Tdev */ 
+
+.mj-header-text {
+    color: #fafafa;
+    margin-top: 140px;
+    font-size: 60px;
+}
+
+  @media (max-width: 500px) {
+	.mj-header .ant-carousel .slick-slide {
+        height: 65vh;
+        background-position: 53% 22%;
+    }
+    .mj-header-text {
+        margin-top: 60px;
+    }
+}
+/* #458e95 */
+
+.mj-background {
+    background-color: #093250;
+    height: auto;
+}
+
+@media (max-width: 550px) {
+    .mj-background {
+        height: 100%;
+    }
+}

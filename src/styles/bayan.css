@@ -1,0 +1,83 @@
+.by-header .ant-carousel .slick-slide {
+	background-image: url('../images/by-bg4.jpg');
+	background-position: 50% 66%;
+	height: 65vh;
+}
+
+.bg-bayan {
+	background-color: rgba(101, 224, 224, 0.5 );
+	/* #65e0e0 */
+	padding-bottom: 30px;
+}
+
+.fill-height {
+	height: 60vh;
+}
+
+@media (max-width: 500px) {
+	.by-header .ant-carousel .slick-slide {
+		height: 65vh;
+		background-position: 50% 50%;
+	}
+}
+ 
+.header-text {
+	font-size: 55px;
+    margin-top: 107px;
+}
+
+@media (max-width: 500px) {
+	.fill-height {
+		height: 70vh;
+	}
+}
+
+@media (min-width: 550px) {
+	.image-container .slide3 {
+		width: 40%!important;
+	}
+}
+
+.bayan-btn:first {
+	margin-top: 20px;
+}
+
+.bayan-btn {
+	margin-top: 40px;
+}
+
+.btn-center {
+	text-align: center;
+}
+
+.base-bayan {
+	height: 1vh;
+	background-color: #017292; 
+}
+
+.link-btn:hover, .link-btn:focus {
+	border: 0;
+	background: transparent;
+	color: white!important;
+}
+
+.ant-pagination-next {
+	margin-left: 8px;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.bayan-btn.ant-btn {
+	box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.15);
+	background: #017393;
+	color: #ffffff!important;
+	width: 222px;
+}
+
+.row-center {
+	text-align: center;
+}
