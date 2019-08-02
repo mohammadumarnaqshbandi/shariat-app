@@ -3,7 +3,7 @@ import "antd/dist/antd.css"
 import { Row, Col, BackTop, Carousel, Icon } from "antd"
 import "../../styles/home.css"
 import { observer } from "mobx-react"
-import Recent from "./components/recent"
+// import Recent from "./components/recent"
 import Slide from "../../images/slide1.png"
 import Slide1 from "../../images/slide2.png"
 import Slide2 from "../../images/slide3.png"
@@ -12,7 +12,7 @@ import Slide2 from "../../images/slide3.png"
 const Home = observer(
   class extends Component {
     render() {
-      const { store } = this.props;
+      // const { store } = this.props;
       return (
         <React.Fragment>
           <BackTop />

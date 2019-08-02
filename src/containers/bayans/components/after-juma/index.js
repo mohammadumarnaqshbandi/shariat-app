@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Card, Button, Pagination, BackTop, Input, Carousel } from "antd";
+import { Row, Col, Card, Button, Pagination, BackTop, Carousel } from "antd";
 import Plyr from "react-plyr";
 import { observer } from "mobx-react";
 import "antd/dist/antd.css"
@@ -24,7 +24,6 @@ const AfterJuma = observer(
         fetchBayans,
         searchTerm,
         filterBayans,
-        handleSearch
       } = store;
       return (
         <React.Fragment>
