@@ -4,9 +4,9 @@ import { Row, Col, BackTop, Carousel, Icon } from "antd"
 import "../../styles/home.css"
 import { observer } from "mobx-react"
 // import Recent from "./components/recent"
-import Slide from "../../images/slide1.png"
-import Slide1 from "../../images/slide2.png"
-import Slide2 from "../../images/slide3.png"
+import Slide from "../../images/slide4.png"
+// import Slide1 from "../../images/slide2.png"
+// import Slide2 from "../../images/slide3.png"
 
 
 const Home = observer(
@@ -24,14 +24,14 @@ const Home = observer(
                   <span className="helper"></span>
                   <img src={Slide} alt="" className="slide-img"/>
                 </div>
-                <div className="image-container">
+                {/* <div className="image-container">
                   <span className="helper"></span>
                   <img src={Slide1} alt="" className="slide-img" />
                 </div>
                 <div className="image-container">
                   <span className="helper"></span>
                   <img src={Slide2} alt="" className="slide-img" />
-                </div>
+                </div> */}
               </Carousel>
             </Col>
           </Row>

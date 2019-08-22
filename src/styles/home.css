@@ -45,7 +45,7 @@ a {
     /*background-color: #CAD2C5; */
     /*background-color: #fcd669;*/
     /*background-color: #87bbfd;*/
-    background-image: url('../images/blue.jpg');
+    background-image: url('../images/hm-bg.jpg');
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
@@ -59,7 +59,7 @@ a {
 
   
   .hm-bg .ant-carousel .slick-slide img {
-    background-position: center center;
+    background-position: 100% 90%;
   }
 
   .hm-bg .image-container {
@@ -87,7 +87,7 @@ a {
 
   @media (max-width: 550px) {
     .slide-img {
-      width: 100%;
+      width: 90%;
     }
   }
 
