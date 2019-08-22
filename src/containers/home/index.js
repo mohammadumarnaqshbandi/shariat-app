@@ -5,17 +5,25 @@ import "../../styles/home.css"
 import { observer } from "mobx-react"
 // import Recent from "./components/recent"
 import Slide from "../../images/slide4.png"
-// import Slide1 from "../../images/slide2.png"
+import Slide1 from "../../images/bg-audio.mp3"
 // import Slide2 from "../../images/slide3.png"
 
 
 const Home = observer(
   class extends Component {
+    componentDidMount() {
+      let audio = document.querySelector('audio');
+      audio.volume = 0.2
+    }
     render() {
       // const { store } = this.props;
+      
       return (
         <React.Fragment>
           <BackTop />
+          <audio id="bg-audio" src={Slide1} autoplay="true">
+            <p>If you are reading this, it is because your browser does not support the audio element.</p>
+          </audio>
           <div className="base-home"></div>
           <Row>
             <Col span={24} className="hm-bg">
