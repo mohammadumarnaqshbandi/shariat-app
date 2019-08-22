@@ -47,7 +47,7 @@ a {
     /*background-color: #87bbfd;*/
     background-image: url('../images/hm-bg.jpg');
     background-size: cover;
-    background-position: bottom;
+    background-position: 100% 100%;
     overflow: hidden;
     width: 100%;
     height: 40vh;
@@ -58,9 +58,9 @@ a {
   }
 
   
-  .hm-bg .ant-carousel .slick-slide img {
-    background-position: 100% 90%;
-  }
+  /* .hm-bg .ant-carousel .slick-slide img {
+    background-position: 90% 90%;
+  } */
 
   .hm-bg .image-container {
     width: auto!important;
