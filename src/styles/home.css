@@ -69,8 +69,20 @@ a {
 
   .helper {
     display: inline-block;
-    height: 100%;
+    height: 83%;
     vertical-align: middle;
+  }
+
+  @media (max-width: 550px) {
+    .helper {
+    height: 87%;
+    }
+  }
+
+  @media (min-width: 1850px) {
+    .helper {
+      height: 75%;
+    }
   }
 
   .image-container img{
@@ -81,13 +93,13 @@ a {
 
   @media (min-width: 550px) {
     .slide-img {
-      width: 100%;
+      width: 80%;
     }
   }
 
   @media (max-width: 550px) {
     .slide-img {
-      width: 90%;
+      width: 70%;
     }
   }
 
