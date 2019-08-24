@@ -2,7 +2,7 @@
     background-image: url('../images/afff.jpg');
     background-position: 76% 37%;
     height: 69vh;
-    filter: hue-rotate(50deg);
+    /* filter: hue-rotate(50deg); */
 }
 
 .aj-header-text {
