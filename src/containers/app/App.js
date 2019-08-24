@@ -15,7 +15,7 @@ import Silsilah from "../layout-1/silsilah";
 import SundayMajlis from "../bayans/components/sunday";
 import JumaBayan from "../bayans/components/juma-bayan";
 import AfterJuma from "../bayans/components/after-juma";
-import OldBayan from "../bayans/components/old-bayan";
+// import OldBayan from "../bayans/components/old-bayan";
 import MiscBayan from "../bayans/components/misc-bayan";
 
 const App = observer(
@@ -122,7 +122,7 @@ const App = observer(
                     />
                   )}
                 />
-                <Route
+                {/* <Route
                   path={`/old-bayan`}
                   render={props => (
                     <OldBayan
@@ -132,7 +132,7 @@ const App = observer(
                       itemRender={this.itemRender}
                     />
                   )}
-                />
+                /> */}
                 <Route
                   path={`/misc-bayan`}
                   render={props => (
