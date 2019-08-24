@@ -1,6 +1,6 @@
 .aj-header .ant-carousel .slick-slide {
     background-image: url('../images/a-bg.jpg');
-    background-position: 96% 34%;
+    background-position: 85% 34%;
     height: 65vh;
 }
 
@@ -23,7 +23,8 @@
 @media (max-width: 500px) {
     .aj-header-text {
     font-size: 30px;
-    margin-top: 122px;
+    margin-top: 366px;
+    margin-left: 20px;
     }
 
     /* .aj-header .ant-carousel .slick-slide {

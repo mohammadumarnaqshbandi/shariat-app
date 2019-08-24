@@ -33,7 +33,7 @@ const AfterJuma = observer(
             <Col span={24} className={"aj-header"}>
             <Carousel autoplay={true} effect="fade" dots={false}>
               <div className="image-container">
-              <h1 className="aj-header-text" style={{color: '#000'}}>Bayans After Juma</h1>
+              <h1 className="aj-header-text" style={{color: '#000'}}>Bayans<br/> After Juma</h1>
               </div>
             </Carousel>
             </Col>
