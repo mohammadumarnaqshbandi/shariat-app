@@ -4,7 +4,7 @@
 } */
 
 .sd-header .ant-carousel .slick-slide {
-    background-image: url('../../../../images/sd-bg2.jpg');
+    background-image: url('../../../../images/sun-bg.jpg');
     background-position: 0% 50%;
     height: 65vh;
     /* background-size: cover;
@@ -17,7 +17,7 @@
 
 .hairline {
     height: 1vh;
-    background-color: #b79c8d;
+    background-color: #8aa115;
 }
 
 .sd-header .header-text {
@@ -45,17 +45,17 @@
 } */
 
 .sd-color {
-    background-color: #c4ab97;
+    background-color: #7a9814;
 }
 
 
 .sd-color .plyr--full-ui input[type=range] {
-    color: #1C4F6A;
+    color: #5e750f;
   }
   
   .sd-color .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
   
-    background: #1C4F6A;
+    background: #5e750f;
     color: #fff;
   
   }
@@ -66,12 +66,12 @@
   }
 
   .sd-color .ant-btn {
-      background-color: #1C4F6A;
+      background-color: #5e750f;
       color: #ffffff!important;
   }
 
   .sd-color .ant-btn:hover, .sd-color .ant-btn:focus {
-    border-color: #000000;
+    border-color: #5e750f;
     color: #000000!important;
     background: #ffffff;
   }
@@ -101,12 +101,12 @@
   }
   
   .sd-color .ant-pagination-item-active a {
-    color: #1C4F6A!important;
+    color: #5e750f!important;
   }
   
   .sd-color .ant-pagination-item-active {
     background: #fff!important;
-    border-color: #1C4F6A!important;
+    border-color: #5e750f!important;
   }
   
   .sd-color .ant-pagination-item:focus a {
@@ -114,32 +114,32 @@
   }
   
   .sd-color .ant-pagination-item:hover a {
-    color: #1C4F6A!important;
+    color: #5e750f!important;
   }
   
   .sd-color .ant-pagination-item-active:hover a {
-    color: #1C4F6A!important;
+    color: #5e750f!important;
   }
   
   .sd-color .ant-pagination-item-active:focus a {
-    color: #1C4F6A!important;
+    color: #5e750f!important;
   }
   
   .sd-color .ant-pagination-item:focus, .ant-pagination-item:hover {
-    border-color: #1C4F6A!important;
+    border-color: #5e750f!important;
   }
   
   
   .sd-color .ant-pagination-item {
     border-radius: 0;
-    border: 1.5px solid #1C4F6A;
+    border: 1.5px solid #5e750f;
     border-radius: 2.5px;
-    background-color: #1C4F6A;
+    background-color: #5e750f;
     color: #ffffff;
     margin: 5px 7px;
   }
   
   .sd-color .ant-pagination-item:hover {
     background-color: #fff;
-    color: #1C4F6A;
+    color: #5e750f;
   }

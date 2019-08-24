@@ -35,7 +35,7 @@ const SundayMajlis = observer(
             <Col span={24} className={"sd-header"}>
               <Carousel autoplay={true} effect="fade" dots={false}>
                 <div className="image-container">
-                  <h1 className="header-text white">Sunday Bayans</h1>
+                  <h1 className="header-text">Sunday Bayans</h1>
                 </div>
               </Carousel>
             </Col>
