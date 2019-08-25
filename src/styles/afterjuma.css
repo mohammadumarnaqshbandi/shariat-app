@@ -1,5 +1,5 @@
 .aj-header .ant-carousel .slick-slide {
-    background-image: url('../images/afff.jpg');
+    background-image: url('../images/af.jpg');
     background-position: 76% 37%;
     height: 69vh;
     /* filter: hue-rotate(50deg); */
@@ -13,12 +13,12 @@
 
 .base-aj {
     height: 1vh;
-    background-color: #c8c5ae;
+    background-color: #e5d7ce;
 }
 
 .base-aj-2 {
     height: 1vh;
-    background-color: #4c5c39;
+    background-color: #a57786;
 }
 
 @media (max-width: 500px) {
@@ -34,7 +34,7 @@
 }
 
 .aj-bg {
-    background-color: #489301;
+    background-color: #d1809a;
     height: auto;
     padding-bottom: 30px;
     margin-left: 0!important;
