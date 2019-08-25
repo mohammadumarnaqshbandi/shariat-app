@@ -32,7 +32,7 @@ const Bayans = observer (
             <Col span={24} className={"by-header"}>
               <Carousel autoplay={true} effect="fade" dots={false}>
                 <div className="image-container">
-                  <h1 className="header-text">Bayans</h1>
+                  <h1 className="header-text" style={{color: "#015269"}}>Bayans</h1>
                 </div>
               </Carousel>
             </Col>

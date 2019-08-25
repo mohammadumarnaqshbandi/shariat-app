@@ -27,15 +27,17 @@ const JumaBayan = observer(
       return (
         <React.Fragment>
           <BackTop />
+          <div className="base-bj"></div>
           <Row>
             <Col span={24} className={"bj-header"}>
             <Carousel autoplay={true} effect="fade" dots={false}>
               <div className="image-container">
-              <h1 className="bj-header-text" style={{color: '#000'}}>Bayans Before Juma</h1>
+              <h1 className="bj-header-text" style={{color: '#fff'}}>Bayans<br/> Before Juma</h1>
               </div>
             </Carousel>
             </Col>
           </Row>
+          <div className="base-bj-2"></div>
           <Row
             gutter={32}
             className="mr-0 bj-bg"
