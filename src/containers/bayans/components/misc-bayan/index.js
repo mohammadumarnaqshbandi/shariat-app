@@ -31,7 +31,7 @@ const MiscBayan = observer(
             <Col span={24} className={"ms-header"}>
             <Carousel autoplay={true} effect="fade" dots={false}>
               <div className="image-container">
-              <h1 className="ms-header-text">Other Bayans</h1>
+              <h1 className="ms-header-text">Other<br/>Bayans</h1>
               </div>
             </Carousel>
             </Col>

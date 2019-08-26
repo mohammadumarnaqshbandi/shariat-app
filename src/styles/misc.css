@@ -1,11 +1,11 @@
-.ms-header .ant-carousel .slick-slide {
-    background-image: url('../images/ms-bg.jpg');
+.ms-header .ant-carousel {
+    background-image: url('../images/misc.jpg');
     background-position: 50% 59%;
     height: 65vh;
 }
 
 .ms-header-text {
-    color: #FFFFFF;
+    color: #f1776c;
     font-size: 60px;
     margin-top: 147px;
     text-align: center;
@@ -27,13 +27,13 @@
     margin-top: 122px;
     }
 
-    .ms-header .ant-carousel .slick-slide {
+    .ms-header .ant-carousel {
         height: 65vh;
     }
 }
 
 .ms-bg {
-    background-color: #344E49;
+    background-color: #3c4e66;
     height: auto;
     padding-bottom: 30px;
     margin-left: 0!important;
@@ -59,27 +59,27 @@
 
 
 .ms-bg .ant-card {
-    background-color: #559d90; 
+    background-color: #abc6ea; 
     border: 0;
 }
 
 .ms-bg .ant-pagination-item {
     background-color: #fff;
-    border-color: #559d90;
-    border: 1px solid #559d90;
+    border-color: #abc6ea;
+    border: 1px solid #abc6ea;
 }
 
 .ms-bg .ant-pagination-item a {
     color: #000000!important;
-    background-color: #559d90; 
+    background-color: #abc6ea; 
 }
 
 .ms-bg .ant-pagination-item-active {
-    border-color: #559d90!important;
+    border-color: #abc6ea!important;
 }
 
 .ms-bg .ant-pagination-prev:hover .ant-pagination-item-link {
-    border-color: #559d90;
+    border-color: #abc6ea;
 }
 
 .ms-bg .ant-pagination-item-active a {
@@ -87,7 +87,7 @@
 }
 
 .ms-bg .ant-pagination-item:focus, .ant-pagination-item:hover {
-    border-color: #559d90!important;
+    border-color: #abc6ea!important;
     background-color: #fff;
 }
 
@@ -101,31 +101,31 @@
 }
 
 .ms-bg .ant-btn {
-    background-color: #344e49;
+    background-color: #556e77;
     color: #FFFFFF!important;
 }
 
 .ms-bg .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
-    background: #559d90;
+    background: #abc6ea;
     color: #000000;
 }
 
 .ms-bg .plyr--full-ui input[type=range] {
-    color: #559d90;
+    color: #abc6ea;
 }
 
 .ms-bg .ant-pagination-next .ant-pagination-item-link {
-    background-color: #559d90;
-    border: 1px solid #559d90;
+    background-color: #abc6ea;
+    border: 1px solid #abc6ea;
     color: #000000!important;
 }
 
 .ms-bg .ant-pagination-disabled a, .ant-pagination-disabled:hover a, .ant-pagination-disabled:focus a, .ant-pagination-disabled .ant-pagination-item-link, .ant-pagination-disabled:hover .ant-pagination-item-link, .ant-pagination-disabled:focus .ant-pagination-item-link {
-    border: 1px solid #559d90;
+    border: 1px solid #abc6ea;
     color: #000000!important;
 }
 
 .ms-bg .ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
     color: #000000!important;
-    background-color: #559d90;
+    background-color: #abc6ea;
 }
