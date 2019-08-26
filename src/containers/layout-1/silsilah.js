@@ -17,7 +17,7 @@ class Silsilah extends Component {
 	{/* <div className="line1" style={{height: '1vh',
     backgroundColor: 'rgb(90, 99, 191)'}}></div> */}
     <div className="line1" style={{height: '1vh',
-    backgroundColor: '#cab7f8'}}></div>
+    backgroundColor: '#d0d3b8'}}></div>
 				<Row>
 					<Col span={24} className={"sl-header"}>
 					<Carousel autoplay={true} effect="fade" dots={false}>
@@ -27,6 +27,8 @@ class Silsilah extends Component {
 					</Carousel>
 					</Col>
           		</Row>
+				  <div className="line2" style={{height: '1vh',
+    backgroundColor: '#e0d698'}}></div>
 				  {/* <div className="line1" style={{height: '1vh',
 	backgroundColor: '#efaad9'}}></div> */}
 	{/* <div className="line1" style={{height: '1vh',

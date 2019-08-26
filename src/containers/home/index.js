@@ -61,7 +61,7 @@ const Home = observer(
               >
                 <h1 className="white-text">Live Bayan</h1>
                 <iframe
-                  src="https://mixlr.com/users/5385796/embed?color=d5b794&artwork=true"
+                  src="https://mixlr.com/users/5385796/embed?color=6fb4ef&artwork=true"
                   title="Live Player"
                   scrolling="no"
                   frameBorder="no"
