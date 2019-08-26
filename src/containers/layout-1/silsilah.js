@@ -28,7 +28,7 @@ class Silsilah extends Component {
 					</Col>
           		</Row>
 				  <div className="line2" style={{height: '1vh',
-    backgroundColor: '#e0d698'}}></div>
+    backgroundColor: '#4d632a'}}></div>
 				  {/* <div className="line1" style={{height: '1vh',
 	backgroundColor: '#efaad9'}}></div> */}
 	{/* <div className="line1" style={{height: '1vh',

@@ -44,13 +44,13 @@ a {
   color: #ffffff;
 }
 
-.ant-carousel .slick-slide {
+.ant-carousel {
     text-align: center;
     /*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), center center / contain no-repeat;*/
     /*background-color: #CAD2C5; */
     /*background-color: #fcd669;*/
     /*background-color: #87bbfd;*/
-    background-image: url('../images/hp.jpg');
+    background-image: url('../images/bg-h.jpg');
     background-size: cover;
     background-position: 18% 100%;
     overflow: hidden;
@@ -58,7 +58,7 @@ a {
     height: 40vh;
   }
 
-  .hm-bg .ant-carousel .slick-slide {
+  .hm-bg .ant-carousel {
     height: 65vh;
   }
 
@@ -80,13 +80,13 @@ a {
 
   @media (max-width: 550px) {
     .helper-slide-1 {
-    height: 64%;
+    height: 74%;
     }
     .helper-slide-2 {
-      height: 41%;
+      height: 53%;
     }
     .helper-slide-3 {
-      height: 51%;
+      height: 65%;
     }
   }
 

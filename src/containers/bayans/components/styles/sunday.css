@@ -3,7 +3,7 @@
     display: none;
 } */
 
-.sd-header .ant-carousel .slick-slide {
+.sd-header .ant-carousel {
     background-image: url('../../../../images/sun-bg.jpg');
     background-position: 65% 50%;
     height: 65vh;
@@ -30,7 +30,7 @@
     font-size: 35px;
     margin-top: 115px;
   }
-  .sd-header .ant-carousel .slick-slide {
+  .sd-header .ant-carousel {
     height: 65vh;
   }
 }

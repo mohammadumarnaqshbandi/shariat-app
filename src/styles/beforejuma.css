@@ -1,4 +1,4 @@
-.bj-header .ant-carousel .slick-slide {
+.bj-header .ant-carousel {
     background-image: url('../images/bj.jpg');
     background-position: 68% 30%;
     height: 65vh;
@@ -31,7 +31,7 @@
     margin-top: 80px;
     }
 
-    .bj-header .ant-carousel .slick-slide {
+    .bj-header .ant-carousel {
         height: 65vh;
     }
 }

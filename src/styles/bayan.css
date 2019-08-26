@@ -1,4 +1,4 @@
-.by-header .ant-carousel .slick-slide {
+.by-header .ant-carousel  {
 	background-image: url('../images/by-bg4.jpg');
 	background-position: 50% 66%;
 	height: 65vh;
@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 500px) {
-	.by-header .ant-carousel .slick-slide {
+	.by-header .ant-carousel {
 		height: 65vh;
 		background-position: 50% 50%;
 	}
