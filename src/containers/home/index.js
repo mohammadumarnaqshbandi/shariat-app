@@ -29,20 +29,21 @@ const Home = observer(
             <Col span={24} className="hm-bg">
               <Carousel autoplay={true} dots={false}>
                 <div className="image-container">
-                  <span className="helper"></span>
+                  <span className="helper-slide-1" style={{height: "71%"}}></span>
                   <img src={Slide} alt="" className="slide-img"/>
                 </div>
                 <div className="image-container">
-                  <span className="helper"></span>
+                  <span className="helper-slide-2"></span>
                   <img src={Slide1} alt="" className="slide-img" />
                 </div>
                 <div className="image-container">
-                  <span className="helper"></span>
+                  <span className="helper-slide-3"></span>
                   <img src={Slide2} alt="" className="slide-img" />
                 </div>
               </Carousel>
             </Col>
           </Row>
+          <div className="base-home-2"></div>
           <Row>
             {/* <Col span={24} className="header">
               <h1 style={{color: "#0e278e"}}>Dedicated to the lectures and books of <b>Hazrat Haji Shakeel Ahmed Saheb Db</b></h1>

@@ -1,10 +1,15 @@
 .base-home {
   height: 1vh;
-  background-color: rgb(218, 227, 234);
+  background-color: #a6d1f4;
+}
+
+.base-home-2 {
+  height: 1vh;
+  background-color: #15395f;
 }
 
 .bg-home {
-  background-color: #142c98;
+  background-color: #6fb4ef;
 }
 
 .live-player {
@@ -67,20 +72,26 @@ a {
     height: 65vh;
   }
 
-  .helper {
+  .helper-slide-1 ,.helper-slide-2 ,.helper-slide-3 {
     display: inline-block;
     height: 83%;
     vertical-align: middle;
   }
 
   @media (max-width: 550px) {
-    .helper {
-    height: 71%;
+    .helper-slide-1 {
+    height: 64%;
+    }
+    .helper-slide-2 {
+      height: 41%;
+    }
+    .helper-slide-3 {
+      height: 51%;
     }
   }
 
   @media (min-width: 1850px) {
-    .helper {
+    .helper-slide-1 ,.helper-slide-2 ,.helper-slide-3 {
       height: 75%;
     }
   }
@@ -99,7 +110,7 @@ a {
 
   @media (max-width: 550px) {
     .slide-img {
-      width: 60%;
+      width: 50%;
     }
   }
 
