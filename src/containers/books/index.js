@@ -18,7 +18,7 @@ class Books extends Component {
 					<Col span={24} className={"bk-header"}>
 					<Carousel autoplay={true} effect="fade" dots={false}>
 						<div className="image-container">
-						<h1 className="bk-header-text">Books</h1>
+						{/* <h1 className="bk-header-text">Books</h1> */}
 						</div>
 					</Carousel>
 					</Col>
