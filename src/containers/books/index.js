@@ -31,9 +31,9 @@ class Books extends Component {
 				  <div className="bk-background">
 				<Row className={"row-top majlis"}>
 					<Col span={24} className={"col-top pd-30"} style={styles}>
-						<h1 className="text-center">
+						<h2 className="text-center white">
 							Sorry! This page is under construction.
-						</h1>
+						</h2>
 					</Col>
 				</Row>
 				</div>
