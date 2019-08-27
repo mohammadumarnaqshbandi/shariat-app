@@ -15,11 +15,12 @@ class About extends Component {
 						<Carousel autoplay={true} effect="fade" dots={false}>
 							<div className="image-container">
 								<h1 className="ab-header-text">Meri Kahani<br/>Meri Zubani</h1>
-								<h2 style={{marginTop: "55px"}}><span>Shakeel Ahmad</span></h2>
+								<h2 style={{marginTop: "55px"}}><span style={{color: "#fde777"}}>Shakeel Ahmad</span></h2>
 							</div>
 						</Carousel>
 					</Col>
           		</Row>
+				  <div className="base-about-2"></div>
 				  <div className="ab-background">
 				<Row type="flex" align="bottom" className={"majlis"}>
 					<Col span={24} className={"pd-20 black-text"}>

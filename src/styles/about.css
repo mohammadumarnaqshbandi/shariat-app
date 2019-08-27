@@ -1,6 +1,6 @@
 .ab-header .ant-carousel {
-	background-image: url('../images/ab-bg2.jpg');
-    background-position: 5% 20%;
+	background-image: url('https://media.giphy.com/media/UxTZDNv0Zej4s/source.gif');
+    background-position: 50% 20%;
     height: 65vh;
 }
 
@@ -15,6 +15,11 @@
     background-color: #e3ab00;
 }
 
+.base-about-2 {
+    height: 1vh;
+    background-color: #92530f;
+}
+
 @media (max-width: 500px) {
     .ab-header-text {
         color: #ffffff;
@@ -24,9 +29,7 @@
 }
 
 .ab-background {
-    /* background-color: #444e0a; */
-    /* background-color: #d49d60; */
-    background-color: rgba(209, 152, 2, .29);
+    background-color: #d1980236;
 }
 
 .ab-text {
