@@ -2,7 +2,7 @@
     background-image: url('../images/bk.jpg');
     /* background-image: url('../images/bk-bg4.jpg'); */
     /* background-image: url(https://images.unsplash.com/photo-1482686115713-0fbcaced6e28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80); */
-    background-position: 40% 30%;
+    background-position: 40% 45%;
     /* background-position: 40% 60%; */
     /* background-position: 40% 91%; */
     height: 65vh;
@@ -22,19 +22,29 @@
 
     .bk-header .ant-carousel {
         height: 65vh;
-        background-position: 24% 20%;
+        background-position: 30% 20%;
+    }
+}
+
+@media (max-width: 400px) {
+    .bk-header .ant-carousel {
+        height: 65vh;
+        background-position: 23% 20%;
     }
 }
 
 .base-books {
     height: 1vh;
-    background-color: rgb(157, 124, 145);
+    background-color: #c5a781;
+}
+
+.base-books-2 {
+    height: 1vh;
+    background-color: #b03327;
 }
 
 .bk-background {
-    /* background-color: #dd87cb; */
-    /* background-color: #fdaff0; */
-    background-color: #9d7c91;
+    background-color: #ecc896;
     height: 100vh;
 }
 

@@ -23,6 +23,7 @@ class Books extends Component {
 					</Carousel>
 					</Col>
           		</Row>
+				  <div className="base-books-2"></div>
 				  {/* <div className="line1" style={{height: '1vh',
 	backgroundColor: '#efaad9'}}></div> */}
 	{/* <div className="line1" style={{height: '1vh',
