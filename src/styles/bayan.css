@@ -5,8 +5,19 @@
 }
 
 .bg-bayan {
-	background-color: #347191;
+	/* background-color: #347191; */
+	background-color: #3066BE;
 	padding-bottom: 30px;
+}
+
+.base-bayan {
+	height: 1vh;
+	background-color: #017292; 
+}
+
+.base-bayan-2 {
+	height: 1vh;
+	background-color: #95c1f2; 
 }
 
 .fill-height {
@@ -49,15 +60,6 @@
 	text-align: center;
 }
 
-.base-bayan {
-	height: 1vh;
-	background-color: #017292; 
-}
-
-.base-bayan-2 {
-	height: 1vh;
-	background-color: #5ac7ab; 
-}
 
 .link-btn:hover, .link-btn:focus {
 	border: 0;
