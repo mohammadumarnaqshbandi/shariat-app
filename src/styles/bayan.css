@@ -1,24 +1,25 @@
 .by-header .ant-carousel  {
-	background-image: url('https://media.giphy.com/media/eivfx0TacUge5B0Vie/giphy.gif');
+	background-image: url('https://media.giphy.com/media/XD3UnKuOBEsoaXwYAn/giphy.gif');
 	background-position: 20% 50%;
 	height: 65vh;
+	filter: sepia(1);
 }
 
 .bg-bayan {
 	/* background-color: #347191; */
 	/* background-color: #3066BE; */
-	background-color: #848f9d;
+	background-color: #c7b18a;
 	padding-bottom: 30px;
 }
 
 .base-bayan {
 	height: 1vh;
-	background-color: #017292; 
+	background-color: #876963; 
 }
 
 .base-bayan-2 {
 	height: 1vh;
-	background-color: #636e7e; 
+	background-color: #a9746a; 
 }
 
 .fill-height {
