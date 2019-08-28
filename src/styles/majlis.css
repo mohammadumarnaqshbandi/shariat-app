@@ -1,4 +1,4 @@
-.mj-header .ant-carousel .slick-slide {
+.mj-header .ant-carousel {
 	background-image: url('../images/ct-bg.jpg');
     background-position: 53% 38%;
     height: 65vh;
@@ -20,7 +20,7 @@
 }
 
   @media (max-width: 500px) {
-	.mj-header .ant-carousel .slick-slide {
+	.mj-header .ant-carousel {
         height: 65vh;
         background-position: 53% 22%;
     }
