@@ -1,6 +1,6 @@
 .mj-header .ant-carousel {
-	background-image: url('../images/ct-bg.jpg');
-    background-position: 53% 38%;
+	background-image: url('../images/ct.jpg');
+    background-position: 53% 80%;
     height: 65vh;
 }
 
@@ -22,16 +22,16 @@
   @media (max-width: 500px) {
 	.mj-header .ant-carousel {
         height: 65vh;
-        background-position: 53% 22%;
+        background-position: 53% 80%;
     }
     .mj-header-text {
-        margin-top: 60px;
+        margin-top: 63%;
     }
 }
 /* #458e95 */
 
 .mj-background {
-    background-color: #093250;
+    background-color: #025380;
     height: auto;
 }
 
