@@ -2,6 +2,39 @@ import React, { Component } from 'react';
 import {Row, Col, BackTop, Carousel} from 'antd'
 import "antd/dist/antd.css"
 import "../../styles/majlis.css"
+import MapGL, {NavigationControl} from 'react-map-gl'
+import ReactMapGL from 'react-map-gl'
+import 'mapbox-gl/dist/mapbox-gl.css'
+
+
+const TOKEN = 'pk.eyJ1IjoibW9oYW1tYWR1bWFyMjgiLCJhIjoiY2pxaWZrbHdoMDd2MDQ4bzJ3OHRwajh5ayJ9.Xh7iCLMp_NEiLXU4Tg5Nyg'; 
+
+class Map extends Component {
+
+	state = {
+	  viewport: {
+		width: 400,
+		height: 400,
+		latitude: 18.9919913,
+		longitude: 73.1038669,
+		zoom: 10
+	  }
+	};
+  
+	render() {
+	  return (
+		<ReactMapGL
+
+		  {...this.state.viewport}
+		  width="100%"
+		  mapboxApiAccessToken={TOKEN}
+		  mapStyle="mapbox://styles/mohammadumar28/cjzwzqo3708y51cmbs9hhex75"
+		  onViewportChange={(viewport) => this.setState({viewport})}
+		/>
+	  );
+	}
+  }
+
 
 class Majlis extends Component {
 	render() {
@@ -10,13 +43,14 @@ class Majlis extends Component {
             	<BackTop />
 				<div className="base-majlis"></div>
 				<Row>
-					<Col span={24} className={"mj-header"}>
-					<Carousel autoplay={true} dots={false}>
-						<div className="image-container">
-							<h1 className="mj-header-text">Contact</h1>
-						</div>
-					</Carousel>
-					</Col>
+					{/* <Col span={24} className={"mj-header"}>
+					<Carousel autoplay={true} dots={false}> */}
+						{/* <div className="image-container"> */}
+							{/* <h1 className="mj-header-text">Contact</h1> */}
+							<Map />
+						{/* </div> */}
+					{/* </Carousel>
+					</Col> */}
           		</Row>
 				  <div className="mj-background">
 				<Row className={"majlis"}>
@@ -24,10 +58,10 @@ class Majlis extends Component {
 						<h1 className="white-text">
 							Bayan Address
 						</h1>
-						<p>
+						<p className="white-text">
 							Plot No. 14, Hiba Manzil
 						</p>
-						<p>
+						<p className="white-text">
 							Bushra Park, Opp. Neelkanth Garden Society
 						</p>
 						<p>

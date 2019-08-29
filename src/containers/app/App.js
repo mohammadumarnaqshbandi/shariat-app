@@ -69,7 +69,6 @@ const App = observer(
                 checked={this.state.checked}
               />
               <Switch>
-                <div id="bottom-padding">
                 <Route
                   exact
                   path={"/"}
@@ -144,7 +143,6 @@ const App = observer(
                     />
                   )}
                 />
-                </div>
               </Switch>
               </React.Fragment>
           </Router>
