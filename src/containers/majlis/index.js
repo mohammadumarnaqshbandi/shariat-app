@@ -25,13 +25,13 @@ class Majlis extends Component {
 							Bayan Address
 						</h1>
 						<p>
-							Hiba Manzil , Bunglow No. 14
+							Plot No. 14, Hiba Manzil
 						</p>
 						<p>
-							Bawan Bunglow Area, Bushra Park
+							Bushra Park, Opp. Neelkanth Garden Society
 						</p>
 						<p>
-							Opp. Neelkanth Garden Society
+							Bawan Bunglow Area
 						</p>
 						<p>
 							Old Panvel - 410206
@@ -52,13 +52,10 @@ class Majlis extends Component {
 							Bayan Timings
 						</h1>
 						<p>
-							Friday 2:15 PM (IST)
-						</p>
-						<p>
 							Sunday 11 AM (IST)
 						</p>
 						<p>
-							Majlis will be held on every 1st and 2nd Sunday and Friday.
+							Majlis will be held on every 1st and 2nd Sunday.
 						</p>
 					</Col>
 				</Row>
