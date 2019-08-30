@@ -32,7 +32,7 @@ const JumaBayan = observer(
             <Col span={24} className={"bj-header"}>
             <Carousel autoplay={true} effect="fade" dots={false}>
               <div className="image-container">
-              <h1 className="bj-header-text" style={{color: '#fff'}}>Bayans<br/> Before Juma</h1>
+              <h1 className="bj-header-text">Bayans<br/> Before Juma</h1>
               </div>
             </Carousel>
             </Col>

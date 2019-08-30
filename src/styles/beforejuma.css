@@ -1,11 +1,11 @@
 .bj-header .ant-carousel {
-    background-image: url('../images/bj.jpg');
-    background-position: 92% 85%;
+    background-image: url('../images/bj1.jpg');
+    background-position: 83% 85%;
     height: 65vh;
 }
 
 .bj-header-text {
-    color: #000;
+    color: #727475;
     font-size: 60px;
     margin-top: 96px;
 }
@@ -17,7 +17,7 @@
 
 .base-bj-2 {
     height: 1vh;
-    background-color: #c79701;
+    background-color: #6b8359;
 }
 
 /* .base-bj-2 {
@@ -28,17 +28,16 @@
 @media (max-width: 500px) {
     .bj-header-text {
     font-size: 30px;
-    margin-top: 80px;
+    margin-top: 28%;
     }
 
     .bj-header .ant-carousel {
         height: 65vh;
-        filter: contrast(.9) brightness(0.8);
     }
 }
 
 .bj-bg {
-    background-color: #62845c;
+    background-color: #b1b4bb;
     /* background-color: rgb(185, 109, 229); */
     height: auto;
 }
@@ -68,7 +67,7 @@
 
 
 .bj-bg .ant-card {
-    background-color: #b0d0ab; 
+    background-color: #d2d8e4; 
     border: 0;
 }
 
