@@ -33,6 +33,7 @@
 
     .bj-header .ant-carousel {
         height: 65vh;
+        filter: contrast(.9) brightness(0.8);
     }
 }
 
