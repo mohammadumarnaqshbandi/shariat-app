@@ -23,7 +23,7 @@ const data = [
     },
     {
         name: 'Eiman Ki Fikr',
-        src: 'https://archive.org/download/SundayBabaBayan15Ramzan11062017/BABA%20KA%20SUNDAY%20BAYAN%2016%206%202019.mp3',
+        src: 'https://cf-media.sndcdn.com/I0pNgzakox6p?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vSTBwTmd6YWtveDZwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjQ5NzU1fX19XX0_&Signature=VJcIhTn7xIwhNN3TUDwD-tJhSwTdR8~eMa-gOs7dO0zdL~YQ4yVZSGIgYNWz8bUdcVVMh6s4dy4pItspuvD2kj3LqrNgJS9Z0AkIdou1N~PpTjQ1pba-ciSsq9E3HqlFjkdvOZk62EMvsMAjS7hPBgV07-mP7z30VY0WpKy1~t6wN8KOh73Hr4FROYyefVCEjy1x0SLU837XK4E6z3DPK9~wNxbZZTBwtp3U9JwEPDjIA8aW0Wyroi0taQEtTeK9C6LZ1jozu6YDjWBOWBJHyPdomkSC~XzF5FYWWyAeLDVihgv7R-5OJCKCfTum-TOSk7K~Jl~T88xELUfM~xCVaQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
         length: '01h 07m',
         size: '08.60mb',
         date: '16/06/19',
@@ -31,7 +31,7 @@ const data = [
     },
     {
         name: 'Hamne Zulm Ke Siwa Kiya Hi Kya Hai?',
-        src: 'https://archive.org/download/SundayBabaBayan15Ramzan11062017/BABA%20KA%20SUNDAY%20BAYAN_09_JUNE_2019.mp3',
+        src: 'https://cf-media.sndcdn.com/uGHAXikPAgVV?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vdUdIQVhpa1BBZ1ZWIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjUzODIxfX19XX0_&Signature=N2HPWmeXHANyRlcUHFjgVj9CzJids8cX78ZG1vliJDnMd51KrgZa1S9zRQSV3zhWRzjlQWsQWKQtVDwyv6UGXpYTbJbMZJtCqrGm~0QaFEvFnviNB0kaweFtkxN7-9oy9R-as6PeHn3fFgG5uciCkPd1NUr9APde4FDmgiBB0ux93r2FBTyJZfPscy5ML2HMIto9fXsPP5wxmMYuX3Pm57e4M39lgCutthTyMxDGGM7yZ3nZKjVa5xZm10GVNOK7uENxH79m~6UWqTLaGFobwuZEzZIb2y9yuWOEiL7SPWvK-AqphIiEV5ylTUorx2Cpc3Mn-HDjavpzkvDpa59AVg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
         length: '01h 13m',
         size: '12.60mb',
         date: '09/06/19',
@@ -70,8 +70,8 @@ const data = [
         category: 'before juma'
     },
     {
-        name: 'Ramazan Ka Aakhri Ashra: Kya Ham Muttaqi Ban Gaye???',
-        src: 'https://archive.org/download/SundayBabaBayan15Ramzan11062017/Ramzan2019_BABA%20Ka%20Sunday%20Bayan_26_05_2019.mp3',
+        name: 'Ramazan: Kya Ham Muttaqi Ban Gaye?',
+        src: 'https://cf-media.sndcdn.com/y3cYB1lrMzYB?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20veTNjWUIxbHJNellCIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjU1NDAzfX19XX0_&Signature=aEnqC12xpIVlFHVOwkfdRVSNwxIlBuIaveGLwvLseYkBgNYBRwZvKZPHbEkr2PUn5juSBFPV41~vyxgyCxNdxUfY~JdxhX1EoQZ-rlmAypjdkU5xV20-9yY-ARI1fowogUGM5kc6PoRG9D8I6KVQglMjVhNLruQjpHDLzZSkoCJWt6YBCFulboiJoiDpVbrv4saRCL349uXjQ-Izk-FsMw6QI4urDJDE0d5FiSfDm8cXXc7bBisJuSQCjJVvndOS58Xwxaje6QAzFxc2RJg13zNHfGoS9xpiorYSuzB36ITnlF~MKOVAm6rakyWm5vubn27Nx1glw1EJy6VupTC12g__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
         length: '01h 01m',
         size: '07.80mb',
         date: '26/05/19',
@@ -151,7 +151,7 @@ const data = [
     },
     {
         name: 'Gharelu Zindagi - Sabr Par Allah Milta Hai',
-        src: 'https://archive.org/download/SundayBabaBayan15Ramzan11062017/BABA%20JKA%20SUNDAY%20BAYAN%2024%20FEB%202019.mp3',
+        src: 'https://cf-media.sndcdn.com/W2dpZSYK7dAo?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vVzJkcFpTWUs3ZEFvIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjU2MzgwfX19XX0_&Signature=beYMbbNHgcRUZhTdazhBheP5pa-JnTtrc3kkiKVJ2CnxUxy4wSwzNe3hW61gD9MMwiiZ~l~mtQ8bk3eQlDf-mQfiSWYxk98dCPUxpLihQq0MWe38fZNXDTIj5d5McKebYR884XyVJFkr6aaJVB-RdaG8XsFY4lwEwGiwvuMdVu9mexaMyKL3lrpLrnofFudFVLBIZFhHX64IkRe6zhqiZ4-f6rF6eSG2p6YQ1OwXIMhe3cDWeUEP09r0vfzXp24z3YOnlORseer8LOmpj1vwe7QewDdD5OV5NTKX8lvhR3BUtUNDda9yTHgPTYHprUD5YVPPAiQvgaFp0rcGsWuc~g__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
         length: '01h 43m',
         size: '17.80mb',
         date: '24/02/19',
@@ -511,23 +511,15 @@ const data = [
     },
     {
         name: 'Maa Baap Ki Dua',
-        src: 'https://archive.org/download/SundayBabaBayan15Ramzan11062017/MAA-BAAP-KI-DUA-Sunday-bayan-140517.mp3',
+        src: 'https://cf-media.sndcdn.com/Jfsio6KxLZjU?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vSmZzaW82S3hMWmpVIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjU4MTc5fX19XX0_&Signature=d1cZf-LAQGlwZFx3Fns3IdfPnI0rsreqHTufSEUCFhk9ibWs9D0kbkaZLaXIEa3GH8Lcud6VbC1cJMP5Luscy4jX3wZ2YGz9dpNqXy~1G8thItNY4CHD-GZiFKh5Ruph18HV4~oxp~XogHnupZassbbVbrEwxYfR6x94SpZeet7nL535ARAH~pEhUPuEDF40ddHvGR1-CVeHTlg6EzCWiGnaE6ENCkqCXSPvpRFe3wzrZZI-ilkBuqErlYsrwNnU~PyYA48JYn94J0p8Zb6T5oHdJXF435BOjQGKe9qgBow1aiOBuvyc0-fpLB~8EcnRv8jaqeD5agpKGtGncfB0Cw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
         length: '1h 15m',
         size: '9.74mb',
         date: '14/05/17',
         category: 'sunday'
     },
     {
-        name: 'Sunday Majlis',
-        src: '#',
-        length: '1h 14m',
-        size: '9.62mb',
-        date: '07/05/17',
-        category: 'sunday'
-    },
-    {
-        name: 'Sunday Majlis',
-        src: 'https://archive.org/download/SundayBabaBayan15Ramzan11062017/SundayMajlis_26032017.mp3',
+        name: 'Sunday Bayan - 26 Mar 17',
+        src: 'https://cf-media.sndcdn.com/BpiWSF8W2fqz?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vQnBpV1NGOFcyZnF6IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjU3OTAxfX19XX0_&Signature=WKmNWbYr9pTaorMyeOOhDY~zkIJeE49a2droeSNshp3vdl6O3Zz73g6WXtoKnOHa3JGDb0ScSIdX5fS1hJu0MRaOfW8aPu08V7ikaifIJKGdyjGvHA1rdEOlg0ikGjRVzosSI-kDgdeUXkXT~D1j2WhOXQSpNocbVCUBAkGDJnnGiF26VgUe26PgzpIyIq48wUwSzFCSpjjDwM6CuPwf1XPmpJ4T0cAATMAZ5OcbJyPo1VHwMvZPG~EcwzQz~-rXw49fAf6oiPk6yRQyCsoBciXg~ZRoCBCLK-XWk6eqTvWr99xzR9uJwt6UZrTnMJiuE8lDADZCZJN18OZzOaVp8g__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
         length: '1h 27m',
         size: '11.23mb',
         date: '26/03/17',
@@ -542,8 +534,8 @@ const data = [
         category: 'sunday'
     },
     {
-        name: 'Sunday Majlis',
-        src: 'https://archive.org/download/SundayBabaBayan15Ramzan11062017/Sunday_Bayan-2017-03-05.mp3',
+        name: 'Sunday Bayan - 5 Mar 17',
+        src: 'https://cf-media.sndcdn.com/z1TiWjcJzHR6?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vejFUaVdqY0p6SFI2IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjU3NjMwfX19XX0_&Signature=dPEy~mCgPpvdAz5e4-5rDr4gqDkWlrP3wB0ldhCwIUoDooEKbkpDpp2UtjWAS5LlM~JUZgEYfIL49sgaOus99e6jwv0btI1SuMLNIDKp93zTL07YMBRdg06RiT5xxy59smT1yjWnIVqYffbYM-m3hCnmTi88tiRTr1Uf--JNbITWeUgQiT3vO3blbfEQNx6BQMlb4Qdvg3D~x147vd3~IMFjjGWcTwqIFdKt9MaC7UhM9QHO5GwZ3z6wtWg1VtlycRT~5zbfudmuQZHdDCFl3DJwLeom~XwjIYGSbW28rhmgARi1alinloEadIT2QoPWgw2yhccQWd8-0HSNuJxDJw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
         length: '1h 08m',
         size: '8.80mb',
         date: '05/03/17',
