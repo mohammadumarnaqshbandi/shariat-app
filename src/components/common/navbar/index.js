@@ -31,7 +31,6 @@ const Navbar = (props) => {
                                     <li><Link onClick={props.handleNavBtn} to="/books">Books</Link></li>
                                     <li><Link onClick={props.handleNavBtn} to="/about">About</Link></li>
                                     <li><Link onClick={props.handleNavBtn} to="/silsilah">Silsilah</Link></li>
-                                    <li><Link onClick={props.handleNavBtn} to="/majlis">Contact</Link></li>
                                     <li>
                                         <a href="https://www.youtube.com/channel/UCoModkBOUWZKFrQWyoIulOw/videos" target="_blank" rel="noopener noreferrer">
                                             <Icon type="youtube" style={{color: "red"}} theme="filled" />
