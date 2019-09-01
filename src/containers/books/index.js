@@ -5,6 +5,9 @@ import "../../styles/books.css"
 import Book1 from "../../images/bk1.jpg"
 import Book2 from "../../images/bk2.jpg"
 import Book3 from "../../images/bk3.jpg"
+import Book4 from "../../images/bk4.jpg"
+import Book5 from "../../images/bk5.jpg"
+import Book6 from "../../images/bk6.jpg"
 
 class Books extends Component {
 	render() {
@@ -34,6 +37,18 @@ class Books extends Component {
 						<div className="books-container">
 							<span className="helper"></span>
 							<img src={Book3} alt="" className="book-img"/>
+						</div>
+						<div className="books-container">
+							<span className="helper"></span>
+							<img src={Book4} alt="" className="book-img"/>
+						</div>
+						<div className="books-container">
+							<span className="helper"></span>
+							<img src={Book5} alt="" className="book-img"/>
+						</div>
+						<div className="books-container">
+							<span className="helper"></span>
+							<img src={Book6} alt="" className="book-img"/>
 						</div>
 					</Carousel>
 					</Col>

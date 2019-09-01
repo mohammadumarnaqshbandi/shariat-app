@@ -25,6 +25,10 @@
     vertical-align: middle;
 }
 
+.book-img {
+    width: 100%;
+}
+
 @media (max-width: 786px) {
     .bk-header .ant-carousel {
         height: 80vh;
@@ -56,17 +60,10 @@
     }
 }
 
-.book-img {
-    width: 63%;
-}
-
-
-
-
 
 .image-container img{
     vertical-align: middle;
-  }
+}
 
 /* 
 @media (min-width: 375px) and (max-width: 375px) { 
