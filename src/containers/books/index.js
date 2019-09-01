@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import {Row, Col, BackTop, Carousel} from 'antd'
 import "antd/dist/antd.css"
 import "../../styles/books.css"
+import Book1 from "../../images/bk1.jpg"
+import Book2 from "../../images/bk2.jpg"
+import Book3 from "../../images/bk3.jpg"
 
 class Books extends Component {
 	render() {
@@ -16,9 +19,21 @@ class Books extends Component {
 	<div className="base-books"></div>
 				<Row>
 					<Col span={24} className={"bk-header"}>
-					<Carousel autoplay={true} effect="fade" dots={false}>
-						<div className="image-container">
-						{/* <h1 className="bk-header-text">Books</h1> */}
+					<Carousel autoplay={true} dots={false}>
+						{/* <div className="image-container">
+						
+						</div> */}
+						<div className="books-container">
+							<span className="helper"></span>
+							<img src={Book1} alt="" className="book-img"/>
+						</div>
+						<div className="books-container">
+							<span className="helper"></span>
+							<img src={Book2} alt="" className="book-img"/>
+						</div>
+						<div className="books-container">
+							<span className="helper"></span>
+							<img src={Book3} alt="" className="book-img"/>
 						</div>
 					</Carousel>
 					</Col>

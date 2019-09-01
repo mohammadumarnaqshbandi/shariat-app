@@ -29,7 +29,7 @@ const Home = observer(
             <Col span={24} className="hm-bg">
               <Carousel autoplay={true} dots={false}>
                 <div className="image-container">
-                  <span className="helper-slide-1" style={{height: "71%"}}></span>
+                  <span className="helper-slide-1"></span>
                   <img src={Slide} alt="" className="slide-img"/>
                 </div>
                 <div className="image-container">

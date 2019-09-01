@@ -4,13 +4,10 @@
   "private": true,
   "dependencies": {
     "antd": "^3.19.8",
-    "google-maps-react": "^2.0.2",
-    "lodash": "^4.17.14",
     "mobx": "^5.9.0",
     "mobx-react": "^5.4.3",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
-    "react-map-gl": "^5.0.10",
     "react-plyr": "^2.2.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^3.0.1"

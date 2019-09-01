@@ -14,6 +14,17 @@
     margin-top: 128px;
 }
 
+.books-container {
+    width: auto!important;
+    height: 80vh;
+}
+
+.helper {
+    display: inline-block;
+    height: 103%;
+    vertical-align: middle;
+}
+
 @media (max-width: 786px) {
     .bk-header .ant-carousel {
         height: 80vh;
@@ -29,10 +40,33 @@
 
     .bk-header .ant-carousel {
         height: 70vh;
-        background-position: 50% 20%;
+        background-position: 100% 20%;
+    }
+
+    .books-container {
+        height: 70vh;
+    }
+
+    .book-img {
+        width: 70%;
+    }
+
+    .helper {
+        height: 70vh;
     }
 }
 
+.book-img {
+    width: 63%;
+}
+
+
+
+
+
+.image-container img{
+    vertical-align: middle;
+  }
 
 /* 
 @media (min-width: 375px) and (max-width: 375px) { 
