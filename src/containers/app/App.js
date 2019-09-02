@@ -7,16 +7,13 @@ import { observer } from "mobx-react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Button } from "antd";
 import Bayans from "../bayans/index";
-import Majlis from "../majlis/index";
-import About from "../about/index";
 import Books from "../books/index";
-import Silsilah from "../layout-1/silsilah";
 // Bayan pages imports
 import SundayMajlis from "../bayans/components/sunday";
 import JumaBayan from "../bayans/components/juma-bayan";
 import AfterJuma from "../bayans/components/after-juma";
-// import OldBayan from "../bayans/components/old-bayan";
 import MiscBayan from "../bayans/components/misc-bayan";
+import Poster from "../poster";
 
 const App = observer(
   class extends Component {
@@ -84,10 +81,7 @@ const App = observer(
                   path={"/bayans"}
                   render={props => <Bayans {...props} store={store} />}
                 />
-                <Route path={"/majlis"} component={Majlis} />
-                <Route path={"/about"} component={About} />
                 <Route path={"/books"} component={Books} />
-                <Route path={"/silsilah"} component={Silsilah} />
                 <Route
                   path={`/sunday-majlis`}
                   render={props => (
@@ -121,17 +115,6 @@ const App = observer(
                     />
                   )}
                 />
-                {/* <Route
-                  path={`/old-bayan`}
-                  render={props => (
-                    <OldBayan
-                      {...props}
-                      currentPage={currentPage}
-                      store={store}
-                      itemRender={this.itemRender}
-                    />
-                  )}
-                /> */}
                 <Route
                   path={`/misc-bayan`}
                   render={props => (
@@ -143,10 +126,13 @@ const App = observer(
                     />
                   )}
                 />
+                <Route
+                  path={`/poster`}
+                  render={props => <Poster {...props} />}
+                />
               </Switch>
-              </React.Fragment>
+            </React.Fragment>
           </Router>
-
         </React.Fragment>
       );
     }

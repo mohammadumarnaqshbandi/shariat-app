@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Row, Col, Card, Button, Pagination, BackTop, Carousel } from "antd";
 import Plyr from "react-plyr";
 import { observer } from "mobx-react";
-import "../styles/sunday.css"
+import "../styles/sunday.css";
 
 const SundayMajlis = observer(
   class extends Component {
@@ -22,7 +22,7 @@ const SundayMajlis = observer(
         currentPage,
         fetchBayans,
         searchTerm,
-        filterBayans,
+        filterBayans
       } = store;
       return (
         <React.Fragment>
@@ -41,17 +41,17 @@ const SundayMajlis = observer(
             </Col>
           </Row>
           <div className="sd-color">
-          <Row
-            gutter={32}
-            className="mr-0"
-            type="flex"
-            justify="space-between"
-            style={{marginLeft: "0"}}
-          >
-            {/* <Col span={24} className="bayan-header">
+            <Row
+              gutter={32}
+              className="mr-0"
+              type="flex"
+              justify="space-between"
+              style={{ marginLeft: "0" }}
+            >
+              {/* <Col span={24} className="bayan-header">
               <h1 className="text-center">SUNDAY MAJLIS</h1>
             </Col> */}
-            {/* <Col span={24}>
+              {/* <Col span={24}>
               <Input
                 type="text"
                 placeholder="Search for Sunday bayans..."
@@ -61,91 +61,101 @@ const SundayMajlis = observer(
                 className="searchBar"
               />
             </Col> */}
-            {searchTerm.length === 0 ? (
-              <React.Fragment>
-                <Col span={24} className="mt-20">
-                  <h5 className="text-center">Select Page</h5>
-                  <Pagination
-                    current={currentPage}
-                    onChange={this.handleClick}
-                    total={sunday.length}
-                    pageSize={itemsPerPage}
-                    itemRender={itemRender}
-                  />
-                </Col>
-                {fetchBayans(sunday).map((i, index) => (
-                  <Col
-                    xs={24}
-                    sm={12}
-                    md={12}
-                    lg={8}
-                    xl={8}
-                    key={i.name + index}
-                  >
-                    <Card hoverable className="mt-30 recent-card sd">
-                      <h3>{i.name}</h3>
-                      <Plyr
-                        url={i.src}
-                        type="audio"
-                        className={`react-plyr-${index} sd`}
-                        controls={[
-                          "play",
-                          "progress",
-                          "current-time",
-                          "mute",
-                          "volume"
-                        ]}
-                        title={i.name}
-                        preload="none"
-                      />
-                      <p>
-                        <small>
-                          {i.date.split('/').join('.') || "N/A"} | {i.category || "N/A"} |{" "}
-                          {i.length || "N/A"}
-                        </small>
-                      </p>
-                      <Button href={i.src} size="large">DOWNLOAD</Button>
-                    </Card>
-                  </Col>
-                ))}
-              </React.Fragment>
-            ) : filterBayans(sunday).length !== 0 ? 
-             <React.Fragment>
-               <h3 className="text-center mt-30">Search results for '{searchTerm}'</h3>
-               {(
-              filterBayans(sunday).map((i, index) => (
-                <Col xs={24} sm={12} md={12} lg={8} xl={8} key={i.name + index}>
-                  <Card hoverable className="mt-30 recent-card">
-                    <h2>{i.name}</h2>
-                    <Plyr
-                      url={i.src}
-                      type="audio"
-                      className={"react-plyr-" + index}
-                      controls={[
-                        "play",
-                        "progress",
-                        "current-time",
-                        "mute",
-                        "volume"
-                      ]}
-                      title={i.name}
-                      preload="none"
+              {searchTerm.length === 0 ? (
+                <React.Fragment>
+                  <Col span={24} className="mt-20">
+                    <h5 className="text-center">Select Page</h5>
+                    <Pagination
+                      current={currentPage}
+                      onChange={this.handleClick}
+                      total={sunday.length}
+                      pageSize={itemsPerPage}
+                      itemRender={itemRender}
                     />
-                    <p>
-                      <small>
-                        {i.date || "N/A"} | {i.category || "N/A"} |{" "}
-                        {i.length || "N/A"}
-                      </small>
-                    </p>
-                    <Button href={i.src}>DOWNLOAD</Button>
-                  </Card>
-                </Col>
-              ))
-            )}
-            </React.Fragment> : (
-              <h3 className="text-center mt-30">Nothing found!</h3>
-            )}
-          </Row>
+                  </Col>
+                  {fetchBayans(sunday).map((i, index) => (
+                    <Col
+                      xs={24}
+                      sm={12}
+                      md={12}
+                      lg={8}
+                      xl={8}
+                      key={i.name + index}
+                    >
+                      <Card hoverable className="mt-30 recent-card sd">
+                        <h3>{i.name}</h3>
+                        <Plyr
+                          url={i.src}
+                          type="audio"
+                          className={`react-plyr-${index} sd`}
+                          controls={[
+                            "play",
+                            "progress",
+                            "current-time",
+                            "mute",
+                            "volume"
+                          ]}
+                          title={i.name}
+                          preload="none"
+                        />
+                        <p>
+                          <small>
+                            {i.date.split("/").join(".") || "N/A"} |{" "}
+                            {i.category || "N/A"} | {i.length || "N/A"}
+                          </small>
+                        </p>
+                        <Button href={i.src} size="large">
+                          DOWNLOAD
+                        </Button>
+                      </Card>
+                    </Col>
+                  ))}
+                </React.Fragment>
+              ) : filterBayans(sunday).length !== 0 ? (
+                <React.Fragment>
+                  <h3 className="text-center mt-30">
+                    Search results for '{searchTerm}'
+                  </h3>
+                  {filterBayans(sunday).map((i, index) => (
+                    <Col
+                      xs={24}
+                      sm={12}
+                      md={12}
+                      lg={8}
+                      xl={8}
+                      key={i.name + index}
+                    >
+                      <Card hoverable className="mt-30 recent-card">
+                        <h2>{i.name}</h2>
+                        <Plyr
+                          url={i.src}
+                          type="audio"
+                          className={"react-plyr-" + index}
+                          controls={[
+                            "play",
+                            "progress",
+                            "current-time",
+                            "mute",
+                            "volume"
+                          ]}
+                          title={i.name}
+                          preload="none"
+                        />
+                        <p>
+                          <small>
+                            {i.date || "N/A"} | {i.category || "N/A"} |{" "}
+                            {i.length || "N/A"}
+                          </small>
+                        </p>
+                        <Button href={i.src}>DOWNLOAD</Button>
+                      </Card>
+                    </Col>
+                  ))}
+                </React.Fragment>
+              ) : (
+                <h3 className="text-center mt-30">Nothing found!</h3>
+              )}
+            </Row>
           </div>
         </React.Fragment>
       );

@@ -1,24 +1,24 @@
 .by-header .ant-carousel  {
-	background-image: url('../images/by.jpg');
-	background-position: 20% 50%;
-	height: 55vh;
+	background-image: url('https://media.giphy.com/media/AlqUdr1CSODLO/giphy.gif');
+	background-position: 40% 0%;
+	height: 65vh;
 }
 
 .bg-bayan {
 	/* background-color: #347191; */
 	/* background-color: #3066BE; */
-	background-color: #c7b18a;
+	background-color: #c5d289;
 	padding-bottom: 30px;
 }
 
 .base-bayan {
 	height: 1vh;
-	background-color: #876963; 
+	background-color: #d0d3b8; 
 }
 
 .base-bayan-2 {
 	height: 1vh;
-	background-color: #a9746a; 
+	background-color: #4d632a; 
 }
 
 .fill-height {
@@ -28,18 +28,22 @@
 @media (max-width: 500px) {
 	.by-header .ant-carousel {
 		height: 65vh;
-		background-position: 20% 50%;
+		/* background-position: 20% 50%; */
 	}
 }
  
 .header-text {
 	font-size: 55px;
-    margin-top: 107px;
+    margin-top: 80px;
 }
 
 @media (max-width: 500px) {
 	.fill-height {
 		height: 70vh;
+	}
+
+	.header-text {
+		margin-top: 40%;
 	}
 }
 

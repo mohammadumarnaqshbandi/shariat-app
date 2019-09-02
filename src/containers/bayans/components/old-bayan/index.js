@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Row, Col, Card, Button, Pagination, BackTop, Carousel } from "antd";
 import Plyr from "react-plyr";
 import { observer } from "mobx-react";
-import "../../../../styles/oldbayans.css"
+import "../../../../styles/oldbayans.css";
 
 const OldBayan = observer(
   class extends Component {
@@ -22,18 +22,18 @@ const OldBayan = observer(
         currentPage,
         fetchBayans,
         searchTerm,
-        filterBayans,
+        filterBayans
       } = store;
       return (
         <React.Fragment>
           <BackTop />
           <Row>
             <Col span={24} className={"od-header"}>
-            <Carousel autoplay={true} effect="fade" dots={false}>
-              <div className="image-container">
-              <h1 className="od-header-text">Old Bayans</h1>
-              </div>
-            </Carousel>
+              <Carousel autoplay={true} effect="fade" dots={false}>
+                <div className="image-container">
+                  <h1 className="od-header-text">Old Bayans</h1>
+                </div>
+              </Carousel>
             </Col>
           </Row>
           <Row
@@ -102,40 +102,48 @@ const OldBayan = observer(
                   </Col>
                 ))}
               </React.Fragment>
-            ) : filterBayans(oldBayans).length !== 0 ? 
-            <React.Fragment>
-               <h3 className="text-center mt-30">Search results for '{searchTerm}'</h3>
-               {(
-              filterBayans(oldBayans).map((i, index) => (
-                <Col xs={24} sm={12} md={12} lg={8} xl={8} key={i.name + index}>
-                  <Card hoverable className="mt-30 recent-card">
-                    <p>{i.name}</p>
-                    <Plyr
-                      url={i.src}
-                      type="audio"
-                      className={"react-plyr-" + index}
-                      controls={[
-                        "play",
-                        "progress",
-                        "current-time",
-                        "mute",
-                        "volume"
-                      ]}
-                      title={i.name}
-                      preload="none"
-                    />
-                    <p>
-                      <small>
-                        {i.date || "N/A"} | {i.category || "N/A"} |{" "}
-                        {i.length || "N/A"}
-                      </small>
-                    </p>
-                    <Button href={i.src}>DOWNLOAD</Button>
-                  </Card>
-                </Col>
-              ))
-            )}
-            </React.Fragment> : (
+            ) : filterBayans(oldBayans).length !== 0 ? (
+              <React.Fragment>
+                <h3 className="text-center mt-30">
+                  Search results for '{searchTerm}'
+                </h3>
+                {filterBayans(oldBayans).map((i, index) => (
+                  <Col
+                    xs={24}
+                    sm={12}
+                    md={12}
+                    lg={8}
+                    xl={8}
+                    key={i.name + index}
+                  >
+                    <Card hoverable className="mt-30 recent-card">
+                      <p>{i.name}</p>
+                      <Plyr
+                        url={i.src}
+                        type="audio"
+                        className={"react-plyr-" + index}
+                        controls={[
+                          "play",
+                          "progress",
+                          "current-time",
+                          "mute",
+                          "volume"
+                        ]}
+                        title={i.name}
+                        preload="none"
+                      />
+                      <p>
+                        <small>
+                          {i.date || "N/A"} | {i.category || "N/A"} |{" "}
+                          {i.length || "N/A"}
+                        </small>
+                      </p>
+                      <Button href={i.src}>DOWNLOAD</Button>
+                    </Card>
+                  </Col>
+                ))}
+              </React.Fragment>
+            ) : (
               <h3 className="text-center mt-30">Nothing found!</h3>
             )}
           </Row>

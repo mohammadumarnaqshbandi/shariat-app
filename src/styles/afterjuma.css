@@ -34,7 +34,7 @@
 }
 
 .aj-bg {
-    background-color: #d1809a;
+    background-color: #c7b18a;
     height: auto;
     padding-bottom: 30px;
     margin-left: 0!important;
@@ -58,14 +58,14 @@
 
 
 .aj-bg .ant-card {
-    background-color: #e0a5b8; 
+    background-color: #ece2d0; 
     border: 0;
 }
 
 
 .aj-bg .ant-pagination-item {
-    background-color: #c2a3a4;
-    border-color: #c2a3a4;
+    background-color: #a57786;
+    border-color: #a57786;
 }
 
 .aj-bg .ant-pagination-item a {
@@ -73,11 +73,11 @@
 }
 
 .aj-bg .ant-pagination-item-active {
-    border-color: #c2a3a4!important;
+    border-color: #a57786!important;
 }
 
 .aj-bg .ant-pagination-item:focus, .ant-pagination-item:hover {
-    border-color: #c2a3a4!important;
+    border-color: #a57786!important;
     background-color: #fff;
 }
 
@@ -91,28 +91,28 @@
 }
 
 .aj-bg .ant-btn {
-    background-color: #c2a3a4;
+    background-color: #a57786;
 }
 
 
 .aj-bg .plyr--full-ui input[type=range] {
-    color: #c2a3a4;
+    color: #a57786;
   }
   
   .aj-bg .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
   
-    background: #c2a3a4;
+    background: #a57786;
     color: #fff;
   
   }
 
   .aj-bg .ant-btn {
-      background-color: #c2a3a4;
+      background-color: #a57786;
       color: #ffffff!important;
   }
 
   .aj-bg .ant-btn:hover, .aj-bg .ant-btn:focus {
-    border-color: #c2a3a4;
+    border-color: #a57786;
     color: #000000!important;
     background: #ffffff;
   }
@@ -142,12 +142,12 @@
   }
   
   .aj-bg .ant-pagination-item-active a {
-    color: #c2a3a4!important;
+    color: #a57786!important;
   }
   
   .aj-bg .ant-pagination-item-active {
     background: #fff!important;
-    border-color: #c2a3a4!important;
+    border-color: #a57786!important;
   }
   
   .aj-bg .ant-pagination-item:focus a {
@@ -155,32 +155,32 @@
   }
   
   .aj-bg .ant-pagination-item:hover a {
-    color: #c2a3a4!important;
+    color: #a57786!important;
   }
   
   .aj-bg .ant-pagination-item-active:hover a {
-    color: #c2a3a4!important;
+    color: #a57786!important;
   }
   
   .aj-bg .ant-pagination-item-active:focus a {
-    color: #c2a3a4!important;
+    color: #a57786!important;
   }
   
   .aj-bg .ant-pagination-item:focus, .ant-pagination-item:hover {
-    border-color: #c2a3a4!important;
+    border-color: #a57786!important;
   }
   
   
   .aj-bg .ant-pagination-item {
     border-radius: 0;
-    border: 1.5px solid #c2a3a4;
+    border: 1.5px solid #a57786;
     border-radius: 2.5px;
-    background-color: #c2a3a4;
+    background-color: #a57786;
     color: #ffffff;
     margin: 5px 7px;
   }
   
   .aj-bg .ant-pagination-item:hover {
     background-color: #fff;
-    color: #c2a3a4;
+    color: #a57786;
   }
