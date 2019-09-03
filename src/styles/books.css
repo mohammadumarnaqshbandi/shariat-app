@@ -29,6 +29,11 @@
     width: 100%;
 }
 
+.bk-background {
+    background-color: #ecc896;
+    height: 100vh;
+}
+
 @media (max-width: 786px) {
     .bk-header .ant-carousel {
         height: 80vh;
@@ -100,10 +105,7 @@
     background-color: #b03327;
 }
 
-.bk-background {
-    background-color: #ecc896;
-    height: 100vh;
-}
+
 
 .text-center {
     text-align: center;

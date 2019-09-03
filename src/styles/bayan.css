@@ -28,13 +28,12 @@
 @media (max-width: 500px) {
 	.by-header .ant-carousel {
 		height: 65vh;
-		/* background-position: 20% 50%; */
 	}
 }
  
 .header-text {
 	font-size: 55px;
-    margin-top: 80px;
+    margin-top: 110px;
 }
 
 @media (max-width: 500px) {

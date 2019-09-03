@@ -1,0 +1,23 @@
+.poster-card {
+    width: 400px;
+}
+
+@media (max-width: 500px) {
+    .poster-card {
+        width: 300px;
+    }
+}
+
+
+.pt-background {
+    background-color: #d9edff;
+}
+
+.base-poster {
+    height: 1vh;
+    background-color: #fbcf79;
+}
+
+.pt-background.poster-card {
+    box-shadow: 4px 7px 5px 4px rgba(0, 0, 0, 0.15);
+}

@@ -1,13 +1,17 @@
-import React, { Component } from "react";
-import { Row, Col, BackTop, } from "antd";
-import "antd/dist/antd.css";
-import "../../styles/books.css";
+import React, { Component } from "react"
+import { Row, Col, BackTop, Card } from "antd"
+import "antd/dist/antd.css"
+import "../../styles/poster.css"
+import poster1 from "../../images/poster1.jpg"
+import poster2 from "../../images/poster2.jpg"
+
+const {Meta} = Card
 
 class Poster extends Component {
   render() {
     const styles = {
       color: "#ffffff"
-    };
+    }
     return (
       <React.Fragment>
         <BackTop />
@@ -21,23 +25,45 @@ class Poster extends Component {
             </Carousel>
           </Col>
         </Row> */}
-        {/* <div className="base-books-2"></div> */}
+        
         {/* <div className="line1" style={{height: '1vh',
 	backgroundColor: '#efaad9'}}></div> */}
         {/* <div className="line1" style={{height: '1vh',
     backgroundColor: 'rgb(227, 166, 208)'}}></div> */}
-        <div className="bk-background">
+      <div className="base-poster"></div>
+        <div className="pt-background">
           <Row className={"row-top majlis"}>
-            <Col span={24} className={"col-top pd-30"} style={styles}>
-              <h2 className="text-center white">
-                Sorry! This page is under construction.
-              </h2>
+            <Col xs={24}
+                    sm={12}
+                    md={12}
+                    lg={8}
+                    xl={8} className={"col-top pd-30"} style={styles}>
+              <Card
+                hoverable
+                className="poster-card"
+                cover={<img alt="example" src={poster1} />}
+              >
+                <Meta title="10 Muharram Poster" description="" />
+              </Card>
+            </Col>
+            <Col xs={24}
+                    sm={12}
+                    md={12}
+                    lg={8}
+                    xl={8} className={"col-top pd-30"} style={styles}>
+              <Card
+                hoverable
+                className="poster-card"
+                cover={<img alt="example" src={poster2} />}
+              >
+                <Meta title="10 Muharram Poster" description="" />
+              </Card>
             </Col>
           </Row>
         </div>
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default Poster;
+export default Poster
