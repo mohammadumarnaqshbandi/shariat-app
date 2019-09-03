@@ -4,7 +4,7 @@
 
 @media (max-width: 500px) {
     .poster-card {
-        width: 300px;
+        width: 100%;
     }
 }
 
@@ -15,7 +15,7 @@
 
 .base-poster {
     height: 1vh;
-    background-color: #fbcf79;
+    background-color: #d2d1d1d9;
 }
 
 .pt-background.poster-card {
