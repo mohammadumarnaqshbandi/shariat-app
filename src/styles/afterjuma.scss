@@ -1,0 +1,143 @@
+@import './variables';
+.aj-header {
+  .ant-carousel {
+      background-image: url('../images/af.jpg');
+      background-position: 76% 37%;
+      height: 65vh;
+  }
+}
+
+.aj-header-text {
+    color: $black;
+    font-size: 60px;
+    margin-top: 147px;
+}
+
+@media (max-width: 500px) {
+  .aj-header-text {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+}
+
+.base-aj {
+  height: 1vh;
+  background-color: #e5d7ce;
+}
+
+.base-aj-2 {
+  height: 1vh;
+  background-color: $aj-accent;
+}
+
+.aj-bg {
+  background-color: #c7b18a;
+  height: auto;
+  padding-bottom: 30px;
+  margin-left: 0!important;
+  .ant-card {
+      background-color: #ece2d0; 
+      border: 0;
+      color: $black;
+      p {
+        font-size: 20px;
+        color: $black;
+      }
+  }
+
+  .ant-btn {
+    background-color: $aj-accent;
+    color: $white!important;
+    &:hover, &:focus {
+      border-color: $aj-accent;
+      color: $black!important;
+      background: $white;
+    }
+  }
+
+  .link-btn {
+    border: 0;
+    background: transparent;
+    color: $black!important;
+    padding: 0 0;
+    &:hover, &:focus {
+      border: 0;
+      background: transparent;
+      color: $white!important;
+      padding: 0 0;
+    }
+  }
+
+  .ant-pagination-item {
+    background-color: $aj-accent;
+    border-color: $aj-accent;
+    border-radius: 0;
+    border: 1.5px solid $aj-accent;
+    border-radius: 2.5px;
+    background-color: $aj-accent;
+    color: $white;
+    margin: 5px 7px;
+    a {
+      color: $white!important;
+    }
+
+    &:hover {
+      color: $aj-accent;
+      a {
+        color: $aj-accent!important;
+      }
+    }
+
+    &:focus {
+      a {
+        color: $aj-accent!important;
+      }
+    }
+    
+    &:hover, &:focus {
+      border-color: $aj-accent!important;
+      background-color: $white;
+    } 
+  }
+
+  .ant-pagination-item-active {
+    border-color: $aj-accent!important;
+    background: $white!important;
+    a {
+      color: $aj-accent!important;
+    }
+
+    &:hover, &:focus {
+      a {
+        color: $aj-accent!important;
+      }
+    }
+  }
+
+  .ant-pagination-prev, .ant-pagination-next  {
+    button {
+      background: transparent;
+      color: $white!important;
+    }
+  }
+
+  .plyr--full-ui input[type=range] {
+    color: $aj-accent;
+  }
+  
+  .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
+    background: $aj-accent;
+    color: $white;
+  }
+  
+}
+
+// .search-container {
+//     width: 300px;
+//     margin: 0 auto;
+// }
+
+// .searchBar.ant-input {
+//     background-color: rgb(232, 183, 151);
+// }

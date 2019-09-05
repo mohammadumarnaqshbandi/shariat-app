@@ -12,6 +12,38 @@
   background-color: #6fb4ef;
 }
 
+.hm-bg {
+
+  .ant-carousel {
+    height: 65vh;
+  }
+
+  .image-container {
+    width: auto!important;
+    height: 65vh;
+  }
+
+}
+
+.ant-carousel {
+  text-align: center;
+  /*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), center center / contain no-repeat;*/
+  /*background-color: #CAD2C5; */
+  /*background-color: #fcd669;*/
+  /*background-color: #87bbfd;*/
+  background-image: url('../images/bg-h.jpg');
+  background-size: cover;
+  background-position: 18% 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 40vh;
+
+  .slick-slide img {
+    display: inherit;
+  }
+}
+
+
 .live-player {
   width: 100%;
   height: 180px;
@@ -22,7 +54,6 @@
     width: 100%;
   }
 } 
-
 
 .user_info h1 a {
   font-size: 22px;
@@ -44,33 +75,11 @@ a {
   color: #ffffff;
 }
 
-.ant-carousel {
-    text-align: center;
-    /*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), center center / contain no-repeat;*/
-    /*background-color: #CAD2C5; */
-    /*background-color: #fcd669;*/
-    /*background-color: #87bbfd;*/
-    background-image: url('../images/bg-h.jpg');
-    background-size: cover;
-    background-position: 18% 100%;
-    overflow: hidden;
-    width: 100%;
-    height: 40vh;
-  }
-
-  .hm-bg .ant-carousel {
-    height: 65vh;
-  }
 
   
   /* .hm-bg .ant-carousel .slick-slide img {
     background-position: 90% 90%;
   } */
-
-  .hm-bg .image-container {
-    width: auto!important;
-    height: 65vh;
-  }
 
   .helper-slide-1 ,.helper-slide-2 ,.helper-slide-3 {
     display: inline-block;
@@ -141,27 +150,19 @@ a {
   } */
 
 
-  .bg-color {
-    /*background-color: #6772e5;*/
-    background-color: #142C98;
-  }
+  // .bg-color {
+  //   /*background-color: #6772e5;*/
+  //   background-color: #142C98;
+  // }
 
   /* .ant-carousel .slick-slider {
     top: -9px;
   } */
 
-  .text-center {
-    text-align: center;
-  }
-
   /* .ant-carousel .slick-slide h1 {
     color: rgb(242, 227, 180)!important;
     padding-top: 35vh;
   } */
-
-  .ant-carousel .slick-slide img {
-    display: inherit;
-  }
 
   .slider {
     width: 100%;
@@ -208,8 +209,8 @@ margin-top: 20px;
 }
 
 .mrl-0 {
-margin-left: 0!important;
-margin-right: 0!important;
+  margin-left: 0!important;
+  margin-right: 0!important;
 }
 
 .mt-45 {

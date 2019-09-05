@@ -1,7 +1,7 @@
 import React from 'react'
 import {Col, Card, Button} from 'antd'
 import Plyr from 'react-plyr'
-import '../../../../styles/recent.css'
+import '../../../../styles/recent.scss'
 import { Link } from 'react-router-dom'
 
 const Recent = ({store, url, handleLink}) => (

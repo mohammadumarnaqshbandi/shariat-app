@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "antd/dist/antd.css";
 import { Row, Col, BackTop, Carousel, Icon } from "antd";
-import "../../styles/home.css";
+import "../../styles/home.scss";
 import { observer } from "mobx-react";
 // import Recent from "./components/recent"
 import Slide from "../../images/slide1.png";

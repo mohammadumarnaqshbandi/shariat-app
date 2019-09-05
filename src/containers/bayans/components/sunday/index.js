@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Row, Col, Card, Button, Pagination, BackTop, Carousel } from "antd";
 import Plyr from "react-plyr";
 import { observer } from "mobx-react";
-import "../styles/sunday.css";
+import '../../../../styles/sunday.scss';
 
 const SundayMajlis = observer(
   class extends Component {

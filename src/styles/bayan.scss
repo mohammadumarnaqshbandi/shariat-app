@@ -1,12 +1,14 @@
-.by-header .ant-carousel  {
-	background-image: url('https://media.giphy.com/media/AlqUdr1CSODLO/giphy.gif');
-	background-position: 40% 0%;
-	height: 65vh;
+@import './variables';
+
+.by-header {
+	.ant-carousel  {
+		background-image: url('https://media.giphy.com/media/AlqUdr1CSODLO/giphy.gif');
+		background-position: 40% 0%;
+		height: 65vh;
+	}
 }
 
 .bg-bayan {
-	/* background-color: #347191; */
-	/* background-color: #3066BE; */
 	background-color: #c5d289;
 	padding-bottom: 30px;
 }
@@ -52,12 +54,15 @@
 	}
 }
 
-.bayan-btn:first {
-	margin-top: 20px;
-}
-
 .bayan-btn {
 	margin-top: 40px;
+	box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.15);
+	background: transparent;
+	color: $white!important;
+	width: 222px;
+	&:first {
+		margin-top: 20px;
+	}
 }
 
 .btn-center {
@@ -65,10 +70,12 @@
 }
 
 
-.link-btn:hover, .link-btn:focus {
-	border: 0;
-	background: transparent;
-	color: white!important;
+.link-btn {
+	&:hover, &:focus {
+		border: 0;
+		background: transparent;
+		color: $white!important;
+	}
 }
 
 .ant-pagination-next {
@@ -79,13 +86,6 @@ table {
 	width: 100%;
 	table-layout: fixed;
 	border-collapse: collapse;
-}
-
-.bayan-btn.ant-btn {
-	box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.15);
-	background: transparent;
-	color: #ffffff!important;
-	width: 222px;
 }
 
 .row-center {

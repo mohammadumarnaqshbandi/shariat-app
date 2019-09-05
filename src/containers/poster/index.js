@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Row, Col, BackTop, Card } from "antd"
 import "antd/dist/antd.css"
-import "../../styles/poster.css"
+import "../../styles/poster.scss"
 import poster1 from "../../images/poster1.jpg"
 import poster2 from "../../images/poster2.jpg"
 

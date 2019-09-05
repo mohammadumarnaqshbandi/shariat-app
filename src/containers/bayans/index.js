@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, Link, Switch } from "react-router-dom";
 import { Button, Col, Row, BackTop, Carousel } from "antd";
 import { observer } from "mobx-react";
-import "../../styles/bayan.css";
+import "../../styles/bayan.scss";
 import "antd/dist/antd.css";
 
 const Bayans = observer(

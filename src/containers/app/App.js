@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "antd/dist/antd.css";
-import "../../styles/App.css";
+import "../../styles/App.scss";
 import Home from "../home";
 import Navbar from "../../components/common/navbar";
 import { observer } from "mobx-react";

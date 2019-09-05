@@ -6,6 +6,7 @@
     "antd": "^3.19.8",
     "mobx": "^5.9.0",
     "mobx-react": "^5.4.3",
+    "node-sass": "^4.12.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-plyr": "^2.2.0",

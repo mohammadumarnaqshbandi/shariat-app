@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col, BackTop, Carousel } from "antd";
 import "antd/dist/antd.css";
-import "../../styles/books.css";
+import "../../styles/books.scss";
 import Book1 from "../../images/bk1.jpg";
 import Book2 from "../../images/bk2.jpg";
 import Book3 from "../../images/bk3.jpg";

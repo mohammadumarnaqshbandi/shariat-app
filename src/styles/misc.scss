@@ -1,0 +1,127 @@
+@import './variables';
+.ms-header {
+    .ant-carousel {
+        background-image: url('../images/other.jpg');
+        background-position: 75% 81%;
+        height: 65vh;
+    }
+}
+
+.ms-header-text {
+    color: $white;
+    font-size: 60px;
+    margin-top: 147px;
+    text-align: center;
+}
+
+.base-ms {
+    height: 1vh;
+    background-color: #217977;
+}
+
+@media (max-width: 500px) {
+    .ms-header-text {
+    font-size: 30px;
+    margin-top: 100px;
+    }
+
+    .ms-header {
+        .ant-carousel {
+        height: 65vh;
+        }
+    }
+}
+
+.ms-bg { 
+    background-color: #36beba;
+    height: auto;
+    padding-bottom: 30px;
+    margin-left: 0!important;
+
+    .ant-card {
+        background-color: #b2fbf9; 
+        border: 0;
+        color: $black;
+        p {
+            font-size: 20px;
+            color: $black;
+        }
+    }
+
+    .ant-btn {
+        background-color: $misc-color;
+        color: $white!important;
+    }
+
+    .ant-pagination-item {
+        background-color: $white;
+        border-color: $pagination-color;
+        border: 1px solid $pagination-color;
+        a {
+            color: $black!important;
+            background-color: $pagination-color; 
+        }
+        &:hover, &:focus {
+            border-color: $pagination-color!important;
+            background-color: $white;
+        }
+    }
+
+    .ant-pagination-item-active {
+        border-color: $pagination-color!important;
+        a {
+            background-color: $white!important;
+        }
+    }
+
+    .ant-pagination-prev:hover .ant-pagination-item-link {
+        border-color: $pagination-color;
+    }
+
+    .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
+        background: $misc-color;
+        color: $black;
+    }
+
+    .plyr--full-ui input[type=range] {
+        color: $misc-color;
+    }
+
+    .ant-pagination-next .ant-pagination-item-link {
+        background-color: $misc-color;
+        border: 1px solid $misc-color;
+        color: $black!important;
+    }
+
+    .ant-pagination-disabled  {
+        a, &:hover a, &:focus a, .ant-pagination-item-link, &:hover .ant-pagination-item-link, &:focus .ant-pagination-item-link {
+            border: 1px solid $misc-color;
+            color: $black!important;
+        }
+    }
+
+    .ant-pagination-prev , .ant-pagination-next {
+        .ant-pagination-item-link {
+            color: $black!important;
+            background-color: $misc-color;
+        }
+        button {
+            color: $white!important;
+        }
+    }
+}
+
+// .search-container {
+//     width: 300px;
+//     margin: 0 auto;
+// }
+
+
+// .ms-bg { 
+//     .searchBar.ant-input {
+//         background-color: #559d90;
+//         &:focus {
+//             border-color: #559d90;
+//         }
+//     }
+// }

@@ -3,7 +3,7 @@ import { Row, Col, Card, Button, Pagination, BackTop, Carousel } from "antd";
 import Plyr from "react-plyr";
 import { observer } from "mobx-react";
 import "antd/dist/antd.css";
-import "../../../../styles/afterjuma.css";
+import "../../../../styles/afterjuma.scss";
 
 const AfterJuma = observer(
   class extends Component {
