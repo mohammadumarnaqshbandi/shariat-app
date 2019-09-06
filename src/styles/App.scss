@@ -1,25 +1,25 @@
+@import './variables';
 
 .mr-0 {
   margin-right: 0!important;
 }
 
 // /* Btn CSS */
-.ant-btn:hover, .ant-btn:focus {
-  border-color: #d5b794;
-  color: #000000!important;
-  background: #ffffff;
-}
-
 .ant-btn {
   transition: all .2s ease-out;
   background: #0e278e;
-  color: #ffffff!important;
+  color: $white!important;
   border-color: transparent;
   border-radius: 4px;
   letter-spacing: 1px;
   font-size: 15px!important;
   font-weight: 600;
   padding: 0 23px;
+  &:hover, &:focus {
+    border-color: #d5b794;
+    color: $black!important;
+    background: $white;
+  }
 }
 
 
@@ -27,6 +27,7 @@
 .ant-card {
   font-size: 16px!important;
   border-radius: 8px;
+  box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.15);
 }
 
 .ant-card-bordered {
@@ -40,11 +41,6 @@
 .ant-card-body {
   padding: 14px;
 }
-
-.ant-card {
-  box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.15);
-}
-
 
 /* Text-center */
 .text-center {
@@ -80,7 +76,7 @@
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
     margin: 20px auto;
-  }
+}
 
 @media (min-width:768px) {
   .plyr__volume {
@@ -120,15 +116,9 @@
 }
 
 .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
-
   background: #ece2d0;
-  color: #fff;
-
+  color: $white;
 }
-
-// .recent-card .ant-body{
-//   padding: 10px;
-// }
 
 /* Pagination CSS */
 
@@ -136,54 +126,42 @@
   text-align: center;
 }
 
-.ant-pagination-item a {
-  color: #ffffff!important;
-}
-
-.ant-pagination-item-active a {
-  color: #0e278e!important;
-}
-
-.ant-pagination-item-active {
-  background: #fff!important;
-  border-color: #0e278e!important;
-}
-
-.ant-pagination-item:focus a {
-  color: #fff!important;
-}
-
-.ant-pagination-item:hover a {
-  color: #0e278e!important;
-}
-
-.ant-pagination-item-active:hover a {
-  color: #0e278e!important;
-}
-
-.ant-pagination-item-active:focus a {
-  color: #0e278e!important;
-}
-
-.ant-pagination-item:focus, .ant-pagination-item:hover {
-  border-color: #0e278e!important;
-}
-
-
 .ant-pagination-item {
   border-radius: 0;
   border: 1.5px solid #0e278e;
   border-radius: 2.5px;
   background-color: #0e278e;
-  color: #ffffff;
+  color: $white;
   margin: 5px 7px;
+  &:hover {
+    background-color: $white;
+    color: #0e278e;
+  }
+  &:hover, &:focus {
+    border-color: #0e278e!important;
+  }
+  a {
+    color: $white!important;
+  }
+  &:hover a {
+    color: #0e278e!important;
+  }
+  &:focus a {
+    color: $white!important;
+  }
 }
 
-.ant-pagination-item:hover {
-  background-color: #fff;
-  color: #0e278e;
-}
+.ant-pagination-item-active {
+  background: $white!important;
+  border-color: #0e278e!important;
+  a {
+    color: #0e278e!important;
+  }
 
+  &:hover a , &:focus a {
+    color: #0e278e!important;
+  }
+}
 /* Text-center */
 
 // .text-center {
@@ -213,5 +191,5 @@
 
 // .searchBar.ant-input::placeholder {
 //   font-size: 18px;
-//   color: #000000;
+//   color: $black;
 // }

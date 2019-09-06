@@ -1,3 +1,4 @@
+@import './variables';
 * {
   box-sizing: border-box;
 }
@@ -19,7 +20,7 @@ body {
   font-weight: 500;
   height: 100%!important;
   max-height: 100%!important;
-  color: #ffffff!important;
+  color: $white!important;
 }
 
 @media (max-width: 500px) {
@@ -29,7 +30,7 @@ body {
 }
 
 .black-text {
-  color: #000;
+  color: $black;
 }
 
 h1 {
