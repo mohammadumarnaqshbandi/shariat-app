@@ -3,11 +3,18 @@ import "../../../styles/navbar.scss";
 import { Link } from "react-router-dom";
 import logo from "../../../images/logo.png";
 import "antd/dist/antd.css";
-import { Row, Col, Icon } from "antd";
+import { Row, Col, Icon, Button } from "antd";
+import { observer } from "mobx-react";
 
-const Navbar = props => {
+const Navbar = observer(props => {
+  const { store, handleLang } = props;
+  const { lang } = store;
+
   return (
     <Row>
+      <Col span={24} id="lang-bar">
+      <Button onClick={handleLang} value="eng" className="lang-btn">English</Button><Button onClick={handleLang} value="urdu" className="lang-btn">Urdu</Button>
+      </Col>
       <Col span={24}>
         <nav>
           <input
@@ -31,22 +38,22 @@ const Navbar = props => {
             <ul>
               <li>
                 <Link onClick={props.handleNavBtn} to="/">
-                  Home
+                  {lang === "eng" ? "Home" : "ہوم پیج"}
                 </Link>
               </li>
               <li>
                 <Link onClick={props.handleNavBtn} to="/bayans">
-                  Bayans
+                  {lang === "eng" ? "Bayans" : "بیانات"}
                 </Link>
               </li>
               <li>
                 <Link onClick={props.handleNavBtn} to="/books">
-                  Books
+                  {lang === "eng" ? "Books" : "کتابیں"}
                 </Link>
               </li>
               <li>
                 <Link onClick={props.handleNavBtn} to="/poster">
-                  Posters
+                  {lang === "eng" ? "Posters" : "پوسٹر"}
                 </Link>
               </li>
               <li>
@@ -68,6 +75,6 @@ const Navbar = props => {
       </Col>
     </Row>
   );
-};
+});
 
 export default Navbar;

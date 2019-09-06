@@ -43,6 +43,12 @@ const App = observer(
       window.scrollTo(0, 0);
     };
 
+    handleLangChange = e => {
+      // this.props.store.lang === "eng" ? this.props.store.lang = "urdu" : this.props.store.lang = "eng";
+      console.log("Btn Value", e.target.value)
+      this.props.store.lang = e.target.value
+    }
+
     itemRender = (current, type, originalElement) => {
       if (type === "prev") {
         return <Button className="link-btn">Previous</Button>;
@@ -62,8 +68,10 @@ const App = observer(
             <React.Fragment>
               <Navbar
                 handleCheckbox={this.handleCheckbox}
+                handleLang={this.handleLangChange}
                 handleNavBtn={this.handleNavBtn}
                 checked={this.state.checked}
+                store={store}
               />
               <Switch>
                 <Route

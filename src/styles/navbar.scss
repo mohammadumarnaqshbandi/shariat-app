@@ -94,6 +94,26 @@ nav {
       }
 }
 
+#lang-bar {
+      background-color: rgba(233, 242, 249, 1);
+      height: 4vh;
+      text-align: right;
+}
+
+.lang-btn {
+      background: transparent;
+      padding: 0 20px;
+      color: black!important;
+      border: 0;
+      font-size: 17px;
+      box-shadow: 0;
+      &:hover, &:focus {
+            background: transparent;
+            color: black!important;  
+      }
+
+}
+
 @media screen and (max-width: 864px) {
     .logo {
           padding: 0;

@@ -1,28 +1,22 @@
 import React, { Component } from "react";
 import "antd/dist/antd.css";
-import { Row, Col, BackTop, Carousel, Icon } from "antd";
+import { Row, Col, BackTop, Carousel, Icon, Button } from "antd";
 import "../../styles/home.scss";
 import { observer } from "mobx-react";
-// import Recent from "./components/recent"
 import Slide from "../../images/slide1.png";
 import Slide1 from "../../images/slide2.png";
 import Slide2 from "../../images/slide3.png";
 
 const Home = observer(
   class extends Component {
-    // componentDidMount() {
-    //   let audio = document.querySelector('audio');
-    //   audio.volume = 0.2
-    // }
     render() {
-      // const { store } = this.props;
+      const { store } = this.props;
+
+      const { lang } = store;
 
       return (
         <React.Fragment>
           <BackTop />
-          {/* <audio id="bg-audio" src={Slide1} autoplay="true">
-            <p>If you are reading this, it is because your browser does not support the audio element.</p>
-          </audio> */}
           <div className="base-home"></div>
           <Row>
             <Col span={24} className="hm-bg">
@@ -58,7 +52,7 @@ const Home = observer(
                     xl={24}
                     className="live-broadcast"
                   >
-                    <h1 className="white-text">Live Bayan</h1>
+                    <h1 className="white-text">{ lang === "eng" ? "Live Bayan" : "جاری بیان"}</h1>
                     <iframe
                       src="https://mixlr.com/users/5385796/embed?color=6fb4ef&artwork=true"
                       title="Live Player"
@@ -77,8 +71,9 @@ const Home = observer(
                     xl={24}
                     className="mt-40"
                   >
-                    <h1 className="text-center white-text">Announcements</h1>
+                    <h1 className="text-center white-text">{lang === "eng" ? "Announcements" : "اعلان"}</h1>
                     <p>
+                      {lang === "eng" ? <>
                       Insha Allah Bayan by Hazrat Haji Shakeel Ahmad Sb Db is
                       held at Panvel on 1st and 2nd Sunday (11:00 A.M. IST) of
                       every month.
@@ -99,6 +94,38 @@ const Home = observer(
                         />
                       </a>{" "}
                       Channel.
+                      </> : 
+                      <>
+                      <p>
+                      ہرماہ کے پہلے اور دوسرے اتوار کو حضرت حاجی شکیل احمد صاحب مدظلہ العالی کا بیان
+                      شہر پنویل ، نئی بمبئی میں گیارہ بجےدن کو ہوتاہے۔    
+                      </p> 
+                      <p>
+                      مکسلر پر جاری بیان سننے کے لیے یہاں
+                      &nbsp;
+                      <a href="https://mixlr.com/shariatinfo--3">کلک کریں۔</a>  
+                      </p>
+                      <p>
+                      کے آفیشیل 
+                      &nbsp;
+                      <a
+                        href="https://www.youtube.com/channel/UCoModkBOUWZKFrQWyoIulOw/videos"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span className="youtube-text">یوٹیوب</span>
+                        &nbsp;
+                        <Icon
+                          type="youtube"
+                          style={{ color: "red" }}
+                          theme="filled"
+                        />
+                        &nbsp;
+                      </a>
+                      چینل کو سبسکرائب کرلیں۔ Shariat.info 
+                      </p>
+                      </>
+                    }
                     </p>
                   </Col>
                 </div>

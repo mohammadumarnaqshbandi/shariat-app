@@ -7,19 +7,10 @@ export class Bayans {
   afterJuma = this.allBayans.filter(item => item.category === "after juma");
   beforeJuma = this.allBayans.filter(item => item.category === "before juma");
   misc = this.allBayans.filter(item => item.category === "miscellaneous");
-  // oldBayans = this.allBayans.filter(item => item.category === 'old bayans')
   currentPage = 1;
   itemsPerPage = 15;
   searchTerm = "";
-
-  // get recentBayans() {
-  //     let recentSunday = this.sunday.slice(0, 1)
-  //     let recentAfterfriday = this.afterJuma.slice(0, 1)
-  //     let recentBeforefriday = this.beforeJuma.slice(0, 1)
-  //     let recentOldBayan = this.oldBayans.slice(0, 1)
-  //     let recent = recentSunday.concat(recentAfterfriday, recentBeforefriday, recentOldBayan)
-  //     return recent
-  // }
+  lang = "eng";
 
   get recentSunday() {
     let recent = this.sunday.slice(0, 4);
@@ -57,20 +48,21 @@ export class Bayans {
   };
 }
 
-decorate(Bayans, {
+decorate(
+  Bayans, {
   allBayans: observable,
   sunday: observable,
   afterJuma: observable,
   beforeJuma: observable,
   misc: observable,
   oldBayans: observable,
-  // recentBayans: computed,
   currentPage: observable,
   itemsPerPage: observable,
+  lang: observable,
+  searchTerm: observable,
   fetchBayans: action,
   filterBayans: action,
   handleSearch: action,
-  searchTerm: observable,
   recentSunday: computed,
   recentJuma: computed,
   recentAfterJuma: computed

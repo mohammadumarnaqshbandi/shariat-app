@@ -5,7 +5,7 @@ import { observer } from "mobx-react";
 import "../../styles/bayan.scss";
 import "antd/dist/antd.css";
 
-const Bayans = observer(
+const Bayans = observer (
   class extends Component {
     handleButton = () => {
       this.props.store.currentPage = 1;
@@ -24,6 +24,8 @@ const Bayans = observer(
 
     render() {
       const { match } = this.props;
+      const { store } = this.props;
+      const { lang } = store
       return (
         <React.Fragment>
           <BackTop />
@@ -33,7 +35,7 @@ const Bayans = observer(
               <Carousel autoplay={true} effect="fade" dots={false}>
                 <div className="image-container">
                   <h1 className="header-text" style={{ color: "#fafafa" }}>
-                    Bayans
+                    {lang === "eng" ? "Bayans" : "بیانات"}
                   </h1>
                 </div>
               </Carousel>
@@ -59,7 +61,7 @@ const Bayans = observer(
                                     className="bayan-btn"
                                     onClick={this.handleButton}
                                   >
-                                    SUNDAY BAYANS
+                                    {lang === "eng" ? "SUNDAY BAYANS" : "اتوارکے بیانات"}
                                   </Button>
                                 </Link>
                               </Col>
@@ -81,7 +83,7 @@ const Bayans = observer(
                                     className="bayan-btn"
                                     onClick={this.handleButton}
                                   >
-                                    JUMA BAYANS
+                                    {lang === "eng" ? "JUMA BAYANS" : "جمعہ کے بیانات"}
                                   </Button>
                                 </Link>
                               </Col>
@@ -103,7 +105,7 @@ const Bayans = observer(
                                     className="bayan-btn"
                                     onClick={this.handleButton}
                                   >
-                                    AFTER JUMA
+                                    {lang === "eng" ? "AFTER JUMA" : "جمعہ کے بعد بیانات"}
                                   </Button>
                                 </Link>
                               </Col>
@@ -148,7 +150,7 @@ const Bayans = observer(
                                     className="bayan-btn"
                                     onClick={this.handleButton}
                                   >
-                                    OTHER BAYANS
+                                    {lang === "eng" ? "OTHER BAYANS" : "دیگر بیانات"}
                                   </Button>
                                 </Link>
                               </Col>
