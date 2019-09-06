@@ -33,21 +33,12 @@
     color: $white;
 }
 
-.sd.ant-card {
-  background-color: #cde285;
-  color: $black;
-}
-
 .sd-color {
   background-color: #7a9814;
 
-  .plyr--full-ui input[type=range] {
-    color: $sd-accent;
-  }
-  
-  .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
-    background: $sd-accent;
-    color: $white;
+  .ant-card {
+    background-color: #cde285;
+    color: $black;
   }
 
   .ant-btn {
@@ -107,5 +98,14 @@
     &:hover a, &:focus a {
       color: $sd-accent!important;
     }
+  }
+
+  .plyr--full-ui input[type=range] {
+    color: $sd-accent;
+  }
+  
+  .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
+    background: $sd-accent;
+    color: $white;
   }
 }
