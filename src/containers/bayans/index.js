@@ -34,9 +34,14 @@ const Bayans = observer (
             <Col span={24} className={"by-header"}>
               <Carousel autoplay={true} effect="fade" dots={false}>
                 <div className="image-container">
-                  <h1 className="header-text" style={{ color: "#fafafa" }}>
-                    {lang === "eng" ? "Bayans" : "بیانات"}
-                  </h1>
+                  {lang === "eng" ?
+                    <h1 className="header-text white">
+                      Bayans
+                    </h1> :
+                    <h1 className="header-text white urdu-main-heading">
+                      بیانات
+                    </h1>
+                  }
                 </div>
               </Carousel>
             </Col>
@@ -56,13 +61,22 @@ const Bayans = observer (
                             <td>
                               <Col span={24}>
                                 <Link to={`/sunday-majlis`}>
-                                  <Button
-                                    size="large"
-                                    className="bayan-btn"
-                                    onClick={this.handleButton}
-                                  >
-                                    {lang === "eng" ? "SUNDAY BAYANS" : "اتوارکے بیانات"}
-                                  </Button>
+                                  {lang === "eng" ?
+                                    <Button
+                                      size="large"
+                                      className="bayan-btn"
+                                      onClick={this.handleButton}
+                                    >
+                                      SUNDAY BAYANS
+                                    </Button> :
+                                    <Button
+                                      size="large"
+                                      className="bayan-btn urdu-btn"
+                                      onClick={this.handleButton}
+                                    >
+                                      اتوارکے بیانات
+                                    </Button>
+                                  }
                                 </Link>
                               </Col>
                             </td>
@@ -70,21 +84,25 @@ const Bayans = observer (
                           <tr>
                             <td>
                               <Col
-                                // xs={24}
-                                // sm={8}
-                                // md={4}
-                                // lg={4}
-                                // xl={4}
                                 span={24}
                               >
                                 <Link to={`/juma-bayan`}>
-                                  <Button
-                                    size="large"
-                                    className="bayan-btn"
-                                    onClick={this.handleButton}
-                                  >
-                                    {lang === "eng" ? "JUMA BAYANS" : "جمعہ کے بیانات"}
-                                  </Button>
+                                  {lang === "eng" ?
+                                    <Button
+                                      size="large"
+                                      className="bayan-btn"
+                                      onClick={this.handleButton}
+                                    >
+                                      JUMA BAYANS
+                                    </Button> :
+                                    <Button
+                                      size="large"
+                                      className="bayan-btn urdu-btn"
+                                      onClick={this.handleButton}
+                                    >
+                                      جمعہ کے بیانات
+                                    </Button>
+                                  }
                                 </Link>
                               </Col>
                             </td>
@@ -92,66 +110,51 @@ const Bayans = observer (
                           <tr>
                             <td>
                               <Col
-                                // xs={24}
-                                // sm={8}
-                                // md={4}
-                                // lg={4}
-                                // xl={4}
                                 span={24}
                               >
                                 <Link to={`/after-juma-majlis`}>
-                                  <Button
-                                    size="large"
-                                    className="bayan-btn"
-                                    onClick={this.handleButton}
-                                  >
-                                    {lang === "eng" ? "AFTER JUMA" : "جمعہ کے بعد بیانات"}
-                                  </Button>
+                                  {lang === "eng" ?
+                                    <Button
+                                      size="large"
+                                      className="bayan-btn"
+                                      onClick={this.handleButton}
+                                    >
+                                      AFTER JUMA
+                                    </Button> :
+                                    <Button
+                                      size="large"
+                                      className="bayan-btn urdu-btn"
+                                      onClick={this.handleButton}
+                                    >
+                                      جمعہ کے بعد بیانات
+                                    </Button>
+                                  }
                                 </Link>
                               </Col>
                             </td>
                           </tr>
-                          {/* <tr>
-                      <td>
-                      <Col
-                        // xs={24}
-                        // sm={8}
-                        // md={4}
-                        // lg={4}
-                        // xl={4}
-                        span={24}
-                        className="bayan-btn"
-                      >
-                        <Link to={`/old-bayan`}>
-                          <Button 
-                          size="large" 
-                          className="by-bt-btn" 
-                          onClick={this.handleButton} 
-                          >
-                            OLD BAYANS
-                          </Button>
-                        </Link>
-                      </Col>
-                      </td>
-                      </tr> */}
                           <tr>
                             <td>
                               <Col
-                                // xs={24}
-                                // sm={8}
-                                // md={4}
-                                // lg={4}
-                                // xl={4}
                                 span={24}
                               >
                                 <Link to={`/misc-bayan`}>
-                                  <Button
-                                    size="large"
-                                    className="bayan-btn"
-                                    onClick={this.handleButton}
-                                  >
-                                    {lang === "eng" ? "OTHER BAYANS" : "دیگر بیانات"}
-                                  </Button>
+                                  {lang === "eng" ?
+                                    <Button
+                                      size="large"
+                                      className="bayan-btn"
+                                      onClick={this.handleButton}
+                                    >
+                                      OTHER BAYANS
+                                    </Button> :
+                                    <Button
+                                      size="large"
+                                      className="bayan-btn urdu-btn"
+                                      onClick={this.handleButton}
+                                    >
+                                      دیگر بیانات
+                                    </Button>
+                                  }
                                 </Link>
                               </Col>
                             </td>
@@ -160,61 +163,6 @@ const Bayans = observer (
                       </Row>
                     )}
                   />
-                  {/* <Route
-                  path={`${match.url}/sunday-majlis`}
-                  render={props => (
-                    <SundayMajlis
-                      {...props}
-                      currentPage={currentPage}
-                      store={store}
-                      itemRender={this.itemRender}
-                    />
-                  )}
-                />
-                <Route
-                  path={`${match.url}/juma-bayan`}
-                  render={props => (
-                    <JumaBayan
-                      {...props}
-                      currentPage={currentPage}
-                      store={store}
-                      itemRender={this.itemRender}
-                    />
-                  )}
-                />
-                <Route
-                  path={`${match.url}/after-juma-majlis`}
-                  render={props => (
-                    <AfterJuma
-                      {...props}
-                      currentPage={currentPage}
-                      store={store}
-                      itemRender={this.itemRender}
-                    />
-                  )}
-                />
-                <Route
-                  path={`${match.url}/old-bayan`}
-                  render={props => (
-                    <OldBayan
-                      {...props}
-                      currentPage={currentPage}
-                      store={store}
-                      itemRender={this.itemRender}
-                    />
-                  )}
-                />
-                <Route
-                  path={`${match.url}/misc-bayan`}
-                  render={props => (
-                    <MiscBayan
-                      {...props}
-                      currentPage={currentPage}
-                      store={store}
-                      itemRender={this.itemRender}
-                    />
-                  )}
-                /> */}
                 </Switch>
               </Col>
             </Row>

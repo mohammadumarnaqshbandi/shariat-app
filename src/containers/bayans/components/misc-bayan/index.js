@@ -18,6 +18,7 @@ const MiscBayan = observer(
       const { store } = this.props;
       const {
         misc,
+        lang,
         itemsPerPage,
         currentPage,
         fetchBayans,
@@ -31,7 +32,10 @@ const MiscBayan = observer(
             <Col span={24} className={"ms-header"}>
               <Carousel autoplay={true} effect="fade" dots={false}>
                 <div className="image-container">
-                  <h1 className="ms-header-text">Other Bayans</h1>
+                  {lang === "eng" ?
+                    <h1 className="ms-header-text">Other Bayans</h1> :
+                    <h1 className="ms-header-text urdu-main-heading">دیگر بیانات</h1>
+                  }
                 </div>
               </Carousel>
             </Col>

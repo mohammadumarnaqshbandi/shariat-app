@@ -13,7 +13,7 @@ const Navbar = observer(props => {
   return (
     <Row>
       <Col span={24} id="lang-bar">
-      <Button onClick={handleLang} value="eng" className="lang-btn">English</Button><Button onClick={handleLang} value="urdu" className="lang-btn">Urdu</Button>
+      <Button onClick={handleLang} value="eng" className="lang-btn">English</Button><Button onClick={handleLang} value="urdu" className="lang-btn urdu-btn">اردو</Button>
       </Col>
       <Col span={24}>
         <nav>
@@ -37,24 +37,44 @@ const Navbar = observer(props => {
           <div className="nav-wrapper">
             <ul>
               <li>
-                <Link onClick={props.handleNavBtn} to="/">
-                  {lang === "eng" ? "Home" : "ہوم پیج"}
-                </Link>
+                {lang === "eng" ? 
+                  <Link onClick={props.handleNavBtn} to="/">
+                    Home
+                  </Link> :
+                  <Link onClick={props.handleNavBtn} to="/" className="urdu-menu">
+                    ہوم پیج
+                  </Link>
+                }
               </li>
               <li>
-                <Link onClick={props.handleNavBtn} to="/bayans">
-                  {lang === "eng" ? "Bayans" : "بیانات"}
-                </Link>
+                {lang === "eng" ? 
+                  <Link onClick={props.handleNavBtn} to="/bayans">
+                    Bayans
+                  </Link> :
+                  <Link onClick={props.handleNavBtn} to="/bayans" className="urdu-menu">
+                    بیانات
+                  </Link>
+                }
               </li>
               <li>
-                <Link onClick={props.handleNavBtn} to="/books">
-                  {lang === "eng" ? "Books" : "کتابیں"}
-                </Link>
+                {lang === "eng" ?
+                  <Link onClick={props.handleNavBtn} to="/books">
+                    Books
+                  </Link> :
+                  <Link onClick={props.handleNavBtn} to="/books" className="urdu-menu">
+                    کتابیں
+                  </Link>
+                }
               </li>
               <li>
-                <Link onClick={props.handleNavBtn} to="/poster">
-                  {lang === "eng" ? "Posters" : "پوسٹر"}
-                </Link>
+                {lang === "eng" ? 
+                  <Link onClick={props.handleNavBtn} to="/poster">
+                    Posters
+                  </Link> :
+                  <Link onClick={props.handleNavBtn} to="/poster" className="urdu-menu">
+                    پوسٹر
+                  </Link>
+                }
               </li>
               <li>
                 <a

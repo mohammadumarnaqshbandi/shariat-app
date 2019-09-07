@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "antd/dist/antd.css";
-import { Row, Col, BackTop, Carousel, Icon, Button } from "antd";
+import { Row, Col, BackTop, Carousel, Icon } from "antd";
 import "../../styles/home.scss";
 import { observer } from "mobx-react";
 import Slide from "../../images/slide1.png";
@@ -52,7 +52,10 @@ const Home = observer(
                     xl={24}
                     className="live-broadcast"
                   >
-                    <h1 className="white-text">{ lang === "eng" ? "Live Bayan" : "جاری بیان"}</h1>
+                    {lang === "eng" ? 
+                    <h1 className="white-text">Live Bayan</h1> :
+                    <h1 className="white-text urdu-heading">جاری بیان</h1>
+                  }
                     <iframe
                       src="https://mixlr.com/users/5385796/embed?color=6fb4ef&artwork=true"
                       title="Live Player"
@@ -71,7 +74,10 @@ const Home = observer(
                     xl={24}
                     className="mt-40"
                   >
-                    <h1 className="text-center white-text">{lang === "eng" ? "Announcements" : "اعلان"}</h1>
+                    {lang === "eng" ? 
+                    <h1 className="text-center white-text">Announcements</h1> :
+                    <h1 className="text-center white-text urdu-heading">اعلان</h1>
+                  }
                     <p>
                       {lang === "eng" ? <>
                       Insha Allah Bayan by Hazrat Haji Shakeel Ahmad Sb Db is
@@ -95,10 +101,10 @@ const Home = observer(
                       </a>{" "}
                       Channel.
                       </> : 
-                      <>
+                      <div className="urdu-text">
                       <p>
                       ہرماہ کے پہلے اور دوسرے اتوار کو حضرت حاجی شکیل احمد صاحب مدظلہ العالی کا بیان
-                      شہر پنویل ، نئی بمبئی میں گیارہ بجےدن کو ہوتاہے۔    
+                      شہر پنویل، نئی بمبئی میں گیارہ بجے دن کو ہوتا ہے۔    
                       </p> 
                       <p>
                       مکسلر پر جاری بیان سننے کے لیے یہاں
@@ -124,7 +130,7 @@ const Home = observer(
                       </a>
                       چینل کو سبسکرائب کرلیں۔ Shariat.info 
                       </p>
-                      </>
+                      </div>
                     }
                     </p>
                   </Col>

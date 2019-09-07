@@ -18,6 +18,7 @@ const AfterJuma = observer(
     render() {
       const { store, itemRender } = this.props;
       const {
+        lang,
         afterJuma,
         itemsPerPage,
         currentPage,
@@ -33,10 +34,13 @@ const AfterJuma = observer(
             <Col span={24} className={"aj-header"}>
               <Carousel autoplay={true} effect="fade" dots={false}>
                 <div className="image-container">
-                  <h1 className="aj-header-text" style={{ color: "#000" }}>
-                    Bayans
-                    <br /> After Juma
-                  </h1>
+                  {lang === "eng" ?
+                    <h1 className="aj-header-text black">
+                      Bayans
+                      <br /> After Juma
+                    </h1> :
+                    <h1 className="aj-header-text urdu-main-heading">جمعہ کے بعد بیانات</h1>
+                  }
                 </div>
               </Carousel>
             </Col>

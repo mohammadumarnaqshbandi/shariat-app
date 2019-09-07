@@ -17,6 +17,7 @@ const JumaBayan = observer(
     render() {
       const { store, itemRender } = this.props;
       const {
+        lang,
         beforeJuma,
         itemsPerPage,
         currentPage,
@@ -32,10 +33,13 @@ const JumaBayan = observer(
             <Col span={24} className={"bj-header"}>
               <Carousel autoplay={true} effect="fade" dots={false}>
                 <div className="image-container">
-                  <h1 className="bj-header-text">
-                    Bayans
-                    <br /> Before Juma
-                  </h1>
+                  {lang === "eng" ?
+                    <h1 className="bj-header-text">
+                      Bayans
+                      <br /> Before Juma
+                    </h1> :
+                    <h1 className="bj-header-text urdu-main-heading">جمعہ کے بیانات</h1>
+                  }
                 </div>
               </Carousel>
             </Col>

@@ -4,7 +4,30 @@
   margin-right: 0!important;
 }
 
-// /* Btn CSS */
+.header-text {
+	font-size: 55px;
+    margin-top: 110px;
+}
+
+.urdu-heading {
+  font-size: 2.8em;
+}
+
+.urdu-text {
+  font-size: 1.3em;
+  text-align: right;
+}
+
+.urdu-main-heading {
+  font-size: 5em;
+}
+
+.urdu-btn {
+  font-size: 1.2em!important;
+}
+
+
+/* Btn CSS */
 .ant-btn {
   transition: all .2s ease-out;
   background: #0e278e;
@@ -12,7 +35,7 @@
   border-color: transparent;
   border-radius: 4px;
   letter-spacing: 1px;
-  font-size: 15px!important;
+  font-size: 15px;
   font-weight: 600;
   padding: 0 23px;
   &:hover, &:focus {
@@ -162,6 +185,7 @@
     color: #0e278e!important;
   }
 }
+
 /* Text-center */
 
 // .text-center {

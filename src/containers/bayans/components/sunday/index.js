@@ -18,6 +18,7 @@ const SundayMajlis = observer(
       const { store, itemRender } = this.props;
       const {
         sunday,
+        lang,
         itemsPerPage,
         currentPage,
         fetchBayans,
@@ -35,7 +36,10 @@ const SundayMajlis = observer(
             <Col span={24} className={"sd-header"}>
               <Carousel autoplay={true} effect="fade" dots={false}>
                 <div className="image-container">
-                  <h1 className="header-text">Sunday Bayans</h1>
+                  {lang === "eng" ?
+                    <h1 className="header-text">Sunday Bayans</h1> :
+                    <h1 className="header-text urdu-main-heading">اتوارکے بیانات</h1>
+                  }
                 </div>
               </Carousel>
             </Col>
