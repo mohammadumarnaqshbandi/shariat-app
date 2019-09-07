@@ -1,4 +1,9 @@
-import { observable, computed, decorate, action } from "mobx";
+import {
+  observable,
+  computed,
+  decorate,
+  action
+} from "mobx";
 import data from "./data";
 
 export class Bayans {
@@ -38,8 +43,8 @@ export class Bayans {
       .slice()
       .filter(
         item =>
-          item.name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) !==
-            -1 || !this.searchTerm
+        item.name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) !==
+        -1 || !this.searchTerm
       );
   };
 
@@ -50,22 +55,22 @@ export class Bayans {
 
 decorate(
   Bayans, {
-  allBayans: observable,
-  sunday: observable,
-  afterJuma: observable,
-  beforeJuma: observable,
-  misc: observable,
-  oldBayans: observable,
-  currentPage: observable,
-  itemsPerPage: observable,
-  lang: observable,
-  searchTerm: observable,
-  fetchBayans: action,
-  filterBayans: action,
-  handleSearch: action,
-  recentSunday: computed,
-  recentJuma: computed,
-  recentAfterJuma: computed
-});
+    allBayans: observable,
+    sunday: observable,
+    afterJuma: observable,
+    beforeJuma: observable,
+    misc: observable,
+    oldBayans: observable,
+    currentPage: observable,
+    itemsPerPage: observable,
+    lang: observable,
+    searchTerm: observable,
+    fetchBayans: action,
+    filterBayans: action,
+    handleSearch: action,
+    recentSunday: computed,
+    recentJuma: computed,
+    recentAfterJuma: computed
+  });
 
 export default new Bayans();

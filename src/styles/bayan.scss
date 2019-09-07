@@ -1,7 +1,7 @@
 @import './variables';
 
 .by-header {
-	.ant-carousel  {
+	.ant-carousel {
 		background-image: url('https://media.giphy.com/media/AlqUdr1CSODLO/giphy.gif');
 		background-position: 40% 0%;
 		height: 65vh;
@@ -15,12 +15,12 @@
 
 .base-bayan {
 	height: 1vh;
-	background-color: #d0d3b8; 
+	background-color: #d0d3b8;
 }
 
 .base-bayan-2 {
 	height: 1vh;
-	background-color: #4d632a; 
+	background-color: #4d632a;
 }
 
 .fill-height {
@@ -45,7 +45,7 @@
 
 @media (min-width: 550px) {
 	.image-container .slide3 {
-		width: 40%!important;
+		width: 40% !important;
 	}
 }
 
@@ -53,8 +53,9 @@
 	margin-top: 40px;
 	box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.15);
 	background: transparent;
-	color: $white!important;
+	color: $white !important;
 	width: 222px;
+
 	&:first {
 		margin-top: 20px;
 	}
@@ -66,10 +67,12 @@
 
 
 .link-btn {
-	&:hover, &:focus {
+
+	&:hover,
+	&:focus {
 		border: 0;
 		background: transparent;
-		color: $white!important;
+		color: $white !important;
 	}
 }
 

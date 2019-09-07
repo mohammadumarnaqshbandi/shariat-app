@@ -1,8 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Shariat.info",
+  "name": "Shariat.info - dedicated to the lectures and books of Haji Shakeel Ahmed Saheb Db",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "green",
   "background_color": "#ffffff"
 }

@@ -1,29 +1,37 @@
 @import './variables';
 
 .mr-0 {
-  margin-right: 0!important;
+  margin-right: 0 !important;
 }
 
 .header-text {
-	font-size: 55px;
-    margin-top: 110px;
+  font-size: 55px;
+  margin-top: 110px;
 }
 
 .urdu-heading {
   font-size: 2.8em;
+  font-weight: normal;
 }
 
 .urdu-text {
   font-size: 1.3em;
   text-align: right;
+  font-weight: normal;
 }
 
 .urdu-main-heading {
-  font-size: 5em;
+  font-size: 5em !important;
+  font-weight: normal !important;
 }
 
 .urdu-btn {
-  font-size: 1.2em!important;
+  font-size: 1.2em !important;
+  font-weight: normal !important;
+}
+
+.urdu-link {
+  color: red !important;
 }
 
 
@@ -31,16 +39,18 @@
 .ant-btn {
   transition: all .2s ease-out;
   background: #0e278e;
-  color: $white!important;
+  color: $white !important;
   border-color: transparent;
   border-radius: 4px;
   letter-spacing: 1px;
   font-size: 15px;
   font-weight: 600;
   padding: 0 23px;
-  &:hover, &:focus {
+
+  &:hover,
+  &:focus {
     border-color: #d5b794;
-    color: $black!important;
+    color: $black !important;
     background: $white;
   }
 }
@@ -48,7 +58,7 @@
 
 /* Ant Card */
 .ant-card {
-  font-size: 16px!important;
+  font-size: 16px !important;
   border-radius: 8px;
   box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.15);
 }
@@ -87,33 +97,35 @@
 
 @media (min-width:480px) {
   .plyr__volume {
-      max-width: 90px;
-      margin-left: 10px;
+    max-width: 90px;
+    margin-left: 10px;
   }
+
   .plyr__controls {
-      margin-left: 10px;
+    margin-left: 10px;
   }
 }
 
 .plyr {
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,.2);
-    margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  margin: 20px auto;
 }
 
 @media (min-width:768px) {
   .plyr__volume {
-      max-width: 110px;
-      margin-left: 10px;
+    max-width: 110px;
+    margin-left: 10px;
   }
+
   .plyr__controls {
-      margin-left: 5px;
+    margin-left: 5px;
   }
 }
 
 .plyr__control {
   border-radius: 1px;
-  margin-left: 0!important;
+  margin-left: 0 !important;
 }
 
 .plyr--audio .plyr__controls {
@@ -122,13 +134,13 @@
 
 @media (min-width: 768px) {
   .plyr__controls {
-      margin-left: 0px;
+    margin-left: 0px;
   }
 }
 
 @media (min-width: 480px) {
   .plyr__controls {
-      margin-left: 0px;
+    margin-left: 0px;
   }
 }
 
@@ -138,7 +150,9 @@
   color: #d5b794;
 }
 
-.plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
+.plyr--audio .plyr__control.plyr__tab-focus,
+.plyr--audio .plyr__control:hover,
+.plyr--audio .plyr__control[aria-expanded=true] {
   background: #ece2d0;
   color: $white;
 }
@@ -156,33 +170,41 @@
   background-color: #0e278e;
   color: $white;
   margin: 5px 7px;
+
   &:hover {
     background-color: $white;
     color: #0e278e;
   }
-  &:hover, &:focus {
-    border-color: #0e278e!important;
+
+  &:hover,
+  &:focus {
+    border-color: #0e278e !important;
   }
+
   a {
-    color: $white!important;
+    color: $white !important;
   }
+
   &:hover a {
-    color: #0e278e!important;
+    color: #0e278e !important;
   }
+
   &:focus a {
-    color: $white!important;
+    color: $white !important;
   }
 }
 
 .ant-pagination-item-active {
-  background: $white!important;
-  border-color: #0e278e!important;
+  background: $white !important;
+  border-color: #0e278e !important;
+
   a {
-    color: #0e278e!important;
+    color: #0e278e !important;
   }
 
-  &:hover a , &:focus a {
-    color: #0e278e!important;
+  &:hover a,
+  &:focus a {
+    color: #0e278e !important;
   }
 }
 

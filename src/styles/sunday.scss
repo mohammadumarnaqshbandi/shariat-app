@@ -2,10 +2,11 @@
 
 .sd-header {
   .ant-carousel {
-      background-image: url('../images/sun-bg.jpg');
-      background-position: 65% 50%;
-      height: 65vh;
+    background-image: url('../images/sun-bg.jpg');
+    background-position: 65% 50%;
+    height: 65vh;
   }
+
   .header-text {
     font-size: 45px;
     margin-top: 150px;
@@ -13,8 +14,8 @@
 }
 
 .hairline {
-    height: 1vh;
-    background-color: #8aa115;
+  height: 1vh;
+  background-color: #8aa115;
 }
 
 @media (max-width: 500px) {
@@ -23,6 +24,7 @@
       font-size: 35px;
       margin-top: 115px;
     }
+
     .ant-carousel {
       height: 65vh;
     }
@@ -30,7 +32,7 @@
 }
 
 .white {
-    color: $white;
+  color: $white;
 }
 
 .sd-color {
@@ -43,10 +45,12 @@
 
   .ant-btn {
     background-color: $sd-accent;
-    color: $white!important;
-    &:hover, &:focus {
+    color: $white !important;
+
+    &:hover,
+    &:focus {
       border-color: $sd-accent;
-      color: $black!important;
+      color: $black !important;
       background: $white;
     }
   }
@@ -54,12 +58,14 @@
   .link-btn {
     border: 0;
     background: transparent;
-    color: $black!important;
+    color: $black !important;
     padding: 0 0;
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
       border: 0;
       background: transparent;
-      color: $white!important;
+      color: $white !important;
       padding: 0 0;
     }
   }
@@ -71,40 +77,51 @@
     background-color: $sd-accent;
     color: $white;
     margin: 5px 7px;
+
     &:hover {
       background-color: $white;
       color: $sd-accent;
     }
+
     a {
-      color: $white!important;
+      color: $white !important;
     }
+
     &:hover a {
-      color: $sd-accent!important;
+      color: $sd-accent !important;
     }
+
     &:focus a {
-      color: $sd-accent!important;
+      color: $sd-accent !important;
     }
-    &:hover, &:focus {
-      border-color: $sd-accent!important;
+
+    &:hover,
+    &:focus {
+      border-color: $sd-accent !important;
     }
   }
 
   .ant-pagination-item-active {
-    background: $white!important;
-    border-color: $sd-accent!important;
+    background: $white !important;
+    border-color: $sd-accent !important;
+
     a {
-      color: $sd-accent!important;
+      color: $sd-accent !important;
     }
-    &:hover a, &:focus a {
-      color: $sd-accent!important;
+
+    &:hover a,
+    &:focus a {
+      color: $sd-accent !important;
     }
   }
 
   .plyr--full-ui input[type=range] {
     color: $sd-accent;
   }
-  
-  .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
+
+  .plyr--audio .plyr__control.plyr__tab-focus,
+  .plyr--audio .plyr__control:hover,
+  .plyr--audio .plyr__control[aria-expanded=true] {
     background: $sd-accent;
     color: $white;
   }

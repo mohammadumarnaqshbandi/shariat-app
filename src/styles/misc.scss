@@ -1,4 +1,5 @@
 @import './variables';
+
 .ms-header {
     .ant-carousel {
         background-image: url('../images/other.jpg');
@@ -21,27 +22,28 @@
 
 @media (max-width: 500px) {
     .ms-header-text {
-    font-size: 30px;
-    margin-top: 100px;
+        font-size: 30px;
+        margin-top: 100px;
     }
 
     .ms-header {
         .ant-carousel {
-        height: 65vh;
+            height: 65vh;
         }
     }
 }
 
-.ms-bg { 
+.ms-bg {
     background-color: #36beba;
     height: auto;
     padding-bottom: 30px;
-    margin-left: 0!important;
+    margin-left: 0 !important;
 
     .ant-card {
-        background-color: #b2fbf9; 
+        background-color: #b2fbf9;
         border: 0;
         color: $black;
+
         p {
             font-size: 20px;
             color: $black;
@@ -50,27 +52,31 @@
 
     .ant-btn {
         background-color: $misc-color;
-        color: $white!important;
+        color: $white !important;
     }
 
     .ant-pagination-item {
         background-color: $white;
         border-color: $pagination-color;
         border: 1px solid $pagination-color;
+
         a {
-            color: $black!important;
-            background-color: $pagination-color; 
+            color: $black !important;
+            background-color: $pagination-color;
         }
-        &:hover, &:focus {
-            border-color: $pagination-color!important;
+
+        &:hover,
+        &:focus {
+            border-color: $pagination-color !important;
             background-color: $white;
         }
     }
 
     .ant-pagination-item-active {
-        border-color: $pagination-color!important;
+        border-color: $pagination-color !important;
+
         a {
-            background-color: $white!important;
+            background-color: $white !important;
         }
     }
 
@@ -78,7 +84,9 @@
         border-color: $pagination-color;
     }
 
-    .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
+    .plyr--audio .plyr__control.plyr__tab-focus,
+    .plyr--audio .plyr__control:hover,
+    .plyr--audio .plyr__control[aria-expanded=true] {
         background: $misc-color;
         color: $black;
     }
@@ -90,23 +98,31 @@
     .ant-pagination-next .ant-pagination-item-link {
         background-color: $misc-color;
         border: 1px solid $misc-color;
-        color: $black!important;
+        color: $black !important;
     }
 
-    .ant-pagination-disabled  {
-        a, &:hover a, &:focus a, .ant-pagination-item-link, &:hover .ant-pagination-item-link, &:focus .ant-pagination-item-link {
+    .ant-pagination-disabled {
+
+        a,
+        &:hover a,
+        &:focus a,
+        .ant-pagination-item-link,
+        &:hover .ant-pagination-item-link,
+        &:focus .ant-pagination-item-link {
             border: 1px solid $misc-color;
-            color: $black!important;
+            color: $black !important;
         }
     }
 
-    .ant-pagination-prev , .ant-pagination-next {
+    .ant-pagination-prev,
+    .ant-pagination-next {
         .ant-pagination-item-link {
-            color: $black!important;
+            color: $black !important;
             background-color: $misc-color;
         }
+
         button {
-            color: $white!important;
+            color: $white !important;
         }
     }
 }

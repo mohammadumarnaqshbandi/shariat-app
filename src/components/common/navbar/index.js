@@ -13,7 +13,8 @@ const Navbar = observer(props => {
   return (
     <Row>
       <Col span={24} id="lang-bar">
-      <Button onClick={handleLang} value="eng" className="lang-btn">English</Button><Button onClick={handleLang} value="urdu" className="lang-btn urdu-btn">اردو</Button>
+      <Button onClick={handleLang} value="eng" className="lang-btn">English</Button>&nbsp;
+      <Button onClick={handleLang} value="urdu" className="lang-btn">اردو</Button>
       </Col>
       <Col span={24}>
         <nav>

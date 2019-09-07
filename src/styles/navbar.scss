@@ -4,12 +4,13 @@ nav {
       padding-top: 0;
       margin-bottom: 55px;
       height: 100%;
+
       ul {
             li {
                   a {
                         display: inline-block;
                         outline: none;
-                        color: $black!important;
+                        color: $black !important;
                         text-transform: uppercase;
                         text-decoration: none;
                         font-size: 16px;
@@ -17,10 +18,14 @@ nav {
                         font-weight: 700;
                         position: relative;
                         transition: color .1s ease;
-                        &:focus, &:hover, &:active {
+
+                        &:focus,
+                        &:hover,
+                        &:active {
                               text-decoration: none;
                               color: $black;
                         }
+
                         &::before {
                               content: '';
                               position: absolute;
@@ -33,33 +38,40 @@ nav {
                               opacity: .2;
                               transform: scaleX(0);
                               transform-origin: right;
-                              transition: transform .7s cubic-bezier(.19,1,.22,1), .6s ease;
+                              transition: transform .7s cubic-bezier(.19, 1, .22, 1), .6s ease;
                         }
                   }
-                  &:hover a::before, &:active a::before {
+
+                  &:hover a::before,
+                  &:active a::before {
                         transform: scaleX(1);
                         transform-origin: left;
                         opacity: .8;
                   }
+
                   &:not(:first-child) {
                         margin-left: 48px;
                   }
+
                   &:last-child {
                         margin-left: 48px;
+                        margin-right: 10px;
                   }
             }
       }
 }
 
 .logo {
-    float: left;
-    a {
+      float: left;
+
+      a {
             color: #0e278e;
             text-transform: uppercase;
             font-weight: bold;
             font-size: 23px;
             letter-spacing: 0px;
             text-decoration: none;
+
             img {
                   width: calc((100vw - 50px * 2) * 3 / 12);
             }
@@ -74,53 +86,70 @@ nav {
 
 .nav-wrapper {
       ul {
-      float: right;
-      padding-top: 85px;
-      padding-inline-start: 0;
-      li {
-            display: inline-block;
-            float: left;
-            padding-left: 20px;
-            &:last-child a {
-                  font-size: 22.5px;
-                  &::before {
-                        display: none; 
-                  }
-                  &:hover {
-                        color: red;
+            float: right;
+            padding-top: 85px;
+            padding-inline-start: 0;
+
+            li {
+                  display: inline-block;
+                  float: left;
+                  padding-left: 20px;
+
+                  &:last-child a {
+                        font-size: 22.5px;
+
+                        &::before {
+                              display: none;
+                        }
+
+                        &:hover {
+                              color: red;
+                        }
                   }
             }
-        }
       }
 }
 
 #lang-bar {
       background-color: rgba(233, 242, 249, 1);
-      height: 4vh;
+      height: 35px;
       text-align: right;
 }
 
 .lang-btn {
       background: transparent;
       padding: 0 20px;
-      color: black!important;
+      color: black !important;
       border: 0;
-      font-size: 17px;
-      box-shadow: 0;
-      &:hover, &:focus {
+      font-size: 15px;
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0);
+      text-decoration: underline;
+      height: auto;
+      line-height: 1;
+
+      &:hover,
+      &:focus {
             background: transparent;
-            color: black!important;  
+            color: black !important;
+            border-color: #b6d9f5;
+      }
+
+      &:last-child {
+            font-size: 1em;
       }
 }
 
 .urdu-menu {
       font-size: 1.3em;
       text-align: right;
+      font-weight: normal;
 }
 
+
+
 @media screen and (max-width: 864px) {
-    .logo {
-          padding: 0;
+      .logo {
+            padding: 0;
       }
 
       .nav-wrapper {
@@ -133,39 +162,44 @@ nav {
             background: #c7b18a;
             opacity: 0;
             transition: all 0.2s ease;
+
             ul {
                   position: absolute;
                   top: 50%;
                   transform: translateY(-50%);
                   width: 100%;
+
                   li {
                         display: block;
                         float: none;
                         width: 100%;
                         text-align: center;
                         margin-bottom: 10px;
+
                         &:last-child a {
-                              font-size: 45px; 
+                              font-size: 45px;
                         }
+
                         &:not(:first-child) {
                               margin-left: 0;
                         }
+
                         a {
                               padding: 10px 24px;
                               opacity: 0;
-                              color: $white!important;
+                              color: $white !important;
                               font-size: 1.8rem;
                               font-weight: 700;
                               letter-spacing: 1.2px;
                               line-height: 1.2;
                               transform: translateX(-20px);
-                              transition: all 0.1s ease;  
+                              transition: all 0.1s ease;
                         }
                   }
             }
       }
 
-    /* .nav-wrapper ul li:nth-child(1) a {
+      /* .nav-wrapper ul li:nth-child(1) a {
           transition-delay: 0.2s;
     }
 
@@ -198,29 +232,33 @@ nav {
     } */
 
       .nav-btn {
-          position: fixed;
-          right: 10px;
-          top: 55px;
-          display: block;
-          width: 48px;
-          height: 48px;
-          cursor: pointer;
-          z-index: 9999;
-          border-radius: 50%;
-          i {
+            position: fixed;
+            right: 10px;
+            top: 10%;
+            display: block;
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            z-index: 9999;
+            border-radius: 50%;
+
+            i {
                   display: block;
                   width: 20px;
                   height: 2px;
                   background-color: $black;
                   border-radius: 2px;
                   margin-left: 14px;
+
                   &:nth-child(1) {
                         margin-top: 16px;
                   }
+
                   &:nth-child(2) {
                         margin-top: 4px;
                         opacity: 1;
                   }
+
                   &:nth-child(3) {
                         margin-top: 4px;
                   }
@@ -228,32 +266,37 @@ nav {
       }
 }
 
-#nav:checked + .nav-btn {
-    transform: rotate(45deg);
-    i {
-      background: $white;
-      transition: transform 0.45s ease;
-      &:nth-child(1) {
-            transform: translateY(6px) rotate(180deg);
+#nav:checked+.nav-btn {
+      transform: rotate(45deg);
+
+      i {
+            background: $white;
+            transition: transform 0.45s ease;
+
+            &:nth-child(1) {
+                  transform: translateY(6px) rotate(180deg);
+            }
+
+            &:nth-child(2) {
+                  opacity: .9;
+            }
+
+            &:nth-child(3) {
+                  transform: translateY(-6px) rotate(90deg);
+            }
       }
-      &:nth-child(2) {
-            opacity: .9;
-      }
-      &:nth-child(3) {
-            transform: translateY(-6px) rotate(90deg);
-      }
-    }
 }
 
-#nav:checked ~ .nav-wrapper {
-    z-index: 9990;
-    opacity: 1;
-    ul li a {
+#nav:checked~.nav-wrapper {
+      z-index: 9990;
       opacity: 1;
-      transform: translateX(0);
-  }
+
+      ul li a {
+            opacity: 1;
+            transform: translateX(0);
+      }
 }
 
 .hidden {
-    display: none;
+      display: none;
 }

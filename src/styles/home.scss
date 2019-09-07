@@ -35,7 +35,7 @@
   }
 
   .image-container {
-    width: auto!important;
+    width: auto !important;
     height: 65vh;
   }
 
@@ -56,19 +56,21 @@
 
 .ant-btn {
   background-color: rgb(213, 183, 148);
-  color: $black!important;
+  color: $black !important;
   font-size: 15px;
 }
 
 a {
-  color: $white!important;
+  color: $white !important;
 }
 
 .white-text {
   color: $white;
 }
 
-.helper-slide-1 ,.helper-slide-2 ,.helper-slide-3 {
+.helper-slide-1,
+.helper-slide-2,
+.helper-slide-3 {
   display: inline-block;
   height: 83%;
   vertical-align: middle;
@@ -76,23 +78,28 @@ a {
 
 @media (max-width: 550px) {
   .helper-slide-1 {
-  height: 74%;
+    height: 74%;
   }
+
   .helper-slide-2 {
     height: 53%;
   }
+
   .helper-slide-3 {
     height: 65%;
   }
 }
 
 @media (min-width: 1850px) {
-  .helper-slide-1 ,.helper-slide-2 ,.helper-slide-3 {
+
+  .helper-slide-1,
+  .helper-slide-2,
+  .helper-slide-3 {
     height: 75%;
   }
 }
 
-.image-container img{
+.image-container img {
   vertical-align: middle;
 }
 
@@ -150,8 +157,8 @@ a {
 }
 
 .mrl-0 {
-  margin-left: 0!important;
-  margin-right: 0!important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .mt-45 {
@@ -190,7 +197,7 @@ a {
   margin-bottom: 100px;
 }
 
-.mt-100 { 
+.mt-100 {
   margin-top: 100px;
 }
 
