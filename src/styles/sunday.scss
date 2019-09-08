@@ -11,6 +11,12 @@
     font-size: 60px;
     color: #174403;
     text-shadow: 1px 1px 0px #49ff12;
+    margin-right: 25vw;
+
+  }
+
+  .header-text.urdu-main-heading {
+    font-size: 7em!important;
   }
 }
 
@@ -25,6 +31,10 @@
       font-size: 40px;
       margin-top: 18vh;
       margin-right: 29vw;
+    }
+
+    .header-text.urdu-main-heading {
+      font-size: 4.3em!important;
     }
 
     .ant-carousel {
