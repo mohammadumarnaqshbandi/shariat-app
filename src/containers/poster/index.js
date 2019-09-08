@@ -36,12 +36,6 @@ class Poster extends Component {
       <div className="base-poster"></div>
         <div className="pt-background">
           <Row className={"row-top majlis"} justify="space-between">
-            <Col span={24}>
-              {lang === "eng" ?
-              <h1 className="text-center mt-30 mb-40">Posters</h1> :
-              <h1 className="text-center mt-30 mb-80 urdu-main-heading">پوسٹر</h1>
-              }
-            </Col>
             <Col xs={24}
                   sm={12}
                   md={12}
