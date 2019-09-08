@@ -3,6 +3,7 @@ import "antd/dist/antd.css";
 import "../../styles/App.scss";
 import Home from "../home";
 import Navbar from "../../components/common/navbar";
+import Footer from "../../components/common/footer"
 import { observer } from "mobx-react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Button } from "antd";
@@ -139,6 +140,7 @@ const App = observer(
                   render={props => <Poster {...props} lang={lang} />}
                 />
               </Switch>
+              {/* <Footer /> */}
             </React.Fragment>
           </Router>
         </React.Fragment>

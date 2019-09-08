@@ -36,10 +36,9 @@ const AfterJuma = observer(
                 <div className="image-container">
                   {lang === "eng" ?
                     <h1 className="aj-header-text black">
-                      Bayans
-                      <br /> After Juma
+                      Bayans After Juma
                     </h1> :
-                    <h1 className="aj-header-text urdu-main-heading">جمعہ کے بعد بیانات</h1>
+                    <h1 className="aj-header-text urdu-main-heading">جمعہ بعد کے بیانات</h1>
                   }
                 </div>
               </Carousel>

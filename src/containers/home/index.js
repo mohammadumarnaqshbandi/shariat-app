@@ -77,12 +77,12 @@ const Home = observer(
                     
                       {lang === "eng" ? <>
                       <p>
-                      Insha Allah Bayan by Hazrat Haji Shakeel Ahmad Sb Db is
+                      Bayan by Hazrat Haji Shakeel Ahmad Sb Db is
                       held at Panvel on 1st and 2nd Sunday (11:00 A.M. IST) of
                       every month.
                       <br />
                       Please Listen Live at{" "}
-                      <a href="https://mixlr.com/shariatinfo--3">Mixlr</a>.
+                      <a href="https://mixlr.com/shariatinfo--3" style={{color: "red"}}>Mixlr</a>.
                       <br /> Subscribe to Shariat.info's Official{" "}
                       <a
                         href="https://www.youtube.com/channel/UCoModkBOUWZKFrQWyoIulOw/videos"

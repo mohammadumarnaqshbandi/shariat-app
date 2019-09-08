@@ -11,14 +11,27 @@
 .aj-header-text {
   color: #201614;
   font-size: 60px;
-  margin-top: 147px;
+  margin-top: 12vh;
+  margin-right: 20vw;
+}
+
+.aj-header-text.urdu-main-heading {
+  font-size: 6em!important;
+  margin-top: 9vh;
 }
 
 @media (max-width: 500px) {
   .aj-header-text {
     font-size: 40px;
     margin-top: 5vh;
+    margin-right: 0;
   }
+
+  .aj-header-text.urdu-main-heading {
+    font-size: 4em!important;
+    margin-top: 2vh;
+  }
+
 }
 
 .base-aj {
