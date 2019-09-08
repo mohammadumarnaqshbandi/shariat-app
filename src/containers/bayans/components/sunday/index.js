@@ -38,7 +38,7 @@ const SundayMajlis = observer(
                 <div className="image-container">
                   {lang === "eng" ?
                     <h1 className="header-text">Sunday Bayans</h1> :
-                    <h1 className="header-text urdu-main-heading">اتوارکے بیانات</h1>
+                    <h1 className="header-text urdu-main-heading">اتوارکےبیانات</h1>
                   }
                 </div>
               </Carousel>

@@ -35,8 +35,7 @@ const JumaBayan = observer(
                 <div className="image-container">
                   {lang === "eng" ?
                     <h1 className="bj-header-text">
-                      Bayans
-                      <br /> Before Juma
+                      Juma Bayans
                     </h1> :
                     <h1 className="bj-header-text urdu-main-heading">جمعہ کے بیانات</h1>
                   }

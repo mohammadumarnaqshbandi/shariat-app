@@ -9,8 +9,8 @@
 
   .header-text {
     font-size: 60px;
-    margin-top: 150px;
     color: #174403;
+    text-shadow: 1px 1px 0px #49ff12;
   }
 }
 
@@ -23,7 +23,8 @@
   .sd-header {
     .header-text {
       font-size: 40px;
-      margin-top: 14%;
+      margin-top: 18vh;
+      margin-right: 29vw;
     }
 
     .ant-carousel {

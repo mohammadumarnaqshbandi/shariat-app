@@ -9,7 +9,13 @@
 .bj-header-text {
     color: #3a1a27;
     font-size: 60px;
-    margin-top: 96px;
+    margin-left: 45vw;
+    margin-top: 30vh;
+    text-shadow: 1px 1px 0px #dea1c6;
+}
+
+.bj-header-text.urdu-main-heading {
+    font-size: 5.5em!important;
 }
 
 .base-bj {
@@ -25,8 +31,14 @@
 @media (max-width: 500px) {
     .bj-header-text {
         font-size: 40px;
-        margin-top: 14%;
+        margin-top: 13vh;
+        margin-right: 37vw;
+        margin-left: 0;
     }
+    .bj-header-text.urdu-main-heading {
+        font-size: 4.3em!important;
+    }
+
 
     .bj-header .ant-carousel {
         height: 65vh;

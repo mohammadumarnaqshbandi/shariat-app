@@ -55,7 +55,7 @@ const Bayans = observer (
                     exact
                     path={match.url}
                     render={() => (
-                      <Row className="btn-center mt-20 row-center">
+                      <Row className="btn-center row-center">
                         <table align="center">
                           <tr>
                             <td>
@@ -74,7 +74,7 @@ const Bayans = observer (
                                       className="bayan-btn urdu-btn"
                                       onClick={this.handleButton}
                                     >
-                                      اتوارکے بیانات
+                                      اتوار کے بیانات
                                     </Button>
                                   }
                                 </Link>
@@ -126,7 +126,7 @@ const Bayans = observer (
                                       className="bayan-btn urdu-btn"
                                       onClick={this.handleButton}
                                     >
-                                      جمعہ کے بعد بیانات
+                                      جمعہ بعد کے بیانات
                                     </Button>
                                   }
                                 </Link>
