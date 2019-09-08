@@ -38,7 +38,7 @@ const Bayans = observer (
                     <h1 className="header-text white">
                       Bayans
                     </h1> :
-                    <h1 className="header-text white urdu-main-heading">
+                    <h1 className="header-text urdu-main-heading">
                       بیانات
                     </h1>
                   }

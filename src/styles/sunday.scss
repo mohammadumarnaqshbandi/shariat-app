@@ -8,8 +8,9 @@
   }
 
   .header-text {
-    font-size: 45px;
+    font-size: 60px;
     margin-top: 150px;
+    color: #174403;
   }
 }
 
@@ -21,8 +22,8 @@
 @media (max-width: 500px) {
   .sd-header {
     .header-text {
-      font-size: 35px;
-      margin-top: 115px;
+      font-size: 40px;
+      margin-top: 14%;
     }
 
     .ant-carousel {

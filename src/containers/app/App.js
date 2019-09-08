@@ -61,7 +61,7 @@ const App = observer(
 
     render() {
       const { store } = this.props;
-      const { currentPage } = store;
+      const { currentPage, lang } = store;
       return (
         <React.Fragment>
           <Router>
@@ -136,7 +136,7 @@ const App = observer(
                 />
                 <Route
                   path={`/poster`}
-                  render={props => <Poster {...props} />}
+                  render={props => <Poster {...props} lang={lang} />}
                 />
               </Switch>
             </React.Fragment>

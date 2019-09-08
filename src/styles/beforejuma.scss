@@ -7,7 +7,7 @@
 }
 
 .bj-header-text {
-    color: $black;
+    color: #3a1a27;
     font-size: 60px;
     margin-top: 96px;
 }
@@ -24,8 +24,8 @@
 
 @media (max-width: 500px) {
     .bj-header-text {
-        font-size: 30px;
-        margin-top: 28%;
+        font-size: 40px;
+        margin-top: 14%;
     }
 
     .bj-header .ant-carousel {

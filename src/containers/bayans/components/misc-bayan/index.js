@@ -15,7 +15,7 @@ const MiscBayan = observer(
     }
 
     render() {
-      const { store } = this.props;
+      const { store, itemRender } = this.props;
       const {
         misc,
         lang,
@@ -68,6 +68,7 @@ const MiscBayan = observer(
                     onChange={this.handleClick}
                     total={misc.length}
                     pageSize={itemsPerPage}
+                    itemRender={itemRender}
                   />
                 </Col>
                 {fetchBayans(misc).map((i, index) => (

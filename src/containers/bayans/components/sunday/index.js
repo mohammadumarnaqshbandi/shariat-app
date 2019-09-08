@@ -87,7 +87,7 @@ const SundayMajlis = observer(
                       key={i.name + index}
                     >
                       <Card hoverable className="mt-30 recent-card sd">
-                        <h3>{i.name}</h3>
+                        <p>{i.name}</p>
                         <Plyr
                           url={i.src}
                           type="audio"

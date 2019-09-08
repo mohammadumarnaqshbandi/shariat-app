@@ -9,9 +9,8 @@ const {Meta} = Card
 
 class Poster extends Component {
   render() {
-    const styles = {
-      color: "#ffffff"
-    }
+    const {lang} = this.props
+
     return (
       <React.Fragment>
         <BackTop />
@@ -33,11 +32,17 @@ class Poster extends Component {
       <div className="base-poster"></div>
         <div className="pt-background">
           <Row className={"row-top majlis"}>
+            <Col span={24}>
+              {lang === "eng" ?
+              <h1 className="text-center mt-30 mb-40">Posters</h1> :
+              <h1 className="text-center mt-30 mb-80 urdu-main-heading">پوسٹر</h1>
+              }
+            </Col>
             <Col xs={24}
                     sm={12}
                     md={12}
                     lg={8}
-                    xl={8} className={"col-top pd-30"} style={styles}>
+                    xl={8} className={"col-top pd-10"}>
               <Card
                 hoverable
                 className="poster-card"
@@ -50,7 +55,7 @@ class Poster extends Component {
                     sm={12}
                     md={12}
                     lg={8}
-                    xl={8} className={"col-top pd-30"} style={styles}>
+                    xl={8} className={"col-top pd-10"}>
               <Card
                 hoverable
                 className="poster-card"

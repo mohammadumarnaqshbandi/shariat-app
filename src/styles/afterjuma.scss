@@ -9,16 +9,15 @@
 }
 
 .aj-header-text {
-  color: $black;
+  color: #201614;
   font-size: 60px;
   margin-top: 147px;
 }
 
 @media (max-width: 500px) {
   .aj-header-text {
-    font-size: 30px;
-    margin-top: 40px;
-    margin-left: 20px;
+    font-size: 40px;
+    margin-top: 14%;
   }
 }
 
