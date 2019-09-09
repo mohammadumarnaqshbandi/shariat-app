@@ -13,7 +13,6 @@ const {Meta} = Card
 
 class Poster extends Component {
   render() {
-    const {lang} = this.props
 
     return (
       <React.Fragment>

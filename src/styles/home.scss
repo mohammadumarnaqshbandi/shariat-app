@@ -31,15 +31,17 @@
 .hm-bg {
 
   .ant-carousel {
-    height: 65vh;
+    height: 60vh;
   }
 
   .image-container {
     width: auto !important;
-    height: 65vh;
+    height: 60vh;
   }
 
 }
+
+
 
 .live-player {
   width: 100%;
@@ -209,14 +211,20 @@
 
 .live-broadcast {
   text-align: center;
+  margin-top: 20px;
 }
 
-@media (max-width: 768px) {
-  .live-broadcast {
-    margin-top: 50px;
-  }
-}
+// @media (max-width: 768px) {
+//   .live-broadcast {
+//     margin-top: 20px;
+//   }
+// }
 
+// @media (min-width: 768px) {
+//   .live-broadcast {
+//     margin-top: 20px;
+//   }
+// }
 /* @media (max-width: 500px) {
   .image-container img{
   margin-top: 35px;

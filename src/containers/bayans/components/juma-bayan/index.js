@@ -37,7 +37,7 @@ const JumaBayan = observer(
                     <h1 className="bj-header-text">
                       Juma Bayans
                     </h1> :
-                    <h1 className="bj-header-text urdu-main-heading">جمعہ کے بیانات</h1>
+                    <h1 className="bj-header-text urdu-main-heading">جمعہ کےبیانات</h1>
                   }
                 </div>
               </Carousel>

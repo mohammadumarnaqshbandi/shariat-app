@@ -39,7 +39,7 @@ const Home = observer(
           <Row>
             <div className="bg-home">
               <Row type="flex" justify="center">
-                <div style={{ marginTop: 20 }} className="pd-20">
+                <div className="pd-20 home-title"> 
                   <Col
                     xs={24}
                     sm={24}
