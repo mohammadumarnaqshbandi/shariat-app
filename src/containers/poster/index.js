@@ -34,12 +34,8 @@ class Poster extends Component {
     backgroundColor: 'rgb(227, 166, 208)'}}></div> */}
       <div className="base-poster"></div>
         <div className="pt-background">
-          <Row className={"row-top majlis"} justify="space-between">
-            <Col xs={24}
-                  sm={12}
-                  md={12}
-                  lg={10}
-                  xl={8} className={"col-top pd-10"}>
+          <Row className={"row-top majlis text-center"} type="flex" justify="space-around">
+            <Col  xs={24} sm={24} md={12} lg={12} xl={8}  className={"col-top pd-10"}>
               <Card
                 hoverable
                 className="poster-card"
@@ -48,11 +44,7 @@ class Poster extends Component {
                 <Meta title="Muharram Ka Mahina Kya Karein...Kya Na Karein" description="Page 1" />
               </Card>
             </Col>
-            <Col xs={24}
-                  sm={12}
-                  md={12}
-                  lg={10}
-                  xl={8} className={"col-top pd-10"}>
+            <Col xs={8} sm={24} md={12} lg={12} xl={8} className={"col-top pd-10"}>
               <Card
                 hoverable
                 className="poster-card"
@@ -61,11 +53,7 @@ class Poster extends Component {
                 <Meta title="Muharram Ka Mahina Kya Karein...Kya Na Karein" description="Page 2" />
               </Card>
             </Col>
-            <Col xs={24}
-                sm={12}
-                md={12}
-                lg={10}
-                xl={8} className={"col-top pd-10"}>
+            <Col xs={8} sm={24} md={12} lg={12} xl={8} className={"col-top pd-10"}>
               <Card
                 hoverable
                 className="poster-card"
@@ -74,11 +62,7 @@ class Poster extends Component {
                 <Meta title="Muharram Ka Mahina Kya Karein...Kya Na Karein" description="Page 1" />
               </Card>
             </Col>
-            <Col xs={24}
-                sm={12}
-                md={12}
-                lg={10}
-                xl={8} className={"col-top pd-10"}>
+            <Col xs={8} sm={24} md={12} lg={12} xl={8} className={"col-top pd-10"}>
               <Card
                 hoverable
                 className="poster-card"
@@ -87,11 +71,7 @@ class Poster extends Component {
                 <Meta title="Muharram Ka Mahina Kya Karein...Kya Na Karein" description="Page 2" />
               </Card>
             </Col>
-            <Col xs={24}
-                  sm={12}
-                  md={12}
-                  lg={10}
-                  xl={8} className={"col-top pd-10"}>
+            <Col xs={8} sm={24} md={12} lg={12} xl={8} className={"col-top pd-10"}>
               <Card
                 hoverable
                 className="poster-card"
@@ -100,11 +80,7 @@ class Poster extends Component {
                 <Meta title="10 Muharram Poster" description="" />
               </Card>
             </Col>
-            <Col xs={24}
-                  sm={12}
-                  md={12}
-                  lg={10}
-                  xl={8} className={"col-top pd-10"}>
+            <Col xs={8} sm={16} md={24} lg={32} className={"col-top pd-10"}>
               <Card
                 hoverable
                 className="poster-card"

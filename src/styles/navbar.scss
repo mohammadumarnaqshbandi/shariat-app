@@ -63,9 +63,11 @@ nav {
 
 .logo {
       float: left;
-      top: 14px;
+      top: 28px;
+      left: 0px;
       position: relative;
-      z-index: 100000;
+      z-index: 1000;
+      margin-left: 20px;
 
       a {
             color: #0e278e;
@@ -121,7 +123,6 @@ nav {
 
 .lang-btn {
       background: transparent;
-      padding: 4px 20px;
       color: black !important;
       border: 0;
       font-size: 15px;
@@ -129,7 +130,8 @@ nav {
       text-decoration: underline;
       height: auto;
       line-height: 1;
-
+      font-weight: normal!important;
+      z-index: 1001;
       &:hover,
       &:focus {
             background: transparent;
@@ -234,12 +236,21 @@ nav {
     } */
 
       .nav-btn {
-            position: fixed;
-            right: 10px;
-            top: 6%;
+            // position: fixed;
+            // right: 10px;
+            // top: 6%;
+            // display: block;
+            // width: 48px;
+            // height: 48px;
+            // cursor: pointer;
+            // z-index: 1000001;
+            // border-radius: 50%;
+            position: absolute;
+            right: 20px;
+            top: 30%;
             display: block;
-            width: 48px;
-            height: 48px;
+            width: 50px;
+            height: 50px;
             cursor: pointer;
             z-index: 1000001;
             border-radius: 50%;

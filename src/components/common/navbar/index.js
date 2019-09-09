@@ -4,8 +4,8 @@ import "antd/dist/antd.css";
 import { Row, Col, Icon, Button } from "antd";
 import { observer } from "mobx-react";
 import "../../../styles/navbar.scss";
-import logo from "../../../images/logo.png";
-import logoUrdu from "../../../images/logo-urdu.png";
+import logo from "../../../images/web-logo.png";
+import logoUrdu from "../../../images/web-logo-urdu.png";
 
 const Navbar = observer(props => {
   const { store, handleLang } = props;
