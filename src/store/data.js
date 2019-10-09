@@ -15,7 +15,7 @@ Example:
 const data = [
   {
     name: "Ek Doosre Ki Khobiya Dekhne Ki Aadat Banalein",
-    src: "https://cf-media.sndcdn.com/nJ5kaHrKRN9i?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vbko1a2FIcktSTjlpIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcwNTg5MDE0fX19XX0_&Signature=TSltxcsyJDHTlb~qprba19Bx7I37FkIjVEoD6YFikrDca5WRhYYfO3CoJMZ4JNJeTcIOxbLKLohgN7rS7gM8dkANlUep~XwSZF11vOTh--p~bqYR~CMudQtsx~qC4qKNKC05IkVL9R1DvNjex7QYnH--CcidTOZmnddVchBX7e2UoXwSNSxGD8yQeBpkQt5gXzDLIpMN5wd-juBI0uHpnus4Qc5H5YD8sw5fO7jKpdIthuvtBUu-3LJumawQtk62yXYR9xq7-rzU-Eq1SiVhE4aH4THJ7z6KAirbYs2mZjQufvslh53RwSvsuxjC4bC8wuUnU6~f7awr0J2hDxnLrg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
+    src: "https://api.soundcloud.com/tracks/693046816/download?client_id=BeGVhOrGmfboy1LtiHTQF6Ejpt9ULJCI",
     length: "1h 32m",
     size: "11.70mb",
     date: "06/10/19",
@@ -23,7 +23,7 @@ const data = [
   },
   {
     name: "Gussa Ki Tabahi",
-    src: "https://cf-media.sndcdn.com/VqG4UwlS5p8j?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vVnFHNFV3bFM1cDhqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcwNTg5MzQwfX19XX0_&Signature=co6~IyR2YJW619Ketekxht~aTvSN061PUjifNQAcMZrUqCFP~XtH0H0hoxFYrbglcqFT5WvuQ7uWBgtA6F24dI9mYp9C58PStV2niSeprwj66AGJSV8erZ1Yf-GgnO-mokfAnHsAKqufhGS1TcfiOF0dPLTqThFS~Qr~4YzTPC7uaGWKCmhT6oVNNq1U1J8gcVMoMwI9U2xJja5UeV6~BouYRohKI2AmelRTFKNiXrBUe3PmN0Xi01lEOFD3fe-GU1jichSjyMbpbWVJUqa4KWkfm5S2P-4Lbru-AlGKtw3sD2eMXROhXAz4qWg0RewXy4~oE1hB6tw2sGPYQq50Mw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
+    src: "https://api.soundcloud.com/tracks/693048619/download?client_id=BeGVhOrGmfboy1LtiHTQF6Ejpt9ULJCI",
     length: "34m 25s",
     size: "04.43mb",
     date: "04/10/19",
@@ -31,7 +31,7 @@ const data = [
   },
   {
     name: "Deendar Kise Kehte Hai",
-    src: "https://cf-media.sndcdn.com/mhQhveQbVQ6C?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vbWhRaHZlUWJWUTZDIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcwNTg5NDkwfX19XX0_&Signature=Gr6Xbz5u0WrbDo1NrZYm2EBEUKM6VhB9gBlqWdvQZP5RSZAuXdbyMX26XvXrLZ6r2gb7GrtUCCntWx6cVhFkMBD3XjbBAEBGKv8Ep-Tap~rmrDEBYUGGAEjqXw47vlcWpHjao8UQcHhjIyn0lvypw2RHlv9edmHjrB-2BYivH6VU965y3IHzjTXGu6OL2DMTyOUuqiPW98O9UrJ-OD2OO4g5DELcuuP7dP0GPo5KwGEhlgXX0B~4UBll4kRZKJoGKeYg2PO19FuaSR5cPZW2R3VwOCo2SLSPOR1M0bE3WdmFUqNZYdkRxnYBP7hi6NWQ2Qd3r0jBGcodbQqMfRhmAQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
+    src: "https://api.soundcloud.com/tracks/693049609/download?client_id=BeGVhOrGmfboy1LtiHTQF6Ejpt9ULJCI",
     length: "27m 23s",
     size: "07.83mb",
     date: "04/10/19",
