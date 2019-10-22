@@ -1,6 +1,5 @@
 import {
   observable,
-  computed,
   decorate,
   action
 } from "mobx";
@@ -16,21 +15,6 @@ export class Bayans {
   itemsPerPage = 15;
   searchTerm = "";
   lang = "eng";
-
-  get recentSunday() {
-    let recent = this.sunday.slice(0, 4);
-    return recent;
-  }
-
-  get recentJuma() {
-    let recent = this.beforeJuma.slice(0, 4);
-    return recent;
-  }
-
-  get recentAfterJuma() {
-    let recent = this.afterJuma.slice(0, 4);
-    return recent;
-  }
 
   fetchBayans = page => {
     let indexOfLastBayan = this.currentPage * this.itemsPerPage;
@@ -68,9 +52,6 @@ decorate(
     fetchBayans: action,
     filterBayans: action,
     handleSearch: action,
-    recentSunday: computed,
-    recentJuma: computed,
-    recentAfterJuma: computed
   });
 
 export default new Bayans();

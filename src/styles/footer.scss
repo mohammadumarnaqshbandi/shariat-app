@@ -1,15 +1,18 @@
 .footer {
-    position: absolute;
-    right: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: #dddddd;
-    text-align: left;
+    // position: absolute;
+    // right: 0;
+    // left: 0;
+    // padding: 1rem;
+    // background-color: #dddddd;
+    // text-align: left;
+    // align-items: center;
+    // height: 70px;
+    background-color: #081220;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    height: 70px;
-
     p {
-        padding-top: 10px;
-        padding-left: 40px;
+        color: #ffffff;
     }
 }

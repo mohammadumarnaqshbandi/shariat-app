@@ -447,7 +447,7 @@ const data = [
   },
   {
     name: "Dawat Ka Maqsood Deen Hai",
-    src: "https://archive.org/download/SundayBabaBayan15Ramzan11062017/Dawat%2BKa%2BMaqsood%2BDeen%2BHai_22102017.mp3",
+    src: "http://feeds.soundcloud.com/stream/700169608-shariatinfo-dawat-ka-maqsood-deen-hai.mp3",
     length: "1h 21m",
     size: "10.46mb",
     date: "22/10/17",
@@ -455,7 +455,7 @@ const data = [
   },
   {
     name: "Zaban Ki Hifazat",
-    src: "https://archive.org/download/SundayBabaBayan15Ramzan11062017/Zuban-Ki-Hifazat15th-Oct2017.mp3",
+    src: "http://feeds.soundcloud.com/stream/700169977-shariatinfo-zuban-ki-hifazat.mp3",
     length: "1h 07m",
     size: "8.63mb",
     date: "15/10/17",
@@ -463,7 +463,7 @@ const data = [
   },
   {
     name: "Gunahoo Ki Nahoosat Se Aqal Maar Di Jati Hai",
-    src: "https://archive.org/download/SundayBabaBayan15Ramzan11062017/Gunaho%2BKi%2BNahoosat_30082017.mp3",
+    src: "http://feeds.soundcloud.com/stream/700170259-shariatinfo-gunahoo-ki-nahoosat.mp3",
     length: "2h 03m",
     size: "14.11mb",
     date: "30/08/17",
@@ -471,7 +471,7 @@ const data = [
   },
   {
     name: "Be Hayai Se Bache Aur Ghar Ko Jannat Banaye",
-    src: "https://archive.org/download/SundayBabaBayan15Ramzan11062017/Be%2BHayai%2BSe%2BBache_23_07_2017.mp3",
+    src: "http://feeds.soundcloud.com/stream/700171741-shariatinfo-be-hayai-se-bachein.mp3",
     length: "1h 36m",
     size: "12.35mb",
     date: "23/08/17",
@@ -479,7 +479,7 @@ const data = [
   },
   {
     name: "Ummat Behayai Ke Raste Se Loot Rahi Hai...Ulema-e-Deoband Ki Azmat",
-    src: "https://archive.org/download/SundayBabaBayan15Ramzan11062017/Ummat%2BBehayai%2BKe%2BRaste_13082017.mp3",
+    src: "http://feeds.soundcloud.com/stream/700171540-shariatinfo-ummat-behayai-ke-raste-se-loot-rahi-hai.mp3",
     length: "1h 18m",
     size: "10.08mb",
     date: "13/08/17",
@@ -487,7 +487,7 @@ const data = [
   },
   {
     name: "Ulema Ki Be Ehterami Shariat Ki Azmat Na Hone Ki Alamat Hai",
-    src: "https://archive.org/download/SundayBabaBayan15Ramzan11062017/Ulema%2BKi%2BBe%2BEhterami_06082017.mp3",
+    src: "http://feeds.soundcloud.com/stream/700171372-shariatinfo-ulema-ki-be-ehterami-shariat-ki-azmat-na-hone-ki-alamat.mp3",
     length: "1h 20m",
     size: "10.28mb",
     date: "06/08/17",
@@ -503,7 +503,7 @@ const data = [
   },
   {
     name: "Nikah Mein Allah Ki Bagawat",
-    src: "https://archive.org/download/SundayBabaBayan15Ramzan11062017/Nikah%2BMein%2BAllah%2BKi%2BBagawat_02072017.mp3",
+    src: "http://feeds.soundcloud.com/stream/700171084-shariatinfo-nikah-mein-allah-ki-bagawat.mp3",
     length: "1h 25m",
     size: "9.82mb",
     date: "02/07/17",
@@ -511,7 +511,7 @@ const data = [
   },
   {
     name: "Ramazan Ki Nekiyo Ki Hifazat Kare",
-    src: "https://archive.org/download/SundayBabaBayan15Ramzan11062017/Ramazan%2BKi%2BNekiyo%2BKi%2BHifazat%2BKare_25062017.mp3",
+    src: "http://feeds.soundcloud.com/stream/700172065-shariatinfo-ramazan-ki-nekiyo-ki-hifazat-kare.mp3",
     length: "1h 54m",
     size: "14.65mb",
     date: "25/06/17",
@@ -519,7 +519,7 @@ const data = [
   },
   {
     name: "Ramazan Dil Badalne Ke liye Aaya Hai",
-    src: "https://archive.org/download/SundayBabaBayan15Ramzan11062017/Ramzan-dil-badal-ne-ko-aaya_18062017.mp3",
+    src: "http://feeds.soundcloud.com/stream/700170856-shariatinfo-ramzan-dil-badal-ne-ke-liye-aaya-hai.mp3",
     length: "1h 48m",
     size: "14.03mb",
     date: "18/06/17",
@@ -551,7 +551,7 @@ const data = [
   },
   {
     name: "Allah Ke Wali Kaise Bane",
-    src: "https://archive.org/download/SundayBabaBayan15Ramzan11062017/Allah%2Bke%2Bvali_%2Bsunday%2Bbayan%2B21052017.mp3",
+    src: "http://feeds.soundcloud.com/stream/700170544-shariatinfo-allah-ke-wali-kaise-bane.mp3",
     length: "57m 59s",
     size: "7.48mb",
     date: "21/05/17",
