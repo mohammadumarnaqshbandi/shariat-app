@@ -14,6 +14,38 @@ Example:
 // Categories: sunday, after juma, before juma, misc, old bayans, miscellaneous
 const data = [
   {
+    name: "Eiman Ke Bare Mein Gaflat Se Bachein",
+    src: "http://feeds.soundcloud.com/stream/706435756-shariatinfo-eiman-ke-barein-mein-gaflat-se-bachein.mp3",
+    length: "55m 17s",
+    size: "15.80mb",
+    date: "25/10/19",
+    category: "after juma"
+  },
+  {
+    name: "Walidain Ki Qadr Karein",
+    src: "http://feeds.soundcloud.com/stream/706437052-shariatinfo-walidain-ki-qadr-karein.mp3",
+    length: "27m 53s",
+    size: "7.97mb",
+    date: "25/10/19",
+    category: "before juma"
+  },
+  {
+    name: "Apne Eiman Ke Barein Mein Fikrmand Rahen",
+    src: "http://feeds.soundcloud.com/stream/706432237-shariatinfo-apne-eiman-ke-barein-mein-fikrmand-rahen.mp3",
+    length: "56m 22s",
+    size: "16.10mb",
+    date: "18/10/19",
+    category: "after juma"
+  },
+  {
+    name: "Shariat Par Chalne Mein 100% Nafa Hi Nafa Hai",
+    src: "http://feeds.soundcloud.com/stream/695950097-shariatinfo-eiman-kainaat-ki-sabse-badi-doulat.mp3",
+    length: "30m 49s",
+    size: "8.80mb",
+    date: "18/10/19",
+    category: "before juma"
+  },
+  {
     name: "Shaitan Aur Uske Dhoke",
     src: "http://feeds.soundcloud.com/stream/695950817-shariatinfo-shaitan-aur-uske-dhoke.mp3",
     length: "1h 2m",
