@@ -77,9 +77,9 @@ const Home = observer(
                     
                       {lang === "eng" ? <>
                       <p>
-                      Bayan by Hazrat Haji Shakeel Ahmad Sb Db is
-                      held at Panvel on 1st and 2nd Sunday (11:00 A.M. IST) of
-                      every month.
+                      There will be no majlis on 10 November 2019. Next majlis will be on 1 December 2019. 
+        Please call before coming to the next majlis.
+        Mobile: 7021531353
                       <br />
                       Please Listen Live at{" "}
                       <a href="https://mixlr.com/shariatinfo--3" style={{color: "red"}}>Mixlr</a>.
@@ -100,10 +100,12 @@ const Home = observer(
                       </p>
                       </> : 
                       <div className="urdu-text">
-                      <p>
-                      ہرماہ کے پہلے اور دوسرے اتوار کو حضرت حاجی شکیل احمد صاحب مدظلہ العالی کا بیان
-                      شہر پنویل، نئی بمبئی میں گیارہ بجے دن کو ہوتا ہے۔    
-                      </p> 
+//                       <p>
+//                       ہرماہ کے پہلے اور دوسرے اتوار کو حضرت حاجی شکیل احمد صاحب مدظلہ العالی کا بیان
+//                       شہر پنویل، نئی بمبئی میں گیارہ بجے دن کو ہوتا ہے۔    
+//                       </p> 
+                        <p>10 November 2019 Ko Haji Shakeel Ahmad Sb Ki Majlis <b>Nahi Hogi</b>. 
+        Aainda 1 December 2019 Ko Majlis Hogi Insha Allah. Majlis Ke Liye Phone Karke Hi Aayen. Mobile: 7021531353</p>
                       <p>
                       مکسلر پر جاری بیان سننے کے لیے یہاں
                       &nbsp;
