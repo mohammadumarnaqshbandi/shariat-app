@@ -14,6 +14,30 @@ Example:
 // Categories: sunday, after juma, before juma, misc, old bayans, miscellaneous
 const data = [
   {
+    name: "Sehat Ki Hifazat",
+    src: "https://feeds.soundcloud.com/stream/711740152-shariatinfo-sehat-ki-hifazat.mp3",
+    length: "46m 07s",
+    size: "13.10mb",
+    date: "08/11/19",
+    category: "after juma"
+  },
+  {
+    name: "Sachi Talab Manzil Tak Pahunchati Hai",
+    src: "https://feeds.soundcloud.com/stream/711739381-shariatinfo-sachi-talab-manzil-tak-pahunchati-hai.mp3",
+    length: "29m 52s",
+    size: "8.54mb",
+    date: "08/11/19",
+    category: "before juma"
+  },
+  {
+    name: "Gharelu Zindagi Sawarein",
+    src: "https://feeds.soundcloud.com/stream/711740827-shariatinfo-gharelu-zindagi-sawarein.mp3",
+    length: "1h 48m",
+    size: "30.90mb",
+    date: "03/11/19",
+    category: "sunday"
+  },
+  {
     name: "Khana Aur Nafs Wa Shaitan Ke Dhoke",
     src: "http://feeds.soundcloud.com/stream/706531393-shariatinfo-khana-aur-nafs-wa-shaitan-ke-dhoke.mp3",
     length: "41m 57s",
