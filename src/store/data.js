@@ -13,6 +13,14 @@ Example:
 */
 // Categories: sunday, after juma, before juma, misc, old bayans, miscellaneous
 const data = [
+ {
+    name: "Shaitan Ko Apna Dost Na Banayein",
+    src: "http://feeds.soundcloud.com/stream/741106450-shariatinfo-shaitan-ko-apna-dost-na-banayein.mp3",
+    length: "50m 28s",
+    size: "11.05mb",
+    date: "27/12/19",
+    category: "after juma"
+  },
   {
     name: "Sehat Ki Hifazat",
     src: "https://feeds.soundcloud.com/stream/711740152-shariatinfo-sehat-ki-hifazat.mp3",
