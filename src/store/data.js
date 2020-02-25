@@ -13,6 +13,14 @@ Example:
 */
 // Categories: sunday, after juma, before juma, misc, old bayans, miscellaneous
 const data = [
+   {
+    name: "Eiman Ki Halawat Pane ka Nuskha",
+    src: "http://feeds.soundcloud.com/stream/766368925-shariatinfo-eiman-ki-halawat-pane-ka-nuskha.mp3",
+    length: "28m 15s",
+    size: "8.08mb",
+    date: "21/02/20",
+    category: "before juma"
+  },
  {
     name: "Shaitan Ko Apna Dost Na Banayein",
     src: "http://feeds.soundcloud.com/stream/741106450-shariatinfo-shaitan-ko-apna-dost-na-banayein.mp3",
