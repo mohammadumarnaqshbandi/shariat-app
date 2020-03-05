@@ -159,7 +159,7 @@ const data = [
    },
    {
      name: "Eiman Ki Fikr",
-     src: "https://cf-media.sndcdn.com/I0pNgzakox6p?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vSTBwTmd6YWtveDZwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjQ5NzU1fX19XX0_&Signature=VJcIhTn7xIwhNN3TUDwD-tJhSwTdR8~eMa-gOs7dO0zdL~YQ4yVZSGIgYNWz8bUdcVVMh6s4dy4pItspuvD2kj3LqrNgJS9Z0AkIdou1N~PpTjQ1pba-ciSsq9E3HqlFjkdvOZk62EMvsMAjS7hPBgV07-mP7z30VY0WpKy1~t6wN8KOh73Hr4FROYyefVCEjy1x0SLU837XK4E6z3DPK9~wNxbZZTBwtp3U9JwEPDjIA8aW0Wyroi0taQEtTeK9C6LZ1jozu6YDjWBOWBJHyPdomkSC~XzF5FYWWyAeLDVihgv7R-5OJCKCfTum-TOSk7K~Jl~T88xELUfM~xCVaQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
+     src: "http://feeds.soundcloud.com/stream/769919104-shariatinfo-eiman-ki-fikr.mp3",
      length: "01h 07m",
      size: "08.60mb",
      date: "16/06/19",
@@ -167,7 +167,7 @@ const data = [
    },
    {
      name: "Hamne Zulm Ke Siwa Kiya Hi Kya Hai?",
-     src: "https://cf-media.sndcdn.com/uGHAXikPAgVV?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vdUdIQVhpa1BBZ1ZWIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjUzODIxfX19XX0_&Signature=N2HPWmeXHANyRlcUHFjgVj9CzJids8cX78ZG1vliJDnMd51KrgZa1S9zRQSV3zhWRzjlQWsQWKQtVDwyv6UGXpYTbJbMZJtCqrGm~0QaFEvFnviNB0kaweFtkxN7-9oy9R-as6PeHn3fFgG5uciCkPd1NUr9APde4FDmgiBB0ux93r2FBTyJZfPscy5ML2HMIto9fXsPP5wxmMYuX3Pm57e4M39lgCutthTyMxDGGM7yZ3nZKjVa5xZm10GVNOK7uENxH79m~6UWqTLaGFobwuZEzZIb2y9yuWOEiL7SPWvK-AqphIiEV5ylTUorx2Cpc3Mn-HDjavpzkvDpa59AVg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
+     src: "http://feeds.soundcloud.com/stream/770574319-shariatinfo-hamne-zulm-ke-siwa-kiya-hi-kya-hai.mp3",
      length: "01h 13m",
      size: "12.60mb",
      date: "09/06/19",
@@ -205,64 +205,64 @@ const data = [
      date: "17/05/19",
      category: "before juma"
    },
-   {
-     name: "Ramazan: Kya Ham Muttaqi Ban Gaye?",
-     src: "https://cf-media.sndcdn.com/y3cYB1lrMzYB?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20veTNjWUIxbHJNellCIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjU1NDAzfX19XX0_&Signature=aEnqC12xpIVlFHVOwkfdRVSNwxIlBuIaveGLwvLseYkBgNYBRwZvKZPHbEkr2PUn5juSBFPV41~vyxgyCxNdxUfY~JdxhX1EoQZ-rlmAypjdkU5xV20-9yY-ARI1fowogUGM5kc6PoRG9D8I6KVQglMjVhNLruQjpHDLzZSkoCJWt6YBCFulboiJoiDpVbrv4saRCL349uXjQ-Izk-FsMw6QI4urDJDE0d5FiSfDm8cXXc7bBisJuSQCjJVvndOS58Xwxaje6QAzFxc2RJg13zNHfGoS9xpiorYSuzB36ITnlF~MKOVAm6rakyWm5vubn27Nx1glw1EJy6VupTC12g__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-     length: "01h 01m",
-     size: "07.80mb",
-     date: "26/05/19",
-     category: "sunday"
-   },
-   {
-     name: "Rozay Ka Maqsad Taqwa Hasil Karna Hai",
-     src: "http://feeds.soundcloud.com/stream/769965967-shariatinfo-ramazan-ka-maqsad-taqwa-hasil-karna.mp3",
-     size: "20.10mb",
-     date: "-",
-     category: "ramazan"
-   },
-   {
-     name: "Ramazan Taqwa Hasil Karne Ka Season",
-     src: "http://feeds.soundcloud.com/stream/769958515-shariatinfo-ramazan-ka-maheena-taqwa-hasil-karne-ka-season.mp3",
-     length: "02h 32m",
-     size: "17.40mb",
-     date: "-",
-     category: "ramazan"
-   },
-   {
-     name: "Ramazan Ki Tayyari",
-     src: "http://feeds.soundcloud.com/stream/769965871-shariatinfo-ramazan-ki-tayyari.mp3",
-     length: "01h 48m",
-     size: "12.40mb",
-     date: "-",
-     category: "ramazan"
-   },
-   {
-     name: "Ramazan Ki Qadar Kis Tarah",
-     src: "/ramazan-bayans/Ramazaan%20ki%20qadar%20kis%20tarah%20%20.mp3",
-     length: "12m 54s",
-     size: "02.20mb",
-     date: "-",
-     category: "ramazan"
-   },
-   {
-     name: "Roza Kaisey Banae",
-     src: "/ramazan-bayans/Roza%20Kaisey%20Banae%2828%20AUG%202009%29.mp3",
-     length: "18m 48s",
-     size: "02.70mb",
-     date: "-",
-     category: "ramazan"
-   },
-   {
-     name: "Hum Apne Dil Ka Ilaaj Karein Ramazan Sey Pehle",
-     src: "/ramazan-bayans/RAMZAN%20SAY%20PAHLY%20HAM%20APNY%20DIL%20KA%20ILAAJ%20KARE%281%20JULY%202001%29.mp3",
-     length: "29m 12s",
-     size: "06.70mb",
-     date: "-",
-     category: "ramazan"
-   },
+  //  {
+  //    name: "Ramazan: Kya Ham Muttaqi Ban Gaye?",
+  //    src: "https://cf-media.sndcdn.com/y3cYB1lrMzYB?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20veTNjWUIxbHJNellCIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjU1NDAzfX19XX0_&Signature=aEnqC12xpIVlFHVOwkfdRVSNwxIlBuIaveGLwvLseYkBgNYBRwZvKZPHbEkr2PUn5juSBFPV41~vyxgyCxNdxUfY~JdxhX1EoQZ-rlmAypjdkU5xV20-9yY-ARI1fowogUGM5kc6PoRG9D8I6KVQglMjVhNLruQjpHDLzZSkoCJWt6YBCFulboiJoiDpVbrv4saRCL349uXjQ-Izk-FsMw6QI4urDJDE0d5FiSfDm8cXXc7bBisJuSQCjJVvndOS58Xwxaje6QAzFxc2RJg13zNHfGoS9xpiorYSuzB36ITnlF~MKOVAm6rakyWm5vubn27Nx1glw1EJy6VupTC12g__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
+  //    length: "01h 01m",
+  //    size: "07.80mb",
+  //    date: "26/05/19",
+  //    category: "sunday"
+  //  },
+  //  {
+  //    name: "Rozay Ka Maqsad Taqwa Hasil Karna Hai",
+  //    src: "http://feeds.soundcloud.com/stream/769965967-shariatinfo-ramazan-ka-maqsad-taqwa-hasil-karna.mp3",
+  //    size: "20.10mb",
+  //    date: "-",
+  //    category: "ramazan"
+  //  },
+  //  {
+  //    name: "Ramazan Taqwa Hasil Karne Ka Season",
+  //    src: "http://feeds.soundcloud.com/stream/769958515-shariatinfo-ramazan-ka-maheena-taqwa-hasil-karne-ka-season.mp3",
+  //    length: "02h 32m",
+  //    size: "17.40mb",
+  //    date: "-",
+  //    category: "ramazan"
+  //  },
+  //  {
+  //    name: "Ramazan Ki Tayyari",
+  //    src: "http://feeds.soundcloud.com/stream/769965871-shariatinfo-ramazan-ki-tayyari.mp3",
+  //    length: "01h 48m",
+  //    size: "12.40mb",
+  //    date: "-",
+  //    category: "ramazan"
+  //  },
+  //  {
+  //    name: "Ramazan Ki Qadar Kis Tarah",
+  //    src: "/ramazan-bayans/Ramazaan%20ki%20qadar%20kis%20tarah%20%20.mp3",
+  //    length: "12m 54s",
+  //    size: "02.20mb",
+  //    date: "-",
+  //    category: "ramazan"
+  //  },
+  //  {
+  //    name: "Roza Kaisey Banae",
+  //    src: "/ramazan-bayans/Roza%20Kaisey%20Banae%2828%20AUG%202009%29.mp3",
+  //    length: "18m 48s",
+  //    size: "02.70mb",
+  //    date: "-",
+  //    category: "ramazan"
+  //  },
+  //  {
+  //    name: "Hum Apne Dil Ka Ilaaj Karein Ramazan Sey Pehle",
+  //    src: "/ramazan-bayans/RAMZAN%20SAY%20PAHLY%20HAM%20APNY%20DIL%20KA%20ILAAJ%20KARE%281%20JULY%202001%29.mp3",
+  //    length: "29m 12s",
+  //    size: "06.70mb",
+  //    date: "-",
+  //    category: "ramazan"
+  //  },
    {
      name: "Gharelu Zindagi - Sabr Par Allah Milta Hai",
-     src: "https://cf-media.sndcdn.com/W2dpZSYK7dAo?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vVzJkcFpTWUs3ZEFvIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjU2MzgwfX19XX0_&Signature=beYMbbNHgcRUZhTdazhBheP5pa-JnTtrc3kkiKVJ2CnxUxy4wSwzNe3hW61gD9MMwiiZ~l~mtQ8bk3eQlDf-mQfiSWYxk98dCPUxpLihQq0MWe38fZNXDTIj5d5McKebYR884XyVJFkr6aaJVB-RdaG8XsFY4lwEwGiwvuMdVu9mexaMyKL3lrpLrnofFudFVLBIZFhHX64IkRe6zhqiZ4-f6rF6eSG2p6YQ1OwXIMhe3cDWeUEP09r0vfzXp24z3YOnlORseer8LOmpj1vwe7QewDdD5OV5NTKX8lvhR3BUtUNDda9yTHgPTYHprUD5YVPPAiQvgaFp0rcGsWuc~g__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
+     src: "http://feeds.soundcloud.com/stream/770578102-shariatinfo-gharelu-zindagi-sabr-par-allah-milta-hai.mp3",
      length: "01h 43m",
      size: "17.80mb",
      date: "24/02/19",
@@ -454,7 +454,7 @@ const data = [
    },
    {
      name: "Zulm Se Taubah Karein",
-     src: "/SundayBabaBayan15Ramzan11062017/18-sunday-21Jan-2018.mp3",
+     src: "http://feeds.soundcloud.com/stream/770579437-shariatinfo-zulm-se-taubah-karein.mp3",
      length: "1h 05m",
      size: "8.25mb",
      date: "21/01/18",
@@ -622,7 +622,7 @@ const data = [
    },
    {
      name: "Maa Baap Ki Dua",
-     src: "https://cf-media.sndcdn.com/Jfsio6KxLZjU?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vSmZzaW82S3hMWmpVIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTY3MjU4MTc5fX19XX0_&Signature=d1cZf-LAQGlwZFx3Fns3IdfPnI0rsreqHTufSEUCFhk9ibWs9D0kbkaZLaXIEa3GH8Lcud6VbC1cJMP5Luscy4jX3wZ2YGz9dpNqXy~1G8thItNY4CHD-GZiFKh5Ruph18HV4~oxp~XogHnupZassbbVbrEwxYfR6x94SpZeet7nL535ARAH~pEhUPuEDF40ddHvGR1-CVeHTlg6EzCWiGnaE6ENCkqCXSPvpRFe3wzrZZI-ilkBuqErlYsrwNnU~PyYA48JYn94J0p8Zb6T5oHdJXF435BOjQGKe9qgBow1aiOBuvyc0-fpLB~8EcnRv8jaqeD5agpKGtGncfB0Cw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
+     src: "http://feeds.soundcloud.com/stream/770596288-shariatinfo-maa-baap-ki-dua.mp3",
      length: "1h 15m",
      size: "9.74mb",
      date: "14/05/17",
@@ -910,7 +910,7 @@ const data = [
    },
    {
      name: "Eiman Ki Ahmiyat - 4",
-     src: "",
+     src: "http://feeds.soundcloud.com/stream/770606128-shariatinfo-eiman-ki-ahmiyat-4.mp3",
      length: "29m 43s",
      size: "3.82mb",
      date: "23/02/18",
@@ -918,7 +918,7 @@ const data = [
    },
    {
      name: "Eiman Ki Ahmiyat - 3",
-     src: "26_JAN_2018_Babaka_juma_bayan.mp3",
+     src: "http://feeds.soundcloud.com/stream/770606278-shariatinfo-eiman-ki-ahmiyat-3.mp3",
      length: "28m 30s",
      size: "3.26mb",
      date: "26/01/18",
@@ -926,7 +926,7 @@ const data = [
    },
    {
      name: "Eiman Ki Ahmiyat - 2",
-     src: "Eman_Ki_Ehmiyat_19_Jan_18.mp3",
+     src: "http://feeds.soundcloud.com/stream/770606353-shariatinfo-eiman-ki-ahmiyat-2.mp3",
      length: "28m 37s",
      size: "3.68mb",
      date: "19/01/18",
@@ -1018,14 +1018,6 @@ const data = [
      length: "28m 34s",
      size: "3.67mb",
      date: "11/08/17",
-     category: "before juma"
-   },
-   {
-     name: "Imaan Wali Soch Aur Muqaddar Par Imaan",
-     src: "#",
-     length: "50m 04s",
-     size: "5.73mb",
-     date: "04/08/17",
      category: "before juma"
    },
    {
@@ -1358,7 +1350,7 @@ const data = [
    },
    {
      name: "Dawat O Tableeg",
-     src: "/raat-ko-der-me-sona-bahut-kuch-khona-hai_30062017/BabaKaJumaBaadBayan_Ramzan25May18.mp3",
+     src: "http://feeds.soundcloud.com/stream/770606449-shariatinfo-dawat-o-tableeg-1.mp3",
      length: "01h 27m",
      size: "11.90mb",
      date: "25/05/18",
@@ -1422,7 +1414,7 @@ const data = [
    },
    {
      name: "Apne Dil Ko Sochne Ka Unwan Dein",
-     src: "/raat-ko-der-me-sona-bahut-kuch-khona-hai_30062017/Apne%2BSone-Jagne%2BKa%2BNizam28072017.mp3",
+     src: "http://feeds.soundcloud.com/stream/770606512-shariatinfo-apne-dil-ko-sochne-ka-unwan-dein.mp3",
      length: "29m 59s",
      size: "03.86mb",
      date: "19/01/18",
@@ -1462,7 +1454,7 @@ const data = [
    },
    {
      name: "Jannat Mein Apna Ghar Book Kara Le",
-     src: '/raat-ko-der-me-sona-bahut-kuch-khona-hai_30062017/Jannat%2BMein%2BApna%2BGhar%2BBook%2BKara%2BLe_03_11_17.mp3" type="audio/mp3',
+     src: "http://feeds.soundcloud.com/stream/770606089-shariatinfo-jannat-mein-apna-ghar-book-kara-le.mp3",
      length: "35m 53s",
      size: "4.46mb",
      date: "03/11/17",
@@ -1588,38 +1580,38 @@ const data = [
      date: "12/05/17",
      category: "after juma"
    },
-   {
-     name: "Juma Bayan",
-     src: "https://archive.org/download/raat-ko-der-me-sona-bahut-kuch-khona-hai_30062017/After_Juma_2017-05-05.mp3",
-     length: "45m 05s",
-     size: "7.74mb",
-     date: "05/05/17",
-     category: "after juma"
-   },
-   {
-     name: "Juma Bayan",
-     src: "https://archive.org/download/raat-ko-der-me-sona-bahut-kuch-khona-hai_30062017/after-Juma_24032017.mp3",
-     length: "33m 38s",
-     size: "4.32mb",
-     date: "24/03/17",
-     category: "after juma"
-   },
-   {
-     name: "Juma Bayan",
-     src: "https://archive.org/download/raat-ko-der-me-sona-bahut-kuch-khona-hai_30062017/AfterJuma_3-03-17.mp3",
-     length: "39m 23s",
-     size: "5.06mb",
-     date: "03/03/17",
-     category: "after juma"
-   },
-   {
-     name: "Juma Bayan",
-     src: "https://archive.org/download/raat-ko-der-me-sona-bahut-kuch-khona-hai_30062017/Juma-2017-02-24.mp3",
-     length: "30m 19s",
-     size: "3.89mb",
-     date: "24/02/17",
-     category: "after juma"
-   },
+  //  {
+  //    name: "Juma Bayan",
+  //    src: "https://archive.org/download/raat-ko-der-me-sona-bahut-kuch-khona-hai_30062017/After_Juma_2017-05-05.mp3",
+  //    length: "45m 05s",
+  //    size: "7.74mb",
+  //    date: "05/05/17",
+  //    category: "after juma"
+  //  },
+  //  {
+  //    name: "Juma Bayan",
+  //    src: "https://archive.org/download/raat-ko-der-me-sona-bahut-kuch-khona-hai_30062017/after-Juma_24032017.mp3",
+  //    length: "33m 38s",
+  //    size: "4.32mb",
+  //    date: "24/03/17",
+  //    category: "after juma"
+  //  },
+  //  {
+  //    name: "Juma Bayan",
+  //    src: "https://archive.org/download/raat-ko-der-me-sona-bahut-kuch-khona-hai_30062017/AfterJuma_3-03-17.mp3",
+  //    length: "39m 23s",
+  //    size: "5.06mb",
+  //    date: "03/03/17",
+  //    category: "after juma"
+  //  },
+  //  {
+  //    name: "Juma Bayan",
+  //    src: "https://archive.org/download/raat-ko-der-me-sona-bahut-kuch-khona-hai_30062017/Juma-2017-02-24.mp3",
+  //    length: "30m 19s",
+  //    size: "3.89mb",
+  //    date: "24/02/17",
+  //    category: "after juma"
+  //  },
    {
      name: "Be Pardagi Ka Natija",
      src: "http://feeds.soundcloud.com/stream/769929475-shariatinfo-be-pardagi-ka-natija.mp3",
@@ -1668,22 +1660,22 @@ const data = [
      date: "12/12/17",
      category: "miscellaneous"
    },
-   {
-     name: "Dua After Bayan",
-     src: "/HumJamatMayKuNikalteHayJeddah7JUN2012/Dua%2BAfter%2BBayan_12_12_17.mp3",
-     length: "8m 41s",
-     size: "1.11mb",
-     date: "12/12/17",
-     category: "miscellaneous"
-   },
-   {
-     name: "Dua After Fajr",
-     src: "/HumJamatMayKuNikalteHayJeddah7JUN2012/Dua%2BAfter%2BFajr_08_12_17.mp3",
-     length: "23m 46s",
-     size: "10.88mb",
-     date: "08/12/17",
-     category: "miscellaneous"
-   },
+  //  {
+  //    name: "Dua After Bayan",
+  //    src: "/HumJamatMayKuNikalteHayJeddah7JUN2012/Dua%2BAfter%2BBayan_12_12_17.mp3",
+  //    length: "8m 41s",
+  //    size: "1.11mb",
+  //    date: "12/12/17",
+  //    category: "miscellaneous"
+  //  },
+  //  {
+  //    name: "Dua After Fajr",
+  //    src: "/HumJamatMayKuNikalteHayJeddah7JUN2012/Dua%2BAfter%2BFajr_08_12_17.mp3",
+  //    length: "23m 46s",
+  //    size: "10.88mb",
+  //    date: "08/12/17",
+  //    category: "miscellaneous"
+  //  },
    {
      name: "Dil Kaise Bigadta Hai Aur Kaise Banta Hai?",
      src: "http://feeds.soundcloud.com/stream/770002771-shariatinfo-dil-kaise-bigadta-hai-aur-kaise-banta-hai.mp3",
