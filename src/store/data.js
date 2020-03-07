@@ -13,14 +13,38 @@ Example:
 */
 // Categories: sunday, after juma, before juma, misc, old bayans, miscellaneous
 const data = [
-    {
+  {
+     name: "Namaz Ke Asarat Zindagi Par",
+     src: "http://feeds.soundcloud.com/stream/772254751-shariatinfo-namaz-ke-asarat-zindagi-par.mp3",
+     length: "44m 58s",
+     size: "12.80mb",
+     date: "06/03/20",
+     category: "after juma"
+   },
+   {
+     name: "Allah Ko Pukarne Ki Aadat Bana Lein",
+     src: "http://feeds.soundcloud.com/stream/772254766-shariatinfo-allah-ko-pukarne-ki-aadat-bana-lein.mp3",
+     length: "28m 26s",
+     size: "8.13mb",
+     date: "06/03/20",
+     category: "before juma"
+   },
+   {
+     name: "Aik Chupa Marz - Hubbe Jah",
+     src: "http://feeds.soundcloud.com/stream/772254775-shariatinfo-aik-chupa-marz-hubbe-jah.mp3",
+     length: "29m 50s",
+     size: "8.53mb",
+     date: "28/02/20",
+     category: "before juma"
+   },
+   {
      name: "Eiman Ki Halawat Pane ka Nuskha",
      src: "http://feeds.soundcloud.com/stream/766368925-shariatinfo-eiman-ki-halawat-pane-ka-nuskha.mp3",
      length: "28m 15s",
      size: "8.08mb",
      date: "21/02/20",
      category: "before juma"
-   },
+  },
   {
      name: "Shaitan Ko Apna Dost Na Banayein",
      src: "http://feeds.soundcloud.com/stream/741106450-shariatinfo-shaitan-ko-apna-dost-na-banayein.mp3",
