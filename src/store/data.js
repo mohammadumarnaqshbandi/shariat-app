@@ -13,6 +13,14 @@ Example:
 */
 // Categories: sunday, after juma, before juma, misc, old bayans, miscellaneous
 const data = [
+   {
+     name: "Deen Kya Hai",
+     src: "http://feeds.soundcloud.com/stream/775404973-shariatinfo-deen-kya-hai.mp3",
+     length: "1h 29m",
+     size: "12.70mb",
+     date: "08/03/20",
+     category: "sunday"
+  },
   {
      name: "Namaz Ke Asarat Zindagi Par",
      src: "http://feeds.soundcloud.com/stream/772254751-shariatinfo-namaz-ke-asarat-zindagi-par.mp3",
