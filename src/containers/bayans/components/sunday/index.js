@@ -88,7 +88,7 @@ const SundayMajlis = observer(
                     >
                       <Card hoverable className="mt-30 recent-card sd">
                         <p>{i.name}</p>
-                        <Plyr
+                        {/* <Plyr
                           url={i.src}
                           type="audio"
                           className={`react-plyr-${index} sd`}
@@ -101,7 +101,14 @@ const SundayMajlis = observer(
                           ]}
                           title={i.name}
                           preload="none"
-                        />
+                        /> */}
+                        <iframe title={`player-${i.src.slice(35, 44)}`}
+                        width='100%' 
+                        height='125' 
+                        scrolling='no' 
+                        frameborder='no' 
+                        src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${i.src.slice(35, 44)}&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;download=true&amp;visual=false&amp;color=5e750f&amp;show_artwork=false&amp;show_playcount=true&amp;liking=false`}>
+                        </iframe>
                         <p>
                           <small>
                             {i.date.split("/").join(".") || "N/A"} |{" "}

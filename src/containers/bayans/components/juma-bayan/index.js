@@ -86,7 +86,7 @@ const JumaBayan = observer(
                   >
                     <Card hoverable className="mt-30 recent-card">
                       <p>{i.name}</p>
-                      <Plyr
+                      {/* <Plyr
                         url={i.src}
                         type="audio"
                         className={"react-plyr-" + index}
@@ -99,7 +99,14 @@ const JumaBayan = observer(
                         ]}
                         title={i.name}
                         preload="none"
-                      />
+                      /> */}
+                      <iframe title={`player-${i.src.slice(35, 44)}`}
+                        width='100%' 
+                        height='125'
+                        scrolling='no' 
+                        frameborder='no' 
+                        src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${i.src.slice(35, 44)}&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;download=true&amp;visual=false&amp;color=c2a3a4&amp;show_artwork=false&amp;show_playcount=true&amp;liking=false`}>
+                      </iframe>
                       <p>
                         <small>
                           {i.date || "N/A"} | {i.category || "N/A"} |{" "}
