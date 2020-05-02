@@ -14,6 +14,7 @@ import SundayMajlis from "../bayans/components/sunday";
 import JumaBayan from "../bayans/components/juma-bayan";
 import AfterJuma from "../bayans/components/after-juma";
 import MiscBayan from "../bayans/components/misc-bayan";
+import Ramzan from "../bayans/components/ramzan";
 import Poster from "../poster";
 
 const App = observer(
@@ -92,6 +93,17 @@ const App = observer(
                     render={props => <Bayans {...props} store={store} />}
                   />
                   <Route path={"/books"} component={Books} />
+                  <Route
+                    path={`/ramzan-bayans`}
+                    render={props => (
+                      <Ramzan
+                        {...props}
+                        currentPage={currentPage}
+                        store={store}
+                        itemRender={this.itemRender}
+                      />
+                    )}
+                  />
                   <Route
                     path={`/sunday-majlis`}
                     render={props => (

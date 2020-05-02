@@ -13,13 +13,21 @@ Example:
 */
 // Categories: sunday, after juma, before juma, misc, old bayans, miscellaneous
 const data = [
+    {
+    name: "Khud Apna Jaeza Lein",
+    src: "http://feeds.soundcloud.com/stream/812124094-shariatinfo-khud-apna-jaeza-lein.mp3",
+    length: "16m 15s",
+    size: "4.30mb",
+    date: "01/05/20",
+    category: "ramzan"
+  },
    {
-     name: "Deen Kya Hai",
-     src: "http://feeds.soundcloud.com/stream/775404973-shariatinfo-deen-kya-hai.mp3",
-     length: "1h 29m",
-     size: "12.70mb",
-     date: "08/03/20",
-     category: "sunday"
+     name: "Hame Taqwa Mil Raha Hai Ya Nahin",
+     src: "http://feeds.soundcloud.com/stream/812123128-shariatinfo-hame-taqwa-mil-raha-hai-ya-nahin.mp3",
+     length: "5m 35s",
+     size: "1.40mb",
+     date: "30/04/20",
+     category: "ramzan"
   },
   {
      name: "Namaz Ke Asarat Zindagi Par",

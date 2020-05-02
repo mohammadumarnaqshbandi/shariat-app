@@ -57,6 +57,30 @@ const Bayans = observer (
                     render={() => (
                       <Row className="btn-center row-center">
                         <table align="center">
+                        <tr>
+                            <td>
+                              <Col span={24}>
+                                <Link to={`/ramzan-bayans`}>
+                                  {lang === "eng" ?
+                                    <Button
+                                      size="large"
+                                      className="bayan-btn"
+                                      onClick={this.handleButton}
+                                    >
+                                      RAMAZAN BAYANS
+                                    </Button> :
+                                    <Button
+                                      size="large"
+                                      className="bayan-btn urdu-btn"
+                                      onClick={this.handleButton}
+                                    >
+                                      رمضان کے بیانات
+                                    </Button>
+                                  }
+                                </Link>
+                              </Col>
+                            </td>
+                          </tr>
                           <tr>
                             <td>
                               <Col span={24}>

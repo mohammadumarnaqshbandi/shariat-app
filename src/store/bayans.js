@@ -8,6 +8,7 @@ import data from "./data";
 export class Bayans {
   allBayans = data;
   sunday = this.allBayans.filter(item => item.category === "sunday");
+  ramzan = this.allBayans.filter(item => item.category === "ramzan");
   afterJuma = this.allBayans.filter(item => item.category === "after juma");
   beforeJuma = this.allBayans.filter(item => item.category === "before juma");
   misc = this.allBayans.filter(item => item.category === "miscellaneous");
@@ -41,6 +42,7 @@ decorate(
   Bayans, {
     allBayans: observable,
     sunday: observable,
+    ramzan: observable,
     afterJuma: observable,
     beforeJuma: observable,
     misc: observable,
