@@ -104,10 +104,9 @@ const SundayMajlis = observer(
                         /> */}
                         <iframe title={`player-${i.src.slice(35, 44)}`}
                         width='100%' 
-                        height='125' 
-                        scrolling='no' 
-                        frameborder='no' 
-                        src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${i.src.slice(35, 44)}&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;download=true&amp;visual=false&amp;color=5e750f&amp;show_artwork=false&amp;show_playcount=true&amp;liking=false`}>
+                        height='166' 
+                        scrolling='no'
+                        src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${i.src.slice(35, 44)}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true`}>
                         </iframe>
                         <p>
                           <small>
