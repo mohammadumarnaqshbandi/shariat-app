@@ -57,7 +57,7 @@ const Navbar = observer(props => {
                   </Link>
                 }
               </li>
-              <li>
+              {/* <li>
                 {lang === "eng" ?
                   <Link onClick={props.handleNavBtn} to="/books">
                     Books
@@ -66,7 +66,7 @@ const Navbar = observer(props => {
                     کتابیں
                   </Link>
                 }
-              </li>
+              </li> */}
               <li>
                 {lang === "eng" ? 
                   <Link onClick={props.handleNavBtn} to="/poster">
