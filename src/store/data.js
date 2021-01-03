@@ -382,7 +382,7 @@ const data = [
    },
    {
      name: "Gussa Chood Dein",
-     src: "http://feeds.soundcloud.com/stream/769441234-shariatinfo-gussa-chood-dein.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Gussa-Chood-Dein-23-Sep-2018.mp3",
      length: "01h 31m",
      size: "11.70mb",
      date: "23/09/18",
@@ -390,7 +390,7 @@ const data = [
    },
    {
      name: "Hamare Aslaaf Ki Sooch Kya Thi Aur Hamari Kya Hai",
-     src: "http://feeds.soundcloud.com/stream/769407115-shariatinfo-hamare-aslaaf-ki-sooch-kya-thi-aur-hamari-kya-hai.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Hamare-Aslaaf-Ki-Sooch-Kya-Thi-Aur-Hamari-Kya-Hai-16-Sep-2018.mp3",
      length: "01h 37m",
      size: "12.50mb",
      date: "16/09/18",
@@ -398,7 +398,7 @@ const data = [
    },
    {
      name: "Dawat Wa Tableeg Ki Mehnat Ki Aham Batein",
-     src: "http://feeds.soundcloud.com/stream/769443949-shariatinfo-dawat-wa-tableeg-ki-mehnat-ki-aham-batein.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Dawat-wa-Tableeg-Ki-Mehnat-Ki-Aham-Batein-26-Aug-2018.mp3",
      length: "01h 22m",
      size: "10.60mb",
      date: "26/08/18",
@@ -406,7 +406,7 @@ const data = [
    },
    {
      name: "Ham Deen Ko Haqeeqat Ke Saath Apnaye",
-     src: "http://feeds.soundcloud.com/stream/769440868-shariatinfo-ham-deen-ko-haqeeqat-ke-saath-apnaye.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Hum-Deen-Ko-Haqeeqat-Ke-Saath-Apnaye-19-Aug-2018.mp3",
      length: "01h 09m",
      size: "09.00mb",
      date: "19/08/18",
@@ -414,7 +414,7 @@ const data = [
    },
    {
      name: "Joodo Ka Dard Joode Hi Jante Hai (Gharelu Zindagi)",
-     src: "http://feeds.soundcloud.com/stream/769408024-shariatinfo-joodo-ka-dard-joode-hi-jante-hai-gharelu-zindagi.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Joodo-Ka-Dard-Joode-Hi-Jante-Hai-(Gharelu Zindagi)-22-July-2018.mp3",
      length: "01h 29m",
      size: "11.50mb",
      date: "22/07/18",
@@ -422,7 +422,7 @@ const data = [
    },
    {
      name: "Haya Aur Eiman Aik Dusre Se Mile Hue Hai",
-     src: "http://feeds.soundcloud.com/stream/769407460-shariatinfo-haya-aur-eiman-aik-dusre-se-mile-hue-hai.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Haya-Aur-Eiman-Aik-Dusre-Se-Mile-Hue-Hai-15-July-2018.mp3",
      length: "01h 30m",
      size: "11.70mb",
      date: "15/07/18",
@@ -430,7 +430,7 @@ const data = [
    },
    {
      name: "Kya Hamein Taqwa Mila? Apna Apna Jaeza Lein",
-     src: "http://feeds.soundcloud.com/stream/769408393-shariatinfo-kya-hamein-taqwa-mila-apna-apna-jaeza-lein.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Kya-Hamein-Taqwa-Mila?-Apna-Apna-Jaeza-Lein-10-June-2018.mp3",
      length: "01h 26m",
      size: "11.10mb",
      date: "10/06/18",
@@ -446,7 +446,7 @@ const data = [
    },
    {
      name: "Geebat Se Bachein Aur Roze Ki Hifazat Karein",
-     src: "http://feeds.soundcloud.com/stream/769443478-shariatinfo-geebat-se-bachein-aur-roze-ki-hifazat-karein.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Geebat-Se-Bachein-Aur-Roze-Ki-Hifazat-Karein-27-May-2018.mp3",
      length: "01h 20m",
      size: "10.03mb",
      date: "27/05/18",
@@ -462,7 +462,7 @@ const data = [
    },
    {
      name: "Gunah Bimari Hai",
-     src: "http://feeds.soundcloud.com/stream/769442920-shariatinfo-gunah-bimari-hai.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Gunah-Bimari-Hai-22-Apr-2018.mp3",
      length: "01h 14m",
      size: "24.80mb",
      date: "22/04/18",
@@ -470,7 +470,7 @@ const data = [
    },
    {
      name: "Dawat-o-Tablig Ka Maqsad Apni Islah o Tarbiyat Hai",
-     src: "http://feeds.soundcloud.com/stream/769443844-shariatinfo-dawat-o-tablig-ka-maqsad-apni-islah-o-tarbiyat-hai.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Dawat-o-Tablig-Ka-Maqsad-Apni-Islah-o-Tarbiyat-Hai-25-Mar-2018.mp3",
      length: "01h 14m",
      size: "8.53mb",
      date: "25/03/18",
@@ -478,7 +478,7 @@ const data = [
    },
    {
      name: "Ankho Ki Hifazat",
-     src: "http://feeds.soundcloud.com/stream/769444351-shariatinfo-ankhoon-ki-hifazat.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Ankho-Ki-Hifazat-25-Feb-2018.mp3",
      length: "1h 05m",
      size: "8.43mb",
      date: "25/02/18",
@@ -486,7 +486,7 @@ const data = [
    },
    {
      name: "Sachi Pakki Taubah Ke Zariye Dil Ki Siyahi Door Kar Lein",
-     src: "http://feeds.soundcloud.com/stream/769408732-shariatinfo-sachi-pakki-taubah-ke-zariye-dil-ki-siyahi-door-kar-lein.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Sachi-Pakki-Taubah-Ke-Zariye-Dil-Ki-Siyahi-Door-Kar-Lein-28-Jan-2018.mp3",
      length: "1h 22m",
      size: "9.48mb",
      date: "28/01/18",
@@ -494,7 +494,7 @@ const data = [
    },
    {
      name: "Zulm Se Taubah Karein",
-     src: "http://feeds.soundcloud.com/stream/770579437-shariatinfo-zulm-se-taubah-karein.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Zulm-Se-Taubah-Karein-21-Jan-2018.mp3",
      length: "1h 05m",
      size: "8.25mb",
      date: "21/01/18",
@@ -502,7 +502,7 @@ const data = [
    },
    {
      name: "Hazrat Moulana Ilyas RH Ki Deeni Dawat - 2",
-     src: "http://feeds.soundcloud.com/stream/769380298-shariatinfo-hazrat-moulana-ilyas-rh-ki-deeni-dawat-2.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Hazrat-Moulana-Ilyas-RH-Ki-Deeni-Dawat-(Part-2)-7-Jan-2018.mp3",
      length: "1h 37m",
      size: "12.50mb",
      date: "07/01/18",
@@ -510,7 +510,7 @@ const data = [
    },
    {
      name: "Hazrat Moulana Ilyas RH Ki Deeni Dawat - 1",
-     src: "http://feeds.soundcloud.com/stream/769372921-shariatinfo-hazrat-moulana-ilyas-rh-ki-deeni-dawat-1.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Hazrat-Moulana-Ilyas-RH-Ki-Deeni-Dawat-(Part-1)-31-Dec-2017.mp3",
      length: "1h 11m",
      size: "9.21mb",
      date: "31/12/17",
