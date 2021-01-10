@@ -69,14 +69,14 @@ const data = [
      date: "27/12/19",
      category: "after juma"
    },
-   {
-     name: "Sehat Ki Hifazat",
-     src: "http://feeds.soundcloud.com/stream/711740152-shariatinfo-sehat-ki-hifazat.mp3",
-     length: "46m 07s",
-     size: "13.10mb",
-     date: "08/11/19",
-     category: "after juma"
-   },
+  //  {
+  //    name: "Sehat Ki Hifazat",
+  //    src: "http://feeds.soundcloud.com/stream/711740152-shariatinfo-sehat-ki-hifazat.mp3",
+  //    length: "46m 07s",
+  //    size: "13.10mb",
+  //    date: "08/11/19",
+  //    category: "after juma"
+  //  },
    {
      name: "Sachi Talab Manzil Tak Pahunchati Hai",
      src: "http://feeds.soundcloud.com/stream/711739381-shariatinfo-sachi-talab-manzil-tak-pahunchati-hai.mp3",
@@ -125,14 +125,14 @@ const data = [
      date: "25/10/19",
      category: "before juma"
    },
-   {
-     name: "Apne Eiman Ke Barein Mein Fikrmand Rahen",
-     src: "http://feeds.soundcloud.com/stream/706432237-shariatinfo-apne-eiman-ke-barein-mein-fikrmand-rahen.mp3",
-     length: "56m 22s",
-     size: "16.10mb",
-     date: "18/10/19",
-     category: "after juma"
-   },
+  //  {
+  //    name: "Apne Eiman Ke Barein Mein Fikrmand Rahen",
+  //    src: "http://feeds.soundcloud.com/stream/706432237-shariatinfo-apne-eiman-ke-barein-mein-fikrmand-rahen.mp3",
+  //    length: "56m 22s",
+  //    size: "16.10mb",
+  //    date: "18/10/19",
+  //    category: "after juma"
+  //  },
    {
      name: "Shariat Par Chalne Mein 100% Nafa Hi Nafa Hai",
      src: "http://feeds.soundcloud.com/stream/695950097-shariatinfo-eiman-kainaat-ki-sabse-badi-doulat.mp3",
@@ -197,14 +197,14 @@ const data = [
      date: "02/08/19",
      category: "before juma"
    },
-   {
-     name: "Eiman Ki Fikr",
-     src: "http://feeds.soundcloud.com/stream/769919104-shariatinfo-eiman-ki-fikr.mp3",
-     length: "01h 07m",
-     size: "08.60mb",
-     date: "16/06/19",
-     category: "sunday"
-   },
+  //  {
+  //    name: "Eiman Ki Fikr",
+  //    src: "http://feeds.soundcloud.com/stream/769919104-shariatinfo-eiman-ki-fikr.mp3",
+  //    length: "01h 07m",
+  //    size: "08.60mb",
+  //    date: "16/06/19",
+  //    category: "sunday"
+  //  },
    {
      name: "Hamne Zulm Ke Siwa Kiya Hi Kya Hai?",
      src: "https://www.shariat.info/audio/Sunday/Hamne-Zulm-Ke-Siwa-Kiya-Hi-Kya-Hai?-09-June-2019.mp3",
@@ -340,14 +340,14 @@ const data = [
      date: "20/01/19",
      category: "sunday"
    },
-   {
-     name: "Achi Namaz",
-     src: "http://feeds.soundcloud.com/stream/769518829-shariatinfo-achi-namaz.mp3",
-     length: "01h 40m",
-     size: "12.90mb",
-     date: "23/12/18",
-     category: "sunday"
-   },
+  //  {
+  //    name: "Achi Namaz",
+  //    src: "http://feeds.soundcloud.com/stream/769518829-shariatinfo-achi-namaz.mp3",
+  //    length: "01h 40m",
+  //    size: "12.90mb",
+  //    date: "23/12/18",
+  //    category: "sunday"
+  //  },
    {
      name: "Ulema Se Jud Jaye Ilm O Zikr Yani Poocho Aur Amal Karo",
      src: "https://www.shariat.info/audio/Sunday/Ulema-Se-Jud-Jaye-Ilm-O-Zikr-Yani-Poocho-Aur-Amal-Karo-16-Dec-2018.mp3",
@@ -436,14 +436,14 @@ const data = [
      date: "10/06/18",
      category: "sunday"
    },
-   {
-     name: "Shaitan Ke Zahreele Teer Se Khud Ko Bachaaiye",
-     src: "http://feeds.soundcloud.com/stream/769404493-shariatinfo-shaitan-ke-zahreele-teer-se-khud-ko-bachaaiye.mp3",
-     length: "01h 38m",
-     size: "12.60mb",
-     date: "03/06/18",
-     category: "sunday"
-   },
+  //  {
+  //    name: "Shaitan Ke Zahreele Teer Se Khud Ko Bachaaiye",
+  //    src: "http://feeds.soundcloud.com/stream/769404493-shariatinfo-shaitan-ke-zahreele-teer-se-khud-ko-bachaaiye.mp3",
+  //    length: "01h 38m",
+  //    size: "12.60mb",
+  //    date: "03/06/18",
+  //    category: "sunday"
+  //  },
    {
      name: "Geebat Se Bachein Aur Roze Ki Hifazat Karein",
      src: "https://www.shariat.info/audio/Sunday/Geebat-Se-Bachein-Aur-Roze-Ki-Hifazat-Karein-27-May-2018.mp3",
@@ -452,14 +452,14 @@ const data = [
      date: "27/05/18",
      category: "sunday"
    },
-   {
-     name: "Behayai Se Bachna Aur Ramazan Ki Tayyari",
-     src: "http://feeds.soundcloud.com/stream/769444120-shariatinfo-behayai-se-bachna-aur-ramazan-ki-tayyari.mp3",
-     length: "01h 58m",
-     size: "27.10mb",
-     date: "29/04/18",
-     category: "sunday"
-   },
+  //  {
+  //    name: "Behayai Se Bachna Aur Ramazan Ki Tayyari",
+  //    src: "http://feeds.soundcloud.com/stream/769444120-shariatinfo-behayai-se-bachna-aur-ramazan-ki-tayyari.mp3",
+  //    length: "01h 58m",
+  //    size: "27.10mb",
+  //    date: "29/04/18",
+  //    category: "sunday"
+  //  },
    {
      name: "Gunah Bimari Hai",
      src: "https://www.shariat.info/audio/Sunday/Gunah-Bimari-Hai-22-Apr-2018.mp3",
@@ -516,86 +516,86 @@ const data = [
      date: "31/12/17",
      category: "sunday"
    },
-   {
-     name: "Zulm Se Bachein",
-     src: "http://feeds.soundcloud.com/stream/769403974-shariatinfo-zulm-se-bachein-1.mp3",
-     length: "1h 03s",
-     size: "4.48mb",
-     date: "24/12/17",
-     category: "sunday"
-   },
-   {
-     name: "Ulema Se Jud Jaye Elm O Zikr Yani Poocho Aur Amal Karo",
-     src: "http://feeds.soundcloud.com/stream/769345618-shariatinfo-ulema-se-jud-jaye-ilm-o-zikr-yani-poocho-aur-amal-karo.mp3",
-     length: "1h 16m",
-     size: "8.69mb",
-     date: "17/12/17",
-     category: "sunday"
-   },
-   {
-     name: "Dawat O Tablig Aur Ilm O Ulema Ki Azmat",
-     src: "http://feeds.soundcloud.com/stream/769343488-shariatinfo-dawat-o-tablig-aur-ilm-o-ulema-ki-azmat-1.mp3",
-     length: "1h 18m",
-     size: "8.97mb",
-     date: "05/11/17",
-     category: "sunday"
-   },
-   {
-     name: "Gussa Chod De Aur Ghar Ke Mahool Ko Khushgawar Banaye",
-     src: "http://feeds.soundcloud.com/stream/769441234-shariatinfo-gussa-chood-dein.mp3",
-     length: "1h 22m",
-     size: "10.64mb",
-     date: "29/10/17",
-     category: "sunday"
-   },
-   {
-     name: "Dawat Ka Maqsood Deen Hai",
-     src: "http://feeds.soundcloud.com/stream/700169608-shariatinfo-dawat-ka-maqsood-deen-hai.mp3",
-     length: "1h 21m",
-     size: "10.46mb",
-     date: "22/10/17",
-     category: "sunday"
-   },
-   {
-     name: "Zaban Ki Hifazat",
-     src: "http://feeds.soundcloud.com/stream/700169977-shariatinfo-zuban-ki-hifazat.mp3",
-     length: "1h 07m",
-     size: "8.63mb",
-     date: "15/10/17",
-     category: "sunday"
-   },
-   {
-     name: "Gunahoo Ki Nahoosat Se Aqal Maar Di Jati Hai",
-     src: "http://feeds.soundcloud.com/stream/700170259-shariatinfo-gunahoo-ki-nahoosat.mp3",
-     length: "2h 03m",
-     size: "14.11mb",
-     date: "30/08/17",
-     category: "sunday"
-   },
-   {
-     name: "Be Hayai Se Bache Aur Ghar Ko Jannat Banaye",
-     src: "http://feeds.soundcloud.com/stream/700171741-shariatinfo-be-hayai-se-bachein.mp3",
-     length: "1h 36m",
-     size: "12.35mb",
-     date: "23/08/17",
-     category: "sunday"
-   },
-   {
-     name: "Ummat Behayai Ke Raste Se Loot Rahi Hai...Ulema-e-Deoband Ki Azmat",
-     src: "http://feeds.soundcloud.com/stream/700171540-shariatinfo-ummat-behayai-ke-raste-se-loot-rahi-hai.mp3",
-     length: "1h 18m",
-     size: "10.08mb",
-     date: "13/08/17",
-     category: "sunday"
-   },
-   {
-     name: "Ulema Ki Be Ehterami Shariat Ki Azmat Na Hone Ki Alamat Hai",
-     src: "http://feeds.soundcloud.com/stream/700171372-shariatinfo-ulema-ki-be-ehterami-shariat-ki-azmat-na-hone-ki-alamat.mp3",
-     length: "1h 20m",
-     size: "10.28mb",
-     date: "06/08/17",
-     category: "sunday"
-   },
+  //  {
+  //    name: "Zulm Se Bachein",
+  //    src: "http://feeds.soundcloud.com/stream/769403974-shariatinfo-zulm-se-bachein-1.mp3",
+  //    length: "1h 03s",
+  //    size: "4.48mb",
+  //    date: "24/12/17",
+  //    category: "sunday"
+  //  },
+  //  {
+  //    name: "Ulema Se Jud Jaye Elm O Zikr Yani Poocho Aur Amal Karo",
+  //    src: "http://feeds.soundcloud.com/stream/769345618-shariatinfo-ulema-se-jud-jaye-ilm-o-zikr-yani-poocho-aur-amal-karo.mp3",
+  //    length: "1h 16m",
+  //    size: "8.69mb",
+  //    date: "17/12/17",
+  //    category: "sunday"
+  //  },
+  //  {
+  //    name: "Dawat O Tablig Aur Ilm O Ulema Ki Azmat",
+  //    src: "http://feeds.soundcloud.com/stream/769343488-shariatinfo-dawat-o-tablig-aur-ilm-o-ulema-ki-azmat-1.mp3",
+  //    length: "1h 18m",
+  //    size: "8.97mb",
+  //    date: "05/11/17",
+  //    category: "sunday"
+  //  },
+  //  {
+  //    name: "Gussa Chod De Aur Ghar Ke Mahool Ko Khushgawar Banaye",
+  //    src: "http://feeds.soundcloud.com/stream/769441234-shariatinfo-gussa-chood-dein.mp3",
+  //    length: "1h 22m",
+  //    size: "10.64mb",
+  //    date: "29/10/17",
+  //    category: "sunday"
+  //  },
+  //  {
+  //    name: "Dawat Ka Maqsood Deen Hai",
+  //    src: "http://feeds.soundcloud.com/stream/700169608-shariatinfo-dawat-ka-maqsood-deen-hai.mp3",
+  //    length: "1h 21m",
+  //    size: "10.46mb",
+  //    date: "22/10/17",
+  //    category: "sunday"
+  //  },
+  //  {
+  //    name: "Zaban Ki Hifazat",
+  //    src: "http://feeds.soundcloud.com/stream/700169977-shariatinfo-zuban-ki-hifazat.mp3",
+  //    length: "1h 07m",
+  //    size: "8.63mb",
+  //    date: "15/10/17",
+  //    category: "sunday"
+  //  },
+  //  {
+  //    name: "Gunahoo Ki Nahoosat Se Aqal Maar Di Jati Hai",
+  //    src: "http://feeds.soundcloud.com/stream/700170259-shariatinfo-gunahoo-ki-nahoosat.mp3",
+  //    length: "2h 03m",
+  //    size: "14.11mb",
+  //    date: "30/08/17",
+  //    category: "sunday"
+  //  },
+  //  {
+  //    name: "Be Hayai Se Bache Aur Ghar Ko Jannat Banaye",
+  //    src: "http://feeds.soundcloud.com/stream/700171741-shariatinfo-be-hayai-se-bachein.mp3",
+  //    length: "1h 36m",
+  //    size: "12.35mb",
+  //    date: "23/08/17",
+  //    category: "sunday"
+  //  },
+  //  {
+  //    name: "Ummat Behayai Ke Raste Se Loot Rahi Hai...Ulema-e-Deoband Ki Azmat",
+  //    src: "http://feeds.soundcloud.com/stream/700171540-shariatinfo-ummat-behayai-ke-raste-se-loot-rahi-hai.mp3",
+  //    length: "1h 18m",
+  //    size: "10.08mb",
+  //    date: "13/08/17",
+  //    category: "sunday"
+  //  },
+  //  {
+  //    name: "Ulema Ki Be Ehterami Shariat Ki Azmat Na Hone Ki Alamat Hai",
+  //    src: "http://feeds.soundcloud.com/stream/700171372-shariatinfo-ulema-ki-be-ehterami-shariat-ki-azmat-na-hone-ki-alamat.mp3",
+  //    length: "1h 20m",
+  //    size: "10.28mb",
+  //    date: "06/08/17",
+  //    category: "sunday"
+  //  },
 //    {
 //      name: "Sunday Majlis",
 //      src: "/SundayBabaBayan15Ramzan11062017/Sunday_baba-bayan-15-ramzan_11062017.mp3",
@@ -604,30 +604,30 @@ const data = [
 //      date: "15/07/17",
 //      category: "sunday"
 //    },
-   {
-     name: "Nikah Mein Allah Ki Bagawat",
-     src: "http://feeds.soundcloud.com/stream/700171084-shariatinfo-nikah-mein-allah-ki-bagawat.mp3",
-     length: "1h 25m",
-     size: "9.82mb",
-     date: "02/07/17",
-     category: "sunday"
-   },
-   {
-     name: "Ramazan Ki Nekiyo Ki Hifazat Kare",
-     src: "http://feeds.soundcloud.com/stream/700172065-shariatinfo-ramazan-ki-nekiyo-ki-hifazat-kare.mp3",
-     length: "1h 54m",
-     size: "14.65mb",
-     date: "25/06/17",
-     category: "sunday"
-   },
-   {
-     name: "Ramazan Dil Badalne Ke liye Aaya Hai",
-     src: "http://feeds.soundcloud.com/stream/700170856-shariatinfo-ramzan-dil-badal-ne-ke-liye-aaya-hai.mp3",
-     length: "1h 48m",
-     size: "14.03mb",
-     date: "18/06/17",
-     category: "sunday"
-   },
+  //  {
+  //    name: "Nikah Mein Allah Ki Bagawat",
+  //    src: "http://feeds.soundcloud.com/stream/700171084-shariatinfo-nikah-mein-allah-ki-bagawat.mp3",
+  //    length: "1h 25m",
+  //    size: "9.82mb",
+  //    date: "02/07/17",
+  //    category: "sunday"
+  //  },
+  //  {
+  //    name: "Ramazan Ki Nekiyo Ki Hifazat Kare",
+  //    src: "http://feeds.soundcloud.com/stream/700172065-shariatinfo-ramazan-ki-nekiyo-ki-hifazat-kare.mp3",
+  //    length: "1h 54m",
+  //    size: "14.65mb",
+  //    date: "25/06/17",
+  //    category: "sunday"
+  //  },
+  //  {
+  //    name: "Ramazan Dil Badalne Ke liye Aaya Hai",
+  //    src: "http://feeds.soundcloud.com/stream/700170856-shariatinfo-ramzan-dil-badal-ne-ke-liye-aaya-hai.mp3",
+  //    length: "1h 48m",
+  //    size: "14.03mb",
+  //    date: "18/06/17",
+  //    category: "sunday"
+  //  },
 //    {
 //      name: "Sunday Majlis",
 //      src: "/SundayBabaBayan15Ramzan11062017/Sunday_baba-bayan-15-ramzan_11062017.mp3",
@@ -654,7 +654,7 @@ const data = [
 //    },
    {
      name: "Allah Ke Wali Kaise Bane",
-     src: "http://feeds.soundcloud.com/stream/700170544-shariatinfo-allah-ke-wali-kaise-bane.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Allah-Ke-Wali-Kaise-Bane-21-May-2017.mp3",
      length: "57m 59s",
      size: "7.48mb",
      date: "21/05/17",
@@ -662,7 +662,7 @@ const data = [
    },
    {
      name: "Maa Baap Ki Dua",
-     src: "http://feeds.soundcloud.com/stream/770596288-shariatinfo-maa-baap-ki-dua.mp3",
+     src: "https://www.shariat.info/audio/Sunday/Maa-Baap-Ki-Dua-14-May-2017.mp3",
      length: "1h 15m",
      size: "9.74mb",
      date: "14/05/17",
@@ -1148,14 +1148,14 @@ const data = [
 //      date: "03/03/17",
 //      category: "before juma"
 //    },
-   {
-     name: "Apni Zaat Ki Khidmat Kaise Karen?",
-     src: "http://feeds.soundcloud.com/stream/769966219-shariatinfo-apni-zaat-ki-khidmat-kaise-karen.mp3",
-     length: "35m 35s",
-     size: "4.60mb",
-     date: "02/08/19",
-     category: "after juma"
-   },
+  //  {
+  //    name: "Apni Zaat Ki Khidmat Kaise Karen?",
+  //    src: "http://feeds.soundcloud.com/stream/769966219-shariatinfo-apni-zaat-ki-khidmat-kaise-karen.mp3",
+  //    length: "35m 35s",
+  //    size: "4.60mb",
+  //    date: "02/08/19",
+  //    category: "after juma"
+  //  },
    {
      name: "Sehat Ki Hifazat",
      src: "https://www.shariat.info/audio/FridayMajlis/Sehat-Ki-Hifazat-07-June-2019.mp3",
@@ -1212,17 +1212,17 @@ const data = [
      date: "15/03/19",
      category: "after juma"
    },
-   {
-     name: "Sehat Aur Fursat Ke Auqat Ki Qadr Karein",
-     src: "https://www.shariat.info/audio/FridayMajlis//769958374-shariatinfo-sehat-aur-fursat-ke-auqat-ki-qadr-karein.mp3",
-     length: "34m 13s",
-     size: "04.40mb",
-     date: "08/03/19",
-     category: "after juma"
-   },
+  //  {
+  //    name: "Sehat Aur Fursat Ke Auqat Ki Qadr Karein",
+  //    src: "https://www.shariat.info/audio/FridayMajlis/769958374-shariatinfo-sehat-aur-fursat-ke-auqat-ki-qadr-karein.mp3",
+  //    length: "34m 13s",
+  //    size: "04.40mb",
+  //    date: "08/03/19",
+  //    category: "after juma"
+  //  },
    {
      name: "Ramazan Ka Maheena Taqwa Hasil Karne Ka Season",
-     src: "https://www.shariat.info/audio/FridayMajlis//769958515-shariatinfo-ramazan-ka-maheena-taqwa-hasil-karne-ka-season.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Ramazan-Ka-Maheena-Taqwa-Hasil-Karne-Ka-Season-01-Mar-2019.mp3",
      length: "01h 26m",
      size: "11.10mb",
      date: "01/03/19",
@@ -1230,7 +1230,7 @@ const data = [
    },
    {
      name: "Sehat Aur Faragat Do Bunyadi Niamate",
-     src: "https://www.shariat.info/audio/FridayMajlis//769958425-shariatinfo-sehat-aur-faragat-do-bunyadi-niamate.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Sehat-Aur-Faragat-Do-Bunyadi-Niamatein-22-Feb-2019.mp3",
      length: "55m 58s",
      size: "07.20mb",
      date: "22/02/19",
@@ -1238,7 +1238,7 @@ const data = [
    },
    {
      name: "Ambiya Ke Bhejne Ka Aik Maqsad Tazkiya Bhi Hai",
-     src: "https://www.shariat.info/audio/FridayMajlis//769959361-shariatinfo-ambiya-ke-bhejne-ka-aik-maqsad-tazkiya-bhi-hai.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Ambiya-Ke-Bhejne-Ka-Aik-Maqsad-Tazkiya-Bhi-Hai-15-Feb-2019.mp3",
      length: "01h 03m",
      size: "10.90mb",
      date: "15/02/19",
@@ -1246,7 +1246,7 @@ const data = [
    },
    {
      name: "Apne Akhlaq Ko Saawar Lein",
-     src: "https://www.shariat.info/audio/FridayMajlis//769959301-shariatinfo-apne-akhlaq-ko-saawar-lein.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Apne-Akhlaq-Ko-Saawar-Lein-25-Jan-2019.mp3",
      length: "51m 05m",
      size: "6.60mb",
      date: "25/01/19",
@@ -1254,7 +1254,7 @@ const data = [
    },
    {
      name: "Namaz Ke Bare Mein Allah Se Daroo",
-     src: "https://www.shariat.info/audio/FridayMajlis//769958575-shariatinfo-namaz-ke-bare-mein-allah-se-daroo.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Namaz-Ke-Bare-Mein-Allah-Se-Daroo-21-Dec-2018.mp3",
      length: "01h 04m",
      size: "8.30mb",
      date: "21/12/18",
@@ -1262,7 +1262,7 @@ const data = [
    },
    {
      name: "Hamdardi Aur Khairkhwahi Ko Aadat Bana Le",
-     src: "https://www.shariat.info/audio/FridayMajlis//769958758-shariatinfo-hamdardi-aur-khairkhwahi-ko-aadat-bana-le.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Hamdardi-Aur-Khairkhwahi-Ko-Aadat-Bana-Lein-16-Nov-2018.mp3",
      length: "01h 04m",
      size: "8.20mb",
      date: "16/11/18",
@@ -1270,7 +1270,7 @@ const data = [
    },
    {
      name: "Ache Akhlaq Ki Ahmiyat",
-     src: "https://www.shariat.info/audio/FridayMajlis//769959409-shariatinfo-ache-akhlaq-ki-ahmiyat.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Ache-Akhlaq-Ki-Ahmiyat-9-Nov-2018.mp3",
      length: "52m 59s",
      size: "6.80mb",
      date: "09/11/18",
@@ -1278,7 +1278,7 @@ const data = [
    },
    {
      name: "Apni Achhai Aur Doosro Ki Burai Dekhna Chod De",
-     src: "https://www.shariat.info/audio/FridayMajlis//769959004-shariatinfo-apni-achhai-aur-doosro-ki-burai-dekhna-chod-de.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Apni-Achai-Aur-Doosro-Ki-Burai-Dekhna-Chod-De-02-Nov-2018.mp3",
      length: "40m 34s",
      size: "7.00mb",
      date: "02/11/18",
@@ -1286,7 +1286,7 @@ const data = [
    },
    {
      name: "Achaiya Dekhne Ki Aadat Bana Lein",
-     src: "https://www.shariat.info/audio/FridayMajlis//769959427-shariatinfo-achaiya-dekhne-ki-aadat-bana-lein.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Achaiya-Dekhne-Ki-Aadat-Bana-Lein-26-Oct-2018.mp3",
      length: "51m 52s",
      size: "6.70mb",
      date: "26/10/18",
@@ -1294,7 +1294,7 @@ const data = [
    },
    {
      name: "Hamare Bade Sab Karke Kehte The Karo",
-     src: "https://www.shariat.info/audio/FridayMajlis//769958842-shariatinfo-hamare-bade-sab-karke-kehte-the-karo.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Hamare-Bade-Sab-Karke-Kehte-The-Karo-19-Oct-2018.mp3",
      length: "51m 33s",
      size: "6.60mb",
      date: "19/10/18",
@@ -1302,7 +1302,7 @@ const data = [
    },
    {
      name: "Apni Fikr Mein Ummat Ko Na Bhoole Aur Ummat Ki Fikr Mein Apne Ko Na Bhoole",
-     src: "https://www.shariat.info/audio/FridayMajlis//769958953-shariatinfo-apni-fikr-mein-ummat-ko-na-bhoole-aur-ummat-ki-fikr-mein-apne-ko-na-bhoole.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Apni-Fikr-Mein-Ummat-Ko-Na-Bhoole-Aur-Ummat-Ki-Fikr-Mein-Apne-Ko-Na-Bhoole-28-Sep-2018.mp3",
      length: "53m 26s",
      size: "06.90mb",
      date: "28/09/18",
@@ -1310,7 +1310,7 @@ const data = [
    },
    {
      name: "Nafs O Shaitan Ka Aik Bada Dhoka - Aham Se Nikalkar Gair Aham Mein Laga Dena",
-     src: "https://www.shariat.info/audio/FridayMajlis//769958635-shariatinfo-nafs-o-shaitan-ka-aik-bada-dhoka-aham-se-nikalkar-gair-aham-mein-laga-dena.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Nafs-Shaitan-Ka-Ek-Bada-Dhoka-Aham-Se-Nikalkar-Gair-Aham-Mein-Laga-Dena-21-Sep-2018.mp3",
      length: "27m 40s",
      size: "06.70mb",
      date: "21/09/18",
@@ -1318,7 +1318,7 @@ const data = [
    },
    {
      name: "Kal Hamesha Aaj Ki Shakal Mein Aata Hai",
-     src: "https://www.shariat.info/audio/FridayMajlis//769958683-shariatinfo-kal-hamesha-aaj-ki-shakal-mein-aata-hai.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Kal-Hamesha-Aaj-Ki-Shakal-Mein-Aata-Hai-14-Sep-2018.mp3",
      length: "61m 50s",
      size: "07.90mb",
      date: "14/09/18",
@@ -1326,7 +1326,7 @@ const data = [
    },
    {
      name: "Asbab Aur Tawakkul",
-     src: "https://www.shariat.info/audio/FridayMajlis//769958896-shariatinfo-asbab-aur-tawakkul.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Asbaab-Aur-Tawakkul-07-Sep-2018.mp3",
      length: "44m 16s",
      size: "05.70mb",
      date: "07/09/18",
@@ -1334,7 +1334,7 @@ const data = [
    },
    {
      name: "Eiman Par Mehnat Aur Uske Nataij",
-     src: "https://www.shariat.info/audio/FridayMajlis//769942012-shariatinfo-eiman-par-mehnat-aur-uske-nataij.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Eiman-Par-Mehnat-Aur-Uske-Nataij-31-Aug-2018.mp3",
      length: "38m 10s",
      size: "04.90mb",
      date: "31/08/18",
@@ -1342,7 +1342,7 @@ const data = [
    },
    {
      name: "Eiman Aur Haya",
-     src: "https://www.shariat.info/audio/FridayMajlis//769942108-shariatinfo-eiman-aur-haya.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Eiman-Aur-Haya-13-Aug-2018.mp3",
      length: "30m 19s",
      size: "03.90mb",
      date: "13/07/18",
@@ -1350,7 +1350,7 @@ const data = [
    },
    {
      name: "Eiman Be Hayai Ke Raste Se Chala Jata Hai",
-     src: "https://www.shariat.info/audio/FridayMajlis//769942060-shariatinfo-eiman-be-hayai-ke-raste-se-chala-jata-hai.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Eiman-Be-Hayai-Ke-Raste-Se-Chala-Jata-Hai-06-Aug-2018.mp3",
      length: "49m 35s",
      size: "06.40mb",
      date: "06/07/18",
@@ -1358,7 +1358,7 @@ const data = [
    },
    {
      name: "Ghar Ko Jannat Banane Ka Aasan Tariqa",
-     src: "https://www.shariat.info/audio/FridayMajlis//769941943-shariatinfo-ghar-ko-jannat-banane-ka-aasan-tariqa.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Ghar-Ko-Jannat-Banane-Ka-Aasan-Tariqa-29-June-2018.mp3",
      length: "36m 17s",
      size: "04.70mb",
      date: "29/06/18",
@@ -1366,7 +1366,7 @@ const data = [
    },
    {
      name: "Niamatein Kyo Cheen Li Jati Hai?",
-     src: "https://www.shariat.info/audio/FridayMajlis//769941622-shariatinfo-niamatein-kyo-cheen-li-jati-hai.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Niamatein-Kyo-Cheen-Li-Jati-Hai-22-June-2018.mp3",
      length: "29m 49s",
      size: "03.80mb",
      date: "22/06/18",
@@ -1374,7 +1374,7 @@ const data = [
    },
    {
      name: "Ramazan Taqwa Ki Kheti Ka Mausam Hai",
-     src: "https://www.shariat.info/audio/FridayMajlis//769941376-shariatinfo-ramazan-taqwa-ki-kheti-ka-mausam-hai.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Ramazan-Taqwa-Ki-Kheti-Ka-Mausam-Hai-08-June-2018.mp3",
      length: "53m 11s",
      size: "06.80mb",
      date: "08/06/18",
@@ -1390,7 +1390,7 @@ const data = [
    },
    {
      name: "Dawat O Tableeg",
-     src: "https://www.shariat.info/audio/FridayMajlis//770606449-shariatinfo-dawat-o-tableeg-1.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Dawat-o-Tableeg-25-May-2018.mp3",
      length: "01h 27m",
      size: "11.90mb",
      date: "25/05/18",
@@ -1398,7 +1398,7 @@ const data = [
    },
    {
      name: "Isha Ke Baad Jaldi Sona",
-     src: "https://www.shariat.info/audio/FridayMajlis//769941811-shariatinfo-isha-ke-baad-jaldi-sona.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Isha-Ke-Baad-Jaldi-Sona-20-Apr-2018.mp3",
      length: "28m 00s",
      size: "7.98mb",
      date: "20/04/18",
@@ -1406,7 +1406,7 @@ const data = [
    },
    {
      name: "Dawat-o-Tablig Ki Mehnat",
-     src: "https://www.shariat.info/audio/FridayMajlis//769942207-shariatinfo-dawat-o-tablig-ki-mehnat.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Dawat-o-Tablig-Ki-Mehnat-23-Mar-2018.mp3",
      length: "44m 22s",
      size: "5.71mb",
      date: "23/03/18",
@@ -1414,7 +1414,7 @@ const data = [
    },
    {
      name: "Hum Se Hai Pyar Kaha; Neend Tumhe Pyari Hai",
-     src: "https://www.shariat.info/audio/FridayMajlis//769941847-shariatinfo-hum-se-hai-pyar-kaha-neend-tumhe-pyari-hai.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Hum-Se-Hai-Pyar-Kaha-Neend-Tumhe-Pyari-Hai-16-Mar-2018.mp3",
      length: "27m 11s",
      size: "3.50mb",
      date: "16/03/18",
@@ -1422,7 +1422,7 @@ const data = [
    },
    {
      name: "Mastoorat Khidmat Aur Ghar Ka Kaam",
-     src: "https://www.shariat.info/audio/FridayMajlis//769941691-shariatinfo-mastoorat-khidmat-aur-ghar-ka-kaam.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Mastoorat-Khidmat-Aur Ghar-Ka-Kaam-9-Mar-2018.mp3",
      length: "47m 15s",
      size: "5.40mb",
      date: "09/03/18",
@@ -1430,7 +1430,7 @@ const data = [
    },
    {
      name: "Dawat o Tableeg Ke Purano Se Baat - 2",
-     src: "https://www.shariat.info/audio/FridayMajlis//769907842-shariatinfo-dawat-o-tableeg-ke-purano-se-baat-1.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Dawat-o-Tableeg-Ke-Purano-Se-Baat-Part-2-02-Mar-2018.mp3",
      length: "49m 18s",
      size: "5.60mb",
      date: "02/03/18",
@@ -1438,7 +1438,7 @@ const data = [
    },
    {
      name: "Har Rooz Ka Timetable Banae",
-     src: "https://www.shariat.info/audio/FridayMajlis//769941907-shariatinfo-har-rooz-ka-timetable-banae.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Har-Rooz-Ka-Timetable-Banae-23-Feb-2018.mp3",
      length: "38m 04s",
      size: "4.90mb",
      date: "23/02/18",
@@ -1446,7 +1446,7 @@ const data = [
    },
    {
      name: "Sunnato Par Amal Bohat Badi Daulat Hai Aur Qeemti Tajurbaat",
-     src: "https://www.shariat.info/audio/FridayMajlis//769941325-shariatinfo-sunnato-par-amal-bohat-badi-daulat-hai-aur-qeemti-tajurbaat.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Sunnato-Par-Amal-Bohat-Badi-Daulat-Hai-Aur-Qeemti-Tajurbaat-26-Jan-2018.mp3",
      length: "57m 03m",
      size: "06.52mb",
      date: "26/01/18",
@@ -1454,7 +1454,7 @@ const data = [
    },
    {
      name: "Apne Dil Ko Sochne Ka Unwan Dein",
-     src: "https://www.shariat.info/audio/FridayMajlis//770606512-shariatinfo-apne-dil-ko-sochne-ka-unwan-dein.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Apne-Dil-Ko-Sochne-Ka-Unwan-Dein-19-Jan-2018.mp3",
      length: "29m 59s",
      size: "03.86mb",
      date: "19/01/18",
@@ -1462,7 +1462,7 @@ const data = [
    },
    {
      name: "Har Haal Mein Khush Rehne Ka Aasan Nuskha",
-     src: "https://www.shariat.info/audio/FridayMajlis//769934701-shariatinfo-har-haal-mein-khush-rehne-ka-aasan.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Har-Haal-Mein-Khush-Rehne-Ka-Nuskha-05-Jan-2018.mp3",
      length: "30m 49s",
      size: "03.96mb",
      date: "05/01/18",
@@ -1606,7 +1606,7 @@ const data = [
 //    },
    {
      name: "Nifaq Se Bache",
-     src: "https://www.shariat.info/audio/FridayMajlis//769929013-shariatinfo-nifaq-se-bache.mp3",
+     src: "https://www.shariat.info/audio/FridayMajlis/Nifaaq-Se-Bache-19-May-2017.mp3",
      length: "32m 04s",
      size: "4.13mb",
      date: "19/05/17",

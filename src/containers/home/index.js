@@ -77,13 +77,13 @@ const Home = observer(
                     
                       {lang === "eng" ? <>
                       <p>
-                      Bayan by Hazrat Haji Shakeel Ahmad Sb Db is
+                      {/* Bayan by Hazrat Haji Shakeel Ahmad Sb Db is
                       held at Panvel on 1st and 2nd Sunday (11:00 A.M. IST) of
                       every month.
-        Mobile: 7021531353
-                      <br />
+        Mobile: 7021531353 */}
+                      {/* <br />
                       Please Listen Live at{" "}
-                      <a href="https://mixlr.com/shariatinfo--3" style={{color: "red"}}>Mixlr</a>.
+                      <a href="https://mixlr.com/shariatinfo--3" style={{color: "red"}}>Mixlr</a>. */}
                       <br /> Subscribe to Shariat.info's Official{" "}
                       <a
                         href="https://www.youtube.com/channel/UCoModkBOUWZKFrQWyoIulOw/videos"
@@ -101,15 +101,15 @@ const Home = observer(
                       </p>
                       </> : 
                       <div className="urdu-text">
-                      <p>
+                      {/* <p>
                       ہرماہ کے پہلے اور دوسرے اتوار کو حضرت حاجی شکیل احمد صاحب مدظلہ العالی کا بیان
                       شہر پنویل، نئی بمبئی میں گیارہ بجے دن کو ہوتا ہے۔    
-                      </p> 
-                      <p>
+                      </p>  */}
+                      {/* <p>
                       مکسلر پر جاری بیان سننے کے لیے یہاں
                       &nbsp;
                       <a href="https://mixlr.com/shariatinfo--3" className="urdu-link">کلک کریں</a>&nbsp;۔
-                      </p>
+                      </p> */}
                       <p>
                       شریعت.انفو کے آفیشیل 
                       &nbsp;
