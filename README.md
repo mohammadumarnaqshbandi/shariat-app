@@ -1,5 +1,5 @@
-## Shariat.info
+## Haji Shakeel Ahmad Sb's Website
 
 This project is hosted on **Netlify**
 
-This is a **non-profit** project
+[Shariat.info](https://shariat.info)
