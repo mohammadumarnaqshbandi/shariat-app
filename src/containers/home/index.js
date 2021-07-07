@@ -46,28 +46,6 @@ const Home = observer(
                     md={24}
                     lg={24}
                     xl={24}
-                    className="live-broadcast"
-                  >
-                    {lang === "eng" ? 
-                    <h1 className="white-text">Live Bayan</h1> :
-                    <h1 className="white-text urdu-heading">جاری بیان</h1>
-                  }
-                    <iframe
-                      src="https://mixlr.com/users/5385796/embed?color=6fb4ef&artwork=true"
-                      title="Live Player"
-                      scrolling="no"
-                      frameBorder="no"
-                      marginHeight="0"
-                      marginWidth="0"
-                      className="live-player"
-                    />
-                  </Col>
-                  <Col
-                    xs={24}
-                    sm={24}
-                    md={24}
-                    lg={24}
-                    xl={24}
                     className="mt-40"
                   >
                     {lang === "eng" ? 

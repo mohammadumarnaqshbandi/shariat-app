@@ -15,7 +15,7 @@ Example:
 const data = [
     {
     name: "Khud Apna Jaeza Lein",
-    src: "http://feeds.soundcloud.com/stream/812124094-shariatinfo-khud-apna-jaeza-lein.mp3",
+    src: "https://www.shariat.info/audio//812124094-shariatinfo-khud-apna-jaeza-lein.mp3",
     length: "16m 15s",
     size: "4.30mb",
     date: "01/05/20",
@@ -23,7 +23,7 @@ const data = [
   },
    {
      name: "Hame Taqwa Mil Raha Hai Ya Nahin",
-     src: "http://feeds.soundcloud.com/stream/812123128-shariatinfo-hame-taqwa-mil-raha-hai-ya-nahin.mp3",
+     src: "https://www.shariat.info/audio//812123128-shariatinfo-hame-taqwa-mil-raha-hai-ya-nahin.mp3",
      length: "5m 35s",
      size: "1.40mb",
      date: "30/04/20",
@@ -39,7 +39,7 @@ const data = [
    },
    {
      name: "Allah Ko Pukarne Ki Aadat Bana Lein",
-     src: "http://feeds.soundcloud.com/stream/772254766-shariatinfo-allah-ko-pukarne-ki-aadat-bana-lein.mp3",
+     src: "https://www.shariat.info/audio/Juma/Allah-Ko-Pukarne-Ki-Aadat-Bana-Lein-06-Mar-2020.mp3",
      length: "28m 26s",
      size: "8.13mb",
      date: "06/03/20",
@@ -47,7 +47,7 @@ const data = [
    },
    {
      name: "Aik Chupa Marz - Hubbe Jah",
-     src: "http://feeds.soundcloud.com/stream/772254775-shariatinfo-aik-chupa-marz-hubbe-jah.mp3",
+     src: "https://www.shariat.info/audio/Juma/Ek-Chupa-Marz-Hubbe-Jaah-28-Feb-2020.mp3",
      length: "29m 50s",
      size: "8.53mb",
      date: "28/02/20",
@@ -55,7 +55,7 @@ const data = [
    },
    {
      name: "Eiman Ki Halawat Pane ka Nuskha",
-     src: "http://feeds.soundcloud.com/stream/766368925-shariatinfo-eiman-ki-halawat-pane-ka-nuskha.mp3",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Ki-Halawat-Pane-Ka-Nuskha-21-Feb-2020.mp3",
      length: "28m 15s",
      size: "8.08mb",
      date: "21/02/20",
@@ -71,7 +71,7 @@ const data = [
    },
   //  {
   //    name: "Sehat Ki Hifazat",
-  //    src: "http://feeds.soundcloud.com/stream/711740152-shariatinfo-sehat-ki-hifazat.mp3",
+  //    src: "https://www.shariat.info/audio//711740152-shariatinfo-sehat-ki-hifazat.mp3",
   //    length: "46m 07s",
   //    size: "13.10mb",
   //    date: "08/11/19",
@@ -79,7 +79,7 @@ const data = [
   //  },
    {
      name: "Sachi Talab Manzil Tak Pahunchati Hai",
-     src: "http://feeds.soundcloud.com/stream/711739381-shariatinfo-sachi-talab-manzil-tak-pahunchati-hai.mp3",
+     src: "https://www.shariat.info/audio/Juma/Sachi-Talab-Manzil-Tak-Pahunchati-Hai-08-Nov-2019.mp3",
      length: "29m 52s",
      size: "8.54mb",
      date: "08/11/19",
@@ -103,7 +103,7 @@ const data = [
    },
    {
      name: "Rabiul Awwal - Nabi Wali Zindagi Apnayen",
-     src: "http://feeds.soundcloud.com/stream/706530328-shariatinfo-rabiul-awwal-nabi-wali-zindagi-apnayen.mp3",
+     src: "https://www.shariat.info/audio/Juma/Rabiul-Awwal-Nabi-Wali-Zindagi-Apnayen-01-Nov-2019.mp3",
      length: "26m 27s",
      size: "8.14mb",
      date: "01/11/19",
@@ -119,7 +119,7 @@ const data = [
    },
    {
      name: "Walidain Ki Qadr Karein",
-     src: "http://feeds.soundcloud.com/stream/706437052-shariatinfo-walidain-ki-qadr-karein.mp3",
+     src: "https://www.shariat.info/audio/Juma/Walidain-Ki-Qadr-Karein-25-Oct-2019.mp3",
      length: "27m 53s",
      size: "7.97mb",
      date: "25/10/19",
@@ -127,7 +127,7 @@ const data = [
    },
   //  {
   //    name: "Apne Eiman Ke Barein Mein Fikrmand Rahen",
-  //    src: "http://feeds.soundcloud.com/stream/706432237-shariatinfo-apne-eiman-ke-barein-mein-fikrmand-rahen.mp3",
+  //    src: "https://www.shariat.info/audio//706432237-shariatinfo-apne-eiman-ke-barein-mein-fikrmand-rahen.mp3",
   //    length: "56m 22s",
   //    size: "16.10mb",
   //    date: "18/10/19",
@@ -135,7 +135,7 @@ const data = [
   //  },
    {
      name: "Shariat Par Chalne Mein 100% Nafa Hi Nafa Hai",
-     src: "http://feeds.soundcloud.com/stream/695950097-shariatinfo-eiman-kainaat-ki-sabse-badi-doulat.mp3",
+     src: "https://www.shariat.info/audio/Juma/Shariat-Par-Chalne-Mein-100%-Nafa-Hi-Nafa-Hai-18-Oct-2019.mp3",
      length: "30m 49s",
      size: "8.80mb",
      date: "18/10/19",
@@ -159,7 +159,7 @@ const data = [
    },
    {
      name: "Eiman Kainaat Ki Sabse Badi Doulat",
-     src: "http://feeds.soundcloud.com/stream/695950097-shariatinfo-eiman-kainaat-ki-sabse-badi-doulat.mp3",
+     src: "https://www.shariat.info/audio//695950097-shariatinfo-eiman-kainaat-ki-sabse-badi-doulat.mp3",
      length: "27m 54s",
      size: "07.93mb",
      date: "11/10/19",
@@ -183,7 +183,7 @@ const data = [
    },
    {
      name: "Deendar Kise Kehte Hai",
-     src: "http://feeds.soundcloud.com/stream/693049609-shariatinfo-deendar-kise-kehte-hai.mp3",
+     src: "https://www.shariat.info/audio/Juma/Deendar-Kise-Kehte-Hai-04-Oct-2019.mp3",
      length: "27m 23s",
      size: "07.83mb",
      date: "04/10/19",
@@ -191,7 +191,7 @@ const data = [
    },
    {
      name: "Eimawala Kaisa Hota Hai?",
-     src: "http://feeds.soundcloud.com/stream/769924060-shariatinfo-eimawala-kaisa-hota-hai.mp3",
+     src: "https://www.shariat.info/audio//769924060-shariatinfo-eimawala-kaisa-hota-hai.mp3",
      length: "29m 12s",
      size: "03.80mb",
      date: "02/08/19",
@@ -199,7 +199,7 @@ const data = [
    },
   //  {
   //    name: "Eiman Ki Fikr",
-  //    src: "http://feeds.soundcloud.com/stream/769919104-shariatinfo-eiman-ki-fikr.mp3",
+  //    src: "https://www.shariat.info/audio//769919104-shariatinfo-eiman-ki-fikr.mp3",
   //    length: "01h 07m",
   //    size: "08.60mb",
   //    date: "16/06/19",
@@ -215,7 +215,7 @@ const data = [
    },
    {
      name: "Hifazate Eiman Ki Fikr",
-     src: "http://feeds.soundcloud.com/stream/769923988-shariatinfo-hifazate-eiman-ki-fikr-1.mp3",
+     src: "https://www.shariat.info/audio/Juma/Hifazate-Eiman-Ki-Fikr-07-June-2019.mp3",
      length: "28m 18s",
      size: "03.60mb",
      date: "07/06/19",
@@ -223,7 +223,7 @@ const data = [
    },
    {
      name: "Maqbool Ramazan ki Pehchan: Gunaho Se Sachi Taubah",
-     src: "http://feeds.soundcloud.com/stream/769923505-shariatinfo-maqbool-ramazan-ki-pehchan-gunaho-se-sachi-taubah.mp3",
+     src: "https://www.shariat.info/audio//769923505-shariatinfo-maqbool-ramazan-ki-pehchan-gunaho-se-sachi-taubah.mp3",
      length: "28m 57s",
      size: "03.70mb",
      date: "31/05/19",
@@ -231,7 +231,7 @@ const data = [
    },
    {
      name: "Nikah Aur Shariat",
-     src: "http://feeds.soundcloud.com/stream/769923388-shariatinfo-nikah-aur-shariat.mp3",
+     src: "https://www.shariat.info/audio//769923388-shariatinfo-nikah-aur-shariat.mp3",
      length: "28m 48s",
      size: "03.70mb",
      date: "24/05/19",
@@ -239,7 +239,7 @@ const data = [
    },
    {
      name: "Kya Hamne Muttaqi Banne Ki Bhi Niyyat Ki Hai?",
-     src: "http://feeds.soundcloud.com/stream/769923583-shariatinfo-kya-hamne-muttaqi-banne-ki-bhi-niyyat-ki-hai.mp3",
+     src: "https://www.shariat.info/audio//769923583-shariatinfo-kya-hamne-muttaqi-banne-ki-bhi-niyyat-ki-hai.mp3",
      length: "29m 54s",
      size: "03.80mb",
      date: "17/05/19",
@@ -255,14 +255,14 @@ const data = [
   //  },
   //  {
   //    name: "Rozay Ka Maqsad Taqwa Hasil Karna Hai",
-  //    src: "http://feeds.soundcloud.com/stream/769965967-shariatinfo-ramazan-ka-maqsad-taqwa-hasil-karna.mp3",
+  //    src: "https://www.shariat.info/audio//769965967-shariatinfo-ramazan-ka-maqsad-taqwa-hasil-karna.mp3",
   //    size: "20.10mb",
   //    date: "-",
   //    category: "ramazan"
   //  },
   //  {
   //    name: "Ramazan Taqwa Hasil Karne Ka Season",
-  //    src: "http://feeds.soundcloud.com/stream/769958515-shariatinfo-ramazan-ka-maheena-taqwa-hasil-karne-ka-season.mp3",
+  //    src: "https://www.shariat.info/audio//769958515-shariatinfo-ramazan-ka-maheena-taqwa-hasil-karne-ka-season.mp3",
   //    length: "02h 32m",
   //    size: "17.40mb",
   //    date: "-",
@@ -270,7 +270,7 @@ const data = [
   //  },
   //  {
   //    name: "Ramazan Ki Tayyari",
-  //    src: "http://feeds.soundcloud.com/stream/769965871-shariatinfo-ramazan-ki-tayyari.mp3",
+  //    src: "https://www.shariat.info/audio//769965871-shariatinfo-ramazan-ki-tayyari.mp3",
   //    length: "01h 48m",
   //    size: "12.40mb",
   //    date: "-",
@@ -342,7 +342,7 @@ const data = [
    },
   //  {
   //    name: "Achi Namaz",
-  //    src: "http://feeds.soundcloud.com/stream/769518829-shariatinfo-achi-namaz.mp3",
+  //    src: "https://www.shariat.info/audio//769518829-shariatinfo-achi-namaz.mp3",
   //    length: "01h 40m",
   //    size: "12.90mb",
   //    date: "23/12/18",
@@ -438,7 +438,7 @@ const data = [
    },
   //  {
   //    name: "Shaitan Ke Zahreele Teer Se Khud Ko Bachaaiye",
-  //    src: "http://feeds.soundcloud.com/stream/769404493-shariatinfo-shaitan-ke-zahreele-teer-se-khud-ko-bachaaiye.mp3",
+  //    src: "https://www.shariat.info/audio//769404493-shariatinfo-shaitan-ke-zahreele-teer-se-khud-ko-bachaaiye.mp3",
   //    length: "01h 38m",
   //    size: "12.60mb",
   //    date: "03/06/18",
@@ -454,7 +454,7 @@ const data = [
    },
   //  {
   //    name: "Behayai Se Bachna Aur Ramazan Ki Tayyari",
-  //    src: "http://feeds.soundcloud.com/stream/769444120-shariatinfo-behayai-se-bachna-aur-ramazan-ki-tayyari.mp3",
+  //    src: "https://www.shariat.info/audio//769444120-shariatinfo-behayai-se-bachna-aur-ramazan-ki-tayyari.mp3",
   //    length: "01h 58m",
   //    size: "27.10mb",
   //    date: "29/04/18",
@@ -518,7 +518,7 @@ const data = [
    },
   //  {
   //    name: "Zulm Se Bachein",
-  //    src: "http://feeds.soundcloud.com/stream/769403974-shariatinfo-zulm-se-bachein-1.mp3",
+  //    src: "https://www.shariat.info/audio//769403974-shariatinfo-zulm-se-bachein-1.mp3",
   //    length: "1h 03s",
   //    size: "4.48mb",
   //    date: "24/12/17",
@@ -526,7 +526,7 @@ const data = [
   //  },
   //  {
   //    name: "Ulema Se Jud Jaye Elm O Zikr Yani Poocho Aur Amal Karo",
-  //    src: "http://feeds.soundcloud.com/stream/769345618-shariatinfo-ulema-se-jud-jaye-ilm-o-zikr-yani-poocho-aur-amal-karo.mp3",
+  //    src: "https://www.shariat.info/audio//769345618-shariatinfo-ulema-se-jud-jaye-ilm-o-zikr-yani-poocho-aur-amal-karo.mp3",
   //    length: "1h 16m",
   //    size: "8.69mb",
   //    date: "17/12/17",
@@ -534,7 +534,7 @@ const data = [
   //  },
   //  {
   //    name: "Dawat O Tablig Aur Ilm O Ulema Ki Azmat",
-  //    src: "http://feeds.soundcloud.com/stream/769343488-shariatinfo-dawat-o-tablig-aur-ilm-o-ulema-ki-azmat-1.mp3",
+  //    src: "https://www.shariat.info/audio//769343488-shariatinfo-dawat-o-tablig-aur-ilm-o-ulema-ki-azmat-1.mp3",
   //    length: "1h 18m",
   //    size: "8.97mb",
   //    date: "05/11/17",
@@ -542,7 +542,7 @@ const data = [
   //  },
   //  {
   //    name: "Gussa Chod De Aur Ghar Ke Mahool Ko Khushgawar Banaye",
-  //    src: "http://feeds.soundcloud.com/stream/769441234-shariatinfo-gussa-chood-dein.mp3",
+  //    src: "https://www.shariat.info/audio//769441234-shariatinfo-gussa-chood-dein.mp3",
   //    length: "1h 22m",
   //    size: "10.64mb",
   //    date: "29/10/17",
@@ -550,7 +550,7 @@ const data = [
   //  },
   //  {
   //    name: "Dawat Ka Maqsood Deen Hai",
-  //    src: "http://feeds.soundcloud.com/stream/700169608-shariatinfo-dawat-ka-maqsood-deen-hai.mp3",
+  //    src: "https://www.shariat.info/audio//700169608-shariatinfo-dawat-ka-maqsood-deen-hai.mp3",
   //    length: "1h 21m",
   //    size: "10.46mb",
   //    date: "22/10/17",
@@ -558,7 +558,7 @@ const data = [
   //  },
   //  {
   //    name: "Zaban Ki Hifazat",
-  //    src: "http://feeds.soundcloud.com/stream/700169977-shariatinfo-zuban-ki-hifazat.mp3",
+  //    src: "https://www.shariat.info/audio//700169977-shariatinfo-zuban-ki-hifazat.mp3",
   //    length: "1h 07m",
   //    size: "8.63mb",
   //    date: "15/10/17",
@@ -566,7 +566,7 @@ const data = [
   //  },
   //  {
   //    name: "Gunahoo Ki Nahoosat Se Aqal Maar Di Jati Hai",
-  //    src: "http://feeds.soundcloud.com/stream/700170259-shariatinfo-gunahoo-ki-nahoosat.mp3",
+  //    src: "https://www.shariat.info/audio//700170259-shariatinfo-gunahoo-ki-nahoosat.mp3",
   //    length: "2h 03m",
   //    size: "14.11mb",
   //    date: "30/08/17",
@@ -574,7 +574,7 @@ const data = [
   //  },
   //  {
   //    name: "Be Hayai Se Bache Aur Ghar Ko Jannat Banaye",
-  //    src: "http://feeds.soundcloud.com/stream/700171741-shariatinfo-be-hayai-se-bachein.mp3",
+  //    src: "https://www.shariat.info/audio//700171741-shariatinfo-be-hayai-se-bachein.mp3",
   //    length: "1h 36m",
   //    size: "12.35mb",
   //    date: "23/08/17",
@@ -582,7 +582,7 @@ const data = [
   //  },
   //  {
   //    name: "Ummat Behayai Ke Raste Se Loot Rahi Hai...Ulema-e-Deoband Ki Azmat",
-  //    src: "http://feeds.soundcloud.com/stream/700171540-shariatinfo-ummat-behayai-ke-raste-se-loot-rahi-hai.mp3",
+  //    src: "https://www.shariat.info/audio//700171540-shariatinfo-ummat-behayai-ke-raste-se-loot-rahi-hai.mp3",
   //    length: "1h 18m",
   //    size: "10.08mb",
   //    date: "13/08/17",
@@ -590,7 +590,7 @@ const data = [
   //  },
   //  {
   //    name: "Ulema Ki Be Ehterami Shariat Ki Azmat Na Hone Ki Alamat Hai",
-  //    src: "http://feeds.soundcloud.com/stream/700171372-shariatinfo-ulema-ki-be-ehterami-shariat-ki-azmat-na-hone-ki-alamat.mp3",
+  //    src: "https://www.shariat.info/audio//700171372-shariatinfo-ulema-ki-be-ehterami-shariat-ki-azmat-na-hone-ki-alamat.mp3",
   //    length: "1h 20m",
   //    size: "10.28mb",
   //    date: "06/08/17",
@@ -606,7 +606,7 @@ const data = [
 //    },
   //  {
   //    name: "Nikah Mein Allah Ki Bagawat",
-  //    src: "http://feeds.soundcloud.com/stream/700171084-shariatinfo-nikah-mein-allah-ki-bagawat.mp3",
+  //    src: "https://www.shariat.info/audio//700171084-shariatinfo-nikah-mein-allah-ki-bagawat.mp3",
   //    length: "1h 25m",
   //    size: "9.82mb",
   //    date: "02/07/17",
@@ -614,7 +614,7 @@ const data = [
   //  },
   //  {
   //    name: "Ramazan Ki Nekiyo Ki Hifazat Kare",
-  //    src: "http://feeds.soundcloud.com/stream/700172065-shariatinfo-ramazan-ki-nekiyo-ki-hifazat-kare.mp3",
+  //    src: "https://www.shariat.info/audio//700172065-shariatinfo-ramazan-ki-nekiyo-ki-hifazat-kare.mp3",
   //    length: "1h 54m",
   //    size: "14.65mb",
   //    date: "25/06/17",
@@ -622,7 +622,7 @@ const data = [
   //  },
   //  {
   //    name: "Ramazan Dil Badalne Ke liye Aaya Hai",
-  //    src: "http://feeds.soundcloud.com/stream/700170856-shariatinfo-ramzan-dil-badal-ne-ke-liye-aaya-hai.mp3",
+  //    src: "https://www.shariat.info/audio//700170856-shariatinfo-ramzan-dil-badal-ne-ke-liye-aaya-hai.mp3",
   //    length: "1h 48m",
   //    size: "14.03mb",
   //    date: "18/06/17",
@@ -694,7 +694,7 @@ const data = [
 //    },
    {
      name: "Hifazate Eiman Ki Fikr - 2",
-     src: "http://feeds.soundcloud.com/stream/769923901-shariatinfo-hifazate-eiman-ki-fikr-2.mp3",
+     src: "https://www.shariat.info/audio/Juma/Hifazate-Eiman-Ki-Fikr-Part-02-12-April-2019.mp3",
      length: "28m 29s",
      size: "03.70mb",
      date: "12/04/19",
@@ -702,7 +702,7 @@ const data = [
    },
    {
      name: "Hifazate Eiman Ki Fikr - 1",
-     src: "http://feeds.soundcloud.com/stream/769923988-shariatinfo-hifazate-eiman-ki-fikr-1.mp3",
+     src: "https://www.shariat.info/audio/Juma/Hifazate-Eiman-Ki-Fikr-Part-01-29-Mar-2019.mp3",
      length: "30m 22s",
      size: "03.90mb",
      date: "29/03/19",
@@ -710,15 +710,15 @@ const data = [
    },
    {
      name: "Kahi Hum Sirf Naamke Hi Eiman Wale Toh Nahi Hai??",
-     src: "http://feeds.soundcloud.com/stream/769923703-shariatinfo-kahi-hum-sirf-naamke-hi-eiman-wale-toh-nahi-hai.mp3",
+     src: "https://www.shariat.info/audio/Juma/Kahi-Hum-Sirf-Naamke-Hi-Eiman-Wale-Toh-Nahi-Hai-22-Mar-2019.mp3",
      length: "26m 41s",
      size: "03.40mb",
      date: "22/03/19",
      category: "before juma"
    },
    {
-     name: "Eiman Ki Fikr Kare",
-     src: "http://feeds.soundcloud.com/stream/769919212-shariatinfo-eiman-ki-fikr-karein.mp3",
+     name: "Eiman Ki Fikr Karein",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Ki-Fikr-Karein-15-Mar-2019.mp3",
      length: "28m 48s",
      size: "03.70mb",
      date: "15/03/19",
@@ -726,7 +726,7 @@ const data = [
    },
    {
      name: "Eiman Allah Taala Ki Badi Niamat",
-     src: "http://feeds.soundcloud.com/stream/769919767-shariatinfo-eiman-allah-taala-ki-badi-niamat.mp3",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Allah-Taala-Ki-Badi-Niamat-08-Mar-2019.mp3",
      length: "27m 11s",
      size: "03.50mb",
      date: "08/03/19",
@@ -734,7 +734,7 @@ const data = [
    },
    {
      name: "Jo Chiz Jitni Qeemti Hoti Hai, Uski Utni Hi Hifazat Ki Jati Hai",
-     src: "http://feeds.soundcloud.com/stream/769918648-shariatinfo-jo-chiz-jitni-qeemti-hoti-hai-uski-utni-hi-hifazat-ki-jati-hai.mp3",
+     src: "https://www.shariat.info/audio/Juma/Jo-Chiz-Jitni-Qeemti-Hoti-Hai-Uski-Utni-Hi-Hifazat-Ki-Jati-Hai-01-Mar-2019.mp3",
      length: "28m 44s",
      size: "03.70mb",
      date: "01/03/19",
@@ -742,7 +742,7 @@ const data = [
    },
    {
      name: "Hum Sab Ka AamalNama Tayyar Ho Raha Hai",
-     src: "http://feeds.soundcloud.com/stream/769918723-shariatinfo-hum-sab-ka-aamalnama-tayyar-ho-raha-hai.mp3",
+     src: "https://www.shariat.info/audio/Juma/Hum-Sab-Ka-Aamal-Nama-Tayyar-Ho-Raha-Hai-22-Feb-2019.mp3",
      length: "27m 51s",
      size: "03.60mb",
      date: "22/02/19",
@@ -750,7 +750,7 @@ const data = [
    },
    {
      name: "Aakhirat Par Eiman",
-     src: "http://feeds.soundcloud.com/stream/769920181-shariatinfo-aakhirat-par-eiman.mp3",
+     src: "https://www.shariat.info/audio/Juma/Aakhirat-Par-Eiman-15-Feb-2019.mp3",
      length: "27m 19s",
      size: "03.50mb",
      date: "15/02/19",
@@ -758,7 +758,7 @@ const data = [
    },
    {
      name: "Eiman Ki Ahmiyat",
-     src: "http://feeds.soundcloud.com/stream/769919416-shariatinfo-eiman-ki-ahmiyat.mp3",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Ki-Ahmiyat-25-Jan-2019.mp3",
      length: "28m 35s",
      size: "03.70mb",
      date: "25/01/19",
@@ -766,7 +766,7 @@ const data = [
    },
    {
      name: "Eiman Ki Fikr",
-     src: "http://feeds.soundcloud.com/stream/769919104-shariatinfo-eiman-ki-fikr.mp3",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Ki-Fikr-21-Dec-2018.mp3",
      length: "22m 37s",
      size: "02.90mb",
      date: "21/12/18",
@@ -774,7 +774,7 @@ const data = [
    },
    {
      name: "Apne Eiman Ki Fikr Kare",
-     src: "http://feeds.soundcloud.com/stream/769919989-shariatinfo-apne-eiman-ki-fikr-kare.mp3",
+     src: "https://www.shariat.info/audio//769919989-shariatinfo-apne-eiman-ki-fikr-kare.mp3",
      length: "30m 03s",
      size: "03.90mb",
      date: "16/11/18",
@@ -782,7 +782,7 @@ const data = [
    },
    {
      name: "Eiman Ki Azmat Aur Qeemat",
-     src: "http://feeds.soundcloud.com/stream/769919308-shariatinfo-eiman-ki-azmat-aur-qeemat.mp3",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Ki-Azmat-Aur-Qeemat-09-Nov-2018.mp3",
      length: "28m 07s",
      size: "03.60mb",
      date: "09/11/18",
@@ -790,7 +790,7 @@ const data = [
    },
    {
      name: "Eiman Ka Jaeza",
-     src: "http://feeds.soundcloud.com/stream/769518946-shariatinfo-eiman-ka-jaeza.mp3",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Ka-Jaeza-02-Nov-2018.mp3",
      length: "27m 03s",
      size: "03.50mb",
      date: "02/11/18",
@@ -798,7 +798,7 @@ const data = [
    },
    {
      name: "Eiman Ki Fikr Karein",
-     src: "http://feeds.soundcloud.com/stream/769919212-shariatinfo-eiman-ki-fikr-karein.mp3",
+     src: "https://www.shariat.info/audio//769919212-shariatinfo-eiman-ki-fikr-karein.mp3",
      length: "31m 17s",
      size: "04.00mb",
      date: "26/10/18",
@@ -806,7 +806,7 @@ const data = [
    },
    {
      name: "Eiman Kayenaat Ki Sabse Qimti Cheez Hai",
-     src: "http://feeds.soundcloud.com/stream/769919515-shariatinfo-eiman-kayenaat-ki-sabse-qimti-cheez-hai.mp3",
+     src: "https://www.shariat.info/audio//Eiman-Kayenaat-Ki-Sabse-Qimti-Cheez-Hai-19-Oct-2018.mp3",
      length: "30m 40s",
      size: "03.90mb",
      date: "19/10/18",
@@ -814,7 +814,7 @@ const data = [
    },
    {
      name: "Eiman Wala Shariat Ka Paband Hota Hai - Part-2",
-     src: "http://feeds.soundcloud.com/stream/769918951-shariatinfo-eiman-wala-shariat-ka-paband-hota-hai-2.mp3",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Wala-Shariat-Ka-Paband-Hota-Hai-Part-02-28-Sep-2018.mp3",
      length: "26m 27s",
      size: "03.40mb",
      date: "28/09/18",
@@ -822,7 +822,7 @@ const data = [
    },
    {
      name: "Eiman Wala Shariat Ka Paband Hota Hai",
-     src: "http://feeds.soundcloud.com/stream/769918855-shariatinfo-eiman-wala-shariat-ka-paband-hota-hai.mp3",
+     src: "https://www.shariat.info/audio//769918855-shariatinfo-eiman-wala-shariat-ka-paband-hota-hai.mp3",
      length: "27m 40s",
      size: "03.60mb",
      date: "21/09/18",
@@ -830,15 +830,15 @@ const data = [
    },
    {
      name: "Eiman Seekhne Ki Cheez Hai",
-     src: "http://feeds.soundcloud.com/stream/769918996-shariatinfo-eiman-seekhne-ki-cheez-hai.mp3",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Seekhne-Ki-Cheez-Hai-14-Sep-2018.mp3",
      length: "28m 04s",
      size: "03.60mb",
      date: "14/09/18",
      category: "before juma"
    },
    {
-     name: "Rab Maherbaan Ha",
-     src: "http://feeds.soundcloud.com/stream/769906198-shariatinfo-rab-maherbaan-ha.mp3",
+     name: "Rab Maherbaan Hai",
+     src: "https://www.shariat.info/audio/Juma/Rab-Maherbaan-Hai-07-Sept-2018.mp3",
      length: "28m 01s",
      size: "03.60mb",
      date: "07/09/18",
@@ -846,7 +846,7 @@ const data = [
    },
    {
      name: "Allah Walo Ki Tamannaye Kya Hoti Hai",
-     src: "http://feeds.soundcloud.com/stream/769908112-shariatinfo-allah-walo-ki-tamannaye-kya-hoti-hai.mp3",
+     src: "https://www.shariat.info/audio/Juma/Allah-Walo-Ki-Tamannaye-Kya-Hoti-Hai-31-Aug-2018.mp3",
      length: "28m 49s",
      size: "03.70mb",
      date: "31/08/18",
@@ -854,7 +854,7 @@ const data = [
    },
    {
      name: "Apne Eiman Ko Bachane Ki Fikr Karein",
-     src: "http://feeds.soundcloud.com/stream/769907965-shariatinfo-apne-eiman-ko-bachane-ki-fikr-karein.mp3",
+     src: "https://www.shariat.info/audio/Juma/Apne-Eiman-Ko-Bachane-Ki-Fikr-Karein-20-July-2018.mp3",
      length: "29m 07s",
      size: "03.70mb",
      date: "20/07/18",
@@ -862,7 +862,7 @@ const data = [
    },
    {
      name: "Eiman Kaainat Ki Sabse Badi Daulat Hai",
-     src: "http://feeds.soundcloud.com/stream/769907644-shariatinfo-eiman-kaainat-ki-sabse-badi-daulat-hai.mp3",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Kaainat-Ki-Sabse-Badi-Daulat-Hai-13-July-2018.mp3",
      length: "25m 35s",
      size: "03.30mb",
      date: "13/07/18",
@@ -870,7 +870,7 @@ const data = [
    },
    {
      name: "Jamaat Mein Apni Islah Ke Liye Nikalne Ka Matlab",
-     src: "http://feeds.soundcloud.com/stream/769906351-shariatinfo-jamaat-mein-apni-islah-ke-liye-nikalne-ka-matlab.mp3",
+     src: "https://www.shariat.info/audio/Juma/Jamaat-Mein-Apni-Islah-Ke-Liye-Nikalne-Ka-Matlab-29-June-2018.mp3",
      length: "28m 35s",
      size: "03.70mb",
      date: "29/06/18",
@@ -878,7 +878,7 @@ const data = [
    },
    {
      name: "Ramazan Ke Baad Bhi Namazo Ka Ehtimam Baqi Rakhe",
-     src: "http://feeds.soundcloud.com/stream/769905964-shariatinfo-ramazan-ke-baad-bhi-namazo-ka-ehtimam-baqi-rakhe.mp3",
+     src: "https://www.shariat.info/audio/Juma/Ramazan-Ke-Baad-Bhi-Namazo-Ka-Ehtimam-Baqi-Rakhe-22-June-2018.mp3",
      length: "26m 41s",
      size: "03.40mb",
      date: "22/06/18",
@@ -886,7 +886,7 @@ const data = [
    },
    {
      name: "Aakhri Ashra: Apna Jaeza Lejiye",
-     src: "http://feeds.soundcloud.com/stream/769908292-shariatinfo-aakhri-ashra-apna-jaeza-lejiye.mp3",
+     src: "https://www.shariat.info/audio/Juma/Aakhri-Ashra-Apna-Jaeza-Lejiye-08-June-2018.mp3",
      length: "28m 13s",
      size: "03.60mb",
      date: "08/06/18",
@@ -894,7 +894,7 @@ const data = [
    },
    {
      name: "Ramazan Aur Sehhat Ki Hifazat",
-     src: "http://feeds.soundcloud.com/stream/769906102-shariatinfo-ramazan-aur-sehhat-ki-hifazat.mp3",
+     src: "https://www.shariat.info/audio//769906102-shariatinfo-ramazan-aur-sehhat-ki-hifazat.mp3",
      length: "28m 28s",
      size: "03.70mb",
      date: "01/06/18",
@@ -902,7 +902,7 @@ const data = [
    },
    {
      name: "Gaflat Door Karne Ka Aasan Tariqa",
-     src: "http://feeds.soundcloud.com/stream/769906471-shariatinfo-gaflat-door-karne-ka-aasan-tariqa.mp3",
+     src: "https://www.shariat.info/audio/Juma/Ghatlat-Door-Karne-Ka-Aasaan-Tariqa-25-May-2018.mp3",
      length: "29m 11s",
      size: "03.80mb",
      date: "25/05/18",
@@ -910,7 +910,7 @@ const data = [
    },
    {
      name: "Eiman Ki Ahmiyat - 8",
-     src: "http://feeds.soundcloud.com/stream/769906828-shariatinfo-eiman-ki-ehmiyat-8.mp3",
+     src: "https://www.shariat.info/audio//769906828-shariatinfo-eiman-ki-ehmiyat-8.mp3",
      length: "29m 38s",
      size: "7.19mb",
      date: "20/04/18",
@@ -918,7 +918,7 @@ const data = [
    },
    {
      name: "Eiman Ki Ahmiyat - 7",
-     src: "http://feeds.soundcloud.com/stream/769907029-shariatinfo-eiman-ki-ahmiyat-7.mp3",
+     src: "https://www.shariat.info/audio//769907029-shariatinfo-eiman-ki-ahmiyat-7.mp3",
      length: "26m 44s",
      size: "3.44mb",
      date: "23/03/18",
@@ -926,7 +926,7 @@ const data = [
    },
    {
      name: "Eiman Ki Ahmiyat - 6",
-     src: "http://feeds.soundcloud.com/stream/769907239-shariatinfo-eiman-ki-ahmiyat-6.mp3",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Ki-Ahmiyat-Part-06-16-Mar-2018.mp3",
      length: "28m 35s",
      size: "3.70mb",
      date: "16/03/18",
@@ -934,7 +934,7 @@ const data = [
    },
    {
      name: "Eiman Ki Ahmiyat - 5",
-     src: "http://feeds.soundcloud.com/stream/769907428-shariatinfo-eiman-ki-ahmiyat-5.mp3",
+     src: "https://www.shariat.info/audio//769907428-shariatinfo-eiman-ki-ahmiyat-5.mp3",
      length: "29m 52s",
      size: "3.40mb",
      date: "09/03/18",
@@ -942,7 +942,7 @@ const data = [
    },
    {
      name: "Dawat o Tableeg Ke Purano Se Baat - 1",
-     src: "http://feeds.soundcloud.com/stream/769907842-shariatinfo-dawat-o-tableeg-ke-purano-se-baat-1.mp3",
+     src: "https://www.shariat.info/audio/Juma/Dawat-o-Tableeg-Ke-Purano-Se-Baat-Part-01-02-Mar-2018.mp3",
      length: "28m 54s",
      size: "3.30mb",
      date: "02/03/18",
@@ -950,7 +950,7 @@ const data = [
    },
    {
      name: "Eiman Ki Ahmiyat - 4",
-     src: "http://feeds.soundcloud.com/stream/770606128-shariatinfo-eiman-ki-ahmiyat-4.mp3",
+     src: "https://www.shariat.info/audio//770606128-shariatinfo-eiman-ki-ahmiyat-4.mp3",
      length: "29m 43s",
      size: "3.82mb",
      date: "23/02/18",
@@ -958,7 +958,7 @@ const data = [
    },
    {
      name: "Eiman Ki Ahmiyat - 3",
-     src: "http://feeds.soundcloud.com/stream/770606278-shariatinfo-eiman-ki-ahmiyat-3.mp3",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Ki-Ahmiyat-3-26-Jan-2018.mp3",
      length: "28m 30s",
      size: "3.26mb",
      date: "26/01/18",
@@ -966,7 +966,7 @@ const data = [
    },
    {
      name: "Eiman Ki Ahmiyat - 2",
-     src: "http://feeds.soundcloud.com/stream/770606353-shariatinfo-eiman-ki-ahmiyat-2.mp3",
+     src: "https://www.shariat.info/audio//770606353-shariatinfo-eiman-ki-ahmiyat-2.mp3",
      length: "28m 37s",
      size: "3.68mb",
      date: "19/01/18",
@@ -974,7 +974,7 @@ const data = [
    },
    {
      name: "Eiman Ki Ahmiyat - 1",
-     src: "http://feeds.soundcloud.com/stream/769919416-shariatinfo-eiman-ki-ahmiyat.mp3",
+     src: "https://www.shariat.info/audio/Juma/Eiman-Ki-Ahmiyat-Part-01-12-Jan-2018.mp3",
      length: "26m 34s",
      size: "3.42mb",
      date: "12/01/18",
@@ -982,7 +982,7 @@ const data = [
    },
    {
      name: "Eiman Ke Baare Mein Khauf Emaan Ki Alamat Hai",
-     src: "http://feeds.soundcloud.com/stream/769587595-shariatinfo-eiman-ke-baare-mein-khauf-emaan-ki-alamat-hai.mp3",
+     src: "https://www.shariat.info/audio//769587595-shariatinfo-eiman-ke-baare-mein-khauf-emaan-ki-alamat-hai.mp3",
      length: "28m 09s",
      size: "3.62mb",
      date: "05/01/18",
@@ -990,7 +990,7 @@ const data = [
    },
    {
      name: "Dil Badlega Toh Sab Badlega",
-     src: "http://feeds.soundcloud.com/stream/769587739-shariatinfo-dil-badlega-toh-sab-badlega.mp3",
+     src: "https://www.shariat.info/audio//769587739-shariatinfo-dil-badlega-toh-sab-badlega.mp3",
      length: "28m 43s",
      size: "3.90mb",
      date: "29/12/17",
@@ -998,7 +998,7 @@ const data = [
    },
    {
      name: "Shariat Par Amal Karne Par Sab Ki Rahat Hai",
-     src: "http://feeds.soundcloud.com/stream/769584958-shariatinfo-shariat-par-amal-karne-par-sab-ki-rahat-hai.mp3",
+     src: "https://www.shariat.info/audio//769584958-shariatinfo-shariat-par-amal-karne-par-sab-ki-rahat-hai.mp3",
      length: "28m 15s",
      size: "3.23mb",
      date: "22/12/17",
@@ -1006,7 +1006,7 @@ const data = [
    },
    {
      name: "Qabooliyat Ki Fikr Kare Aur Rozana Apni Zaat Ka Muhasaba Karein",
-     src: "http://feeds.soundcloud.com/stream/769585186-shariatinfo-qabooliyat-ki-fikr-kare-aur-rozana-apni-zaat-ka-muhasaba-karein.mp3",
+     src: "https://www.shariat.info/audio//769585186-shariatinfo-qabooliyat-ki-fikr-kare-aur-rozana-apni-zaat-ka-muhasaba-karein.mp3",
      length: "28m 44s",
      size: "3.69mb",
      date: "15/12/17",
@@ -1014,7 +1014,7 @@ const data = [
    },
    {
      name: "Eiman Ki Hifazat Karein",
-     src: "http://feeds.soundcloud.com/stream/769587130-shariatinfo-eman-ki-hifazat-karein.mp3",
+     src: "https://www.shariat.info/audio//769587130-shariatinfo-eman-ki-hifazat-karein.mp3",
      length: "30m 20s",
      size: "3.89mb",
      date: "03/11/17",
@@ -1022,7 +1022,7 @@ const data = [
    },
    {
      name: "Eiman Ki Hifazat",
-     src: "http://feeds.soundcloud.com/stream/769587472-shariatinfo-eiman-ki-hifazat.mp3",
+     src: "https://www.shariat.info/audio//769587472-shariatinfo-eiman-ki-hifazat.mp3",
      length: "30m 09s",
      size: "3.87mb",
      date: "27/10/17",
@@ -1038,7 +1038,7 @@ const data = [
 //    },
    {
      name: "Jo Cheez Jitni Qeemti Hoti Hai Uski Utni Hi Hifazat Ki Jati Hai",
-     src: "http://feeds.soundcloud.com/stream/769586095-shariatinfo-jo-cheez-jitni-qeemti-hooti-hai-2.mp3",
+     src: "https://www.shariat.info/audio//769586095-shariatinfo-jo-cheez-jitni-qeemti-hooti-hai-2.mp3",
      length: "25m 00s",
      size: "3.21mb",
      date: "13/10/17",
@@ -1046,7 +1046,7 @@ const data = [
    },
    {
      name: "Waqt Ki Qadr Kare...Be Hayai Aur Khayanat Se Bache",
-     src: "http://feeds.soundcloud.com/stream/769584673-shariatinfo-waqt-ki-qadr-kare.mp3",
+     src: "https://www.shariat.info/audio//769584673-shariatinfo-waqt-ki-qadr-kare.mp3",
      length: "29m 34s",
      size: "3.79mb",
      date: "18/08/17",
@@ -1054,7 +1054,7 @@ const data = [
    },
    {
      name: "Fikr e Aakhirat",
-     src: "http://feeds.soundcloud.com/stream/769586755-shariatinfo-fikre-aakhirat.mp3",
+     src: "https://www.shariat.info/audio//769586755-shariatinfo-fikre-aakhirat.mp3",
      length: "28m 34s",
      size: "3.67mb",
      date: "11/08/17",
@@ -1062,7 +1062,7 @@ const data = [
    },
    {
      name: "Hamare Aamal Badal Jayenge Toh Hakimo Ke Dil Badal Jayenge",
-     src: "http://feeds.soundcloud.com/stream/769586422-shariatinfo-hamare-aamal-badal-jayenge.mp3",
+     src: "https://www.shariat.info/audio//769586422-shariatinfo-hamare-aamal-badal-jayenge.mp3",
      length: "27m 15s",
      size: "3.50mb",
      date: "28/07/17",
@@ -1070,7 +1070,7 @@ const data = [
    },
    {
      name: "Imaan Be Hayai Ke Raste Se Rukhsat Hota Hai",
-     src: "http://feeds.soundcloud.com/stream/769571395-shariatinfo-imaan-be-hayai-ke-raste-se-rukhsat-hota-hai.mp3",
+     src: "https://www.shariat.info/audio//769571395-shariatinfo-imaan-be-hayai-ke-raste-se-rukhsat-hota-hai.mp3",
      length: "28m 59s",
      size: "3.79mb",
      date: "21/07/17",
@@ -1094,7 +1094,7 @@ const data = [
 //    },
    {
      name: "Taqwa - 1",
-     src: "http://feeds.soundcloud.com/stream/769571029-shariatinfo-taqwa-1.mp3",
+     src: "https://www.shariat.info/audio//769571029-shariatinfo-taqwa-1.mp3",
      length: "31m 57s",
      size: "5.48mb",
      date: "23/06/17",
@@ -1102,7 +1102,7 @@ const data = [
    },
    {
      name: "Nafa Chahiye Ya Nuqsan",
-     src: "http://feeds.soundcloud.com/stream/769571368-shariatinfo-nafa-chahiye-ya-nuqsan.mp3",
+     src: "https://www.shariat.info/audio//769571368-shariatinfo-nafa-chahiye-ya-nuqsan.mp3",
      length: "28m 25s",
      size: "3.25mb",
      date: "16/06/17",
@@ -1134,7 +1134,7 @@ const data = [
 //    },
    {
      name: "Huqooq Ki Adaegi Ki Fikr",
-     src: "http://feeds.soundcloud.com/stream/769571410-shariatinfo-huqooq-ki-adaegi.mp3",
+     src: "https://www.shariat.info/audio//769571410-shariatinfo-huqooq-ki-adaegi.mp3",
      length: "24m 00s",
      size: "10.98mb",
      date: "10/03/17",
@@ -1150,7 +1150,7 @@ const data = [
 //    },
   //  {
   //    name: "Apni Zaat Ki Khidmat Kaise Karen?",
-  //    src: "http://feeds.soundcloud.com/stream/769966219-shariatinfo-apni-zaat-ki-khidmat-kaise-karen.mp3",
+  //    src: "https://www.shariat.info/audio//769966219-shariatinfo-apni-zaat-ki-khidmat-kaise-karen.mp3",
   //    length: "35m 35s",
   //    size: "4.60mb",
   //    date: "02/08/19",
@@ -1670,7 +1670,7 @@ const data = [
    },
    {
      name: "Hamari Sabse Badi Zaroorat Aur Hamari Sari Pareshaniyo Ka Hal, Taubah",
-     src: "http://feeds.soundcloud.com/stream/770002672-shariatinfo-hamari-sabse-badi-zaroorat-aur-hamari-sari-pareshaniyo-ka-hal-taubah.mp3",
+     src: "https://www.shariat.info/audio//770002672-shariatinfo-hamari-sabse-badi-zaroorat-aur-hamari-sari-pareshaniyo-ka-hal-taubah.mp3",
      length: "13m 20s",
      size: "1.90mb",
      date: "21/01/18",
@@ -1678,7 +1678,7 @@ const data = [
    },
    {
      name: "Tarbiyat Ke Ta'alluq Se Bohat Aham Baat",
-     src: "http://feeds.soundcloud.com/stream/770002540-shariatinfo-tarbiyat-ke-taalluq-se-bohat-aham-baat.mp3",
+     src: "https://www.shariat.info/audio//770002540-shariatinfo-tarbiyat-ke-taalluq-se-bohat-aham-baat.mp3",
      length: "9m 35s",
      size: "7.16mb",
      date: "20/01/18",
@@ -1686,7 +1686,7 @@ const data = [
    },
    {
      name: "Dawat O Tablig Ki Mehnat Aur 6 Sifaat",
-     src: "http://feeds.soundcloud.com/stream/770002780-shariatinfo-dawat-o-tablig-ki-mehnat-aur-6-sifaat.mp3",
+     src: "https://www.shariat.info/audio//770002780-shariatinfo-dawat-o-tablig-ki-mehnat-aur-6-sifaat.mp3",
      length: "57m 25s",
      size: "6.57mb",
      date: "20/12/17",
@@ -1694,7 +1694,7 @@ const data = [
    },
    {
      name: "Tablig Ki Mehnat Aur Uska Nehaj",
-     src: "http://feeds.soundcloud.com/stream/770002570-shariatinfo-tablig-ki-mehnat-aur-uska-nehaj.mp3",
+     src: "https://www.shariat.info/audio//770002570-shariatinfo-tablig-ki-mehnat-aur-uska-nehaj.mp3",
      length: "1h 24m",
      size: "10.87mb",
      date: "12/12/17",
@@ -1718,7 +1718,7 @@ const data = [
   //  },
    {
      name: "Dil Kaise Bigadta Hai Aur Kaise Banta Hai?",
-     src: "http://feeds.soundcloud.com/stream/770002771-shariatinfo-dil-kaise-bigadta-hai-aur-kaise-banta-hai.mp3",
+     src: "https://www.shariat.info/audio//770002771-shariatinfo-dil-kaise-bigadta-hai-aur-kaise-banta-hai.mp3",
      length: "14m 40s",
      size: "13.43mb",
      date: "20/08/17",
@@ -1726,7 +1726,7 @@ const data = [
    },
    {
      name: "Tableeg Kya Hai (Purano Mein Bayan)",
-     src: "http://feeds.soundcloud.com/stream/770002585-shariatinfo-tableeg-kya-hai-purano-mein-bayan.mp3",
+     src: "https://www.shariat.info/audio//770002585-shariatinfo-tableeg-kya-hai-purano-mein-bayan.mp3",
      length: "1h 05m",
      size: "8.44mb",
      date: "26/07/17",
@@ -1734,7 +1734,7 @@ const data = [
    },
    {
      name: "Namaaz",
-     src: "http://feeds.soundcloud.com/stream/770002624-shariatinfo-namaz.mp3",
+     src: "https://www.shariat.info/audio//770002624-shariatinfo-namaz.mp3",
      length: "41m 25s",
      size: "5.32mb",
      date: "05/07/17",
@@ -1742,7 +1742,7 @@ const data = [
    },
    {
      name: "Tableeg Ke Maujooda Halat Me Behtareen Rehnumai",
-     src: "http://feeds.soundcloud.com/stream/770002603-shariatinfo-tableeg-ke-maujooda-halat-me-behtareen-rehnumai.mp3",
+     src: "https://www.shariat.info/audio//770002603-shariatinfo-tableeg-ke-maujooda-halat-me-behtareen-rehnumai.mp3",
      length: "1h 09m",
      size: "8.90mb",
      date: "06/07/17",
@@ -1750,7 +1750,7 @@ const data = [
    },
    {
      name: "Hum Jamat Mein Kyu Nikalte Hai",
-     src: "http://feeds.soundcloud.com/stream/770002636-shariatinfo-hum-jamat-mein-kyu-nikalte-hai.mp3",
+     src: "https://www.shariat.info/audio//770002636-shariatinfo-hum-jamat-mein-kyu-nikalte-hai.mp3",
      length: "39m 52s",
      size: "18.24mb",
      date: "07/06/12",
